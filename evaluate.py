@@ -103,6 +103,25 @@ def bootstrap_interval(values: np.ndarray, resamples: int = 5000, seed: int = 0)
     return float(low), float(high)
 
 
+def sign_flip_p_value(differences: np.ndarray, resamples: int = 20000, seed: int = 0) -> float:
+    """Two-sided paired test: how often random sign flips give a mean this far from zero."""
+    rng = np.random.default_rng(seed)
+    signs = rng.choice([-1, 1], size=(resamples, len(differences)))
+    flipped = np.abs((signs * differences).mean(axis=1))
+    return float((1 + np.sum(flipped >= abs(differences.mean()) - 1e-12)) / (resamples + 1))
+
+
+def holm_adjust(p_values: Sequence[float]) -> List[float]:
+    """Holm correction, so testing many models doesn't make a lucky winner look real."""
+    order = np.argsort(p_values)
+    adjusted = [0.0] * len(p_values)
+    running = 0.0
+    for position, index in enumerate(order):
+        running = max(running, min(1.0, (len(p_values) - position) * p_values[index]))
+        adjusted[index] = running
+    return adjusted
+
+
 def print_results(all_positions: Dict[str, List[Optional[int]]], baseline: str) -> None:
     print(f"{'method':<28}{'hit@1':>8}{'hit@3':>8}{'hit@3 95% CI':>16}{'hit@10':>8}{'MRR':>8}{'MRR 95% CI':>16}{'MRR vs baseline':>22}")
     base = reciprocal_ranks(all_positions[baseline])

@@ -61,7 +61,7 @@ class SymptomMatcher:
         diseases: Sequence[Disease],
         encoder,
         mode: str = "hybrid",
-        min_similarity: float = 0.35,
+        min_similarity: float = 0.40,
         idf_power: float = 0.25,
         min_query_similarity: float = 0.55,
     ):

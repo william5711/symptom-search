@@ -7,7 +7,17 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 from build_ddxplus_queries import describe, location_phrase, to_sentence
-from evaluate import QUERY_SETS, answer_position, bootstrap_interval, hit_rate, load_queries, reciprocal_ranks, wilson_interval
+from evaluate import (
+    QUERY_SETS,
+    answer_position,
+    bootstrap_interval,
+    hit_rate,
+    holm_adjust,
+    load_queries,
+    reciprocal_ranks,
+    sign_flip_p_value,
+    wilson_interval,
+)
 
 
 def test_answer_position_uses_the_best_placed_label():
@@ -41,6 +51,15 @@ def test_bootstrap_interval_contains_the_mean_and_repeats():
     low, high = bootstrap_interval(values)
     assert low < 0.5 < high
     assert (low, high) == bootstrap_interval(values)
+
+
+def test_sign_flip_p_value_separates_signal_from_noise():
+    assert sign_flip_p_value(np.full(50, 0.2)) < 0.001
+    assert sign_flip_p_value(np.array([0.2, -0.2] * 25)) > 0.9
+
+
+def test_holm_adjust_matches_a_worked_example():
+    assert holm_adjust([0.01, 0.04, 0.03]) == pytest.approx([0.03, 0.06, 0.06])
 
 
 @pytest.mark.parametrize("question, sentence", [

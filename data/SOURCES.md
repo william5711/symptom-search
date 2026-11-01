@@ -1,6 +1,6 @@
 # Data sources
 
-`diseases.csv` was built on 2026-11-01 by `scripts/build_dataset.py`. The `sources` column shows where each link came from. Symptom lines were extracted and filtered by script, so the file may differ from the original wording and hasn't been medically reviewed.
+`diseases.csv` was built on 2026-11-01 by `scripts/build_dataset.py` from the copies in `sources/`, whose origins and checksums are in `sources/manifest.json`. The `sources` column shows where each link came from. Symptom lines were extracted and filtered by script, so the file may differ from the original wording and hasn't been medically reviewed.
 
 | Source | Used for | Terms |
 |---|---|---|
