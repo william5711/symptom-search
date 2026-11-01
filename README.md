@@ -4,6 +4,8 @@ You describe your symptoms in plain English, and this ranks 915 health condition
 
 This is a learning project. It compares text and can't diagnose anything, so please don't use it for medical decisions.
 
+Rewritten in 2026 with help from Claude. The original 2023 scripts are in `legacy/`.
+
 ```text
 $ python -m symptom_search -k 3 "I'm thirsty all the time and pee constantly, no fever, and my vision is blurry"
 
