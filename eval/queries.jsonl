@@ -1,0 +1,48 @@
+{"split": "dev", "labels": ["Diabetes", "Diabetes Type 1", "Diabetes Type 2"], "query": "I'm thirsty all the time and keep getting up at night to pee. I've lost weight without trying and my eyesight has gone blurry."}
+{"split": "test", "labels": ["Asthma"], "query": "I wheeze and can't catch my breath when I exercise or breathe cold air. My chest feels tight and I keep coughing at night."}
+{"split": "dev", "labels": ["Parkinson's Disease"], "query": "My hands shake when they are resting. I move slowly, my muscles are stiff, and I shuffle and lose my balance when I walk."}
+{"split": "test", "labels": ["Alzheimer's Disease", "Dementia"], "query": "I keep forgetting recent conversations and where I put things. I get lost in familiar places and feel confused about what day it is."}
+{"split": "dev", "labels": ["Migraine"], "query": "I get a pounding headache on one side of my head, bright lights bother me, and I feel sick to my stomach. Sometimes I see spots before it starts."}
+{"split": "test", "labels": ["Appendicitis"], "query": "The pain started around my belly button and moved to the lower right side of my stomach. I have a fever, threw up twice and don't feel like eating."}
+{"split": "dev", "labels": ["Urinary tract infection"], "query": "It burns when I pee, I have to go constantly, and my urine is cloudy and smells bad."}
+{"split": "test", "labels": ["GERD"], "query": "I get burning in my chest after meals, especially when lying down, and a sour taste comes up into my throat."}
+{"split": "dev", "labels": ["Kidney Stones"], "query": "I have sudden severe pain in my side and back that comes in waves, and there's blood in my urine."}
+{"split": "test", "labels": ["Heart Attack", "Angina"], "query": "There is crushing pressure in the middle of my chest spreading to my left arm and jaw. I'm sweating and short of breath."}
+{"split": "dev", "labels": ["Stroke", "Ischemic Stroke", "Hemorrhagic Stroke", "Transient Ischemic Attack"], "query": "One side of my face drooped, my arm went weak and numb, and my speech came out slurred all of a sudden."}
+{"split": "test", "labels": ["Hypothyroidism"], "query": "I'm tired all the time, always cold, gaining weight, constipated, and my skin is dry and my hair is thinning."}
+{"split": "dev", "labels": ["Hyperthyroidism"], "query": "My heart races, I've lost weight even though I eat a lot, my hands tremble, I sweat too much and my eyes seem to bulge."}
+{"split": "test", "labels": ["Depression"], "query": "I feel hopeless and sad most days, I've lost interest in things I used to enjoy, I can't sleep and I have no energy."}
+{"split": "dev", "labels": ["Panic Disorder"], "query": "Out of nowhere my heart pounds, I can't breathe, I feel dizzy and I'm terrified something awful is happening."}
+{"split": "test", "labels": ["Flu"], "query": "I came down suddenly with a high fever, chills, body aches, a dry cough and I'm completely wiped out."}
+{"split": "dev", "labels": ["Common Cold"], "query": "I have a runny stuffy nose, I keep sneezing, a mild sore throat and a little cough."}
+{"split": "test", "labels": ["Streptococcal Infections", "Tonsillitis"], "query": "My throat is so sore that it hurts to swallow, the glands in my neck are swollen and I have a fever."}
+{"split": "dev", "labels": ["Pneumonia"], "query": "I'm coughing up thick yellow mucus, have a high fever and chills, and it hurts in my chest when I breathe in."}
+{"split": "test", "labels": ["Rheumatoid Arthritis"], "query": "Both of my hands and wrists are swollen and painful, and my joints are especially stiff for hours every morning."}
+{"split": "dev", "labels": ["Gout"], "query": "My big toe suddenly became red, hot, swollen, and so painful that I can't even stand a bedsheet touching it."}
+{"split": "test", "labels": ["Carpal Tunnel Syndrome"], "query": "My thumb and fingers go numb and tingle at night, and my wrist aches, and my grip has become weak."}
+{"split": "dev", "labels": [], "query": "Sharp pain shoots from my lower back down the back of my leg to my foot, and my leg feels numb."}
+{"split": "test", "labels": [], "query": "I get a stabbing pain in the bottom of my heel when I take my first steps in the morning."}
+{"split": "dev", "labels": ["Irritable Bowel Syndrome"], "query": "I get cramping belly pain and bloating, and I go back and forth between diarrhea and constipation, which gets better after using the toilet."}
+{"split": "test", "labels": ["Ulcerative Colitis", "Crohn's Disease"], "query": "I've had bloody diarrhea for weeks with cramps in my belly, weight loss and tiredness."}
+{"split": "dev", "labels": [], "query": "After fatty meals I get severe pain in my upper right abdomen that goes through to my back, along with nausea."}
+{"split": "test", "labels": ["Anemia"], "query": "I look pale, I'm exhausted and short of breath on stairs, I feel dizzy and my hands and feet are always cold."}
+{"split": "dev", "labels": ["Pink Eye"], "query": "My eye is red and itchy, with sticky discharge that glues my eyelids together in the morning."}
+{"split": "test", "labels": ["Cataract"], "query": "My vision has gradually become cloudy, with glare and halos around headlights at night."}
+{"split": "dev", "labels": ["Otitis media"], "query": "My child has a bad earache with a fever, is pulling on the ear and can't hear well."}
+{"split": "test", "labels": ["Viral labyrinthitis", "Meniere's Disease"], "query": "The room spins when I roll over in bed or look up, and it makes me feel nauseous and unsteady."}
+{"split": "dev", "labels": ["Atopic dermatitis"], "query": "I have itchy, dry, red, cracked patches of skin on the inside of my elbows that flare up and sometimes ooze."}
+{"split": "test", "labels": ["Psoriasis"], "query": "I have thick red patches with silvery scales on my elbows and scalp, and my skin is itchy and flaking."}
+{"split": "dev", "labels": ["Shingles"], "query": "A band of painful blisters appeared on one side of my torso, and the skin there burned for a few days before the rash came."}
+{"split": "test", "labels": ["Chickenpox"], "query": "My kid has itchy fluid-filled spots all over the body, with a mild fever and feeling unwell."}
+{"split": "dev", "labels": [], "query": "I snore loudly and my partner says I stop breathing in my sleep. I wake up with headaches and I'm sleepy all day."}
+{"split": "test", "labels": ["Insomnia"], "query": "I lie awake for hours, can't fall asleep or stay asleep, and I feel tired and irritable during the day."}
+{"split": "dev", "labels": ["Deep Vein Thrombosis"], "query": "One of my calves became swollen, warm and painful after a long flight, and the skin looks red."}
+{"split": "test", "labels": ["Pulmonary Embolism"], "query": "I suddenly got sharp chest pain and shortness of breath, my heart is racing and I coughed up some blood."}
+{"split": "dev", "labels": ["Epilepsy"], "query": "I've had seizures where my body jerks and I pass out. Afterwards I'm confused and don't remember anything."}
+{"split": "test", "labels": ["Meningitis"], "query": "I have a terrible headache, a stiff neck and high fever, and light hurts my eyes."}
+{"split": "dev", "labels": [], "query": "I have intense itching down there and thick white vaginal discharge, and it burns during sex."}
+{"split": "test", "labels": ["Enlarged Prostate (BPH)"], "query": "I'm an older man with a weak urine stream, I struggle to start peeing, and I wake up several times at night to go."}
+{"split": "dev", "labels": ["Headache"], "query": "It feels like a tight band squeezing around my head, with sore neck and shoulder muscles when I'm stressed."}
+{"split": "test", "labels": [], "query": "I hear a constant ringing in my ears, even in a quiet room, and it's keeping me from concentrating."}
+{"split": "dev", "labels": ["Tooth Disorders", "Tooth Decay"], "query": "I have a throbbing toothache that is worse when I bite, and my gum and cheek are swollen."}
+{"split": "test", "labels": ["Hemorrhoids"], "query": "I see bright red blood on the toilet paper and I have itching and a painful lump around my anus."}
