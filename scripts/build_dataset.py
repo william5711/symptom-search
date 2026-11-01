@@ -1,54 +1,32 @@
-"""Rebuild data/diseases.csv from its sources.
+"""Build data/diseases.csv from the saved copies in data/sources/.
 
-Sources and terms are listed in data/SOURCES.md:
-  MedlinePlus health topic summaries (public domain)
-  Wikidata, "symptoms and signs" (P780) (CC0)
-  Human Disease Ontology, has_symptom text (CC0)
+This needs no network, and the same inputs always give the same file. Run
+scripts/fetch_sources.py first to refresh the sources. Terms are in data/SOURCES.md.
 
-Usage: python scripts/build_dataset.py
+Usage:
+    python scripts/build_dataset.py            # write the file and report what changed
+    python scripts/build_dataset.py --check    # fail if the file is out of date
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
 import html
+import io
 import json
 import re
-import time
-import urllib.error
-import urllib.parse
-import urllib.request
-import xml.etree.ElementTree as ET
+import sys
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Sequence, Set, Tuple
+from typing import Dict, Iterable, List, Sequence, Set, Tuple
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-SPARQL_URL = "https://query.wikidata.org/sparql"
-DOID_URL = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/doid.obo"
-MEDLINEPLUS_INDEX_URL = "https://medlineplus.gov/xml.html"
-USER_AGENT = "symptom-search-dataset-builder/1.0"
+SOURCES_DIR = DATA_DIR / "sources"
 MIN_SYMPTOMS = 2
 MIN_BEFORE_FALLBACK = 3
-SPARQL_ATTEMPTS = 4
-
-# Direct rdfs:label lookups, because the label service makes these queries time out.
-# This also drops items with no English label. Requiring a Disease Ontology ID (P699)
-# keeps to human diseases, since P780 also appears on animal diseases and even papers.
-LINKS_QUERY = """
-SELECT ?diseaseLabel ?symptomLabel WHERE {
-  ?disease wdt:P780 ?symptom ; wdt:P699 ?doid .
-  ?disease rdfs:label ?diseaseLabel . FILTER(LANG(?diseaseLabel) = "en")
-  ?symptom rdfs:label ?symptomLabel . FILTER(LANG(?symptomLabel) = "en")
-}
-"""
-
-
-def fetch(url: str) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=120) as response:
-        return response.read()
-
+MAX_ENTRY_DROP = 0.10
+SOURCE_LABELS = {"medlineplus", "wikidata", "disease_ontology"}
 
 # Entries that have "symptoms" in the source but are not conditions a person has.
 _EXCLUDED_NAME = re.compile(
@@ -77,37 +55,6 @@ _NOT_CONDITIONS = {
     "Tanning", "Tears", "Teen Development", "Urine and Urination", "VLDL Cholesterol", "Vascular Diseases", "Vasectomy",
     "Viral Infections", "Wounds and Injuries",
 }
-
-
-def run_sparql(query: str) -> List[dict]:
-    url = f"{SPARQL_URL}?format=json&query={urllib.parse.quote(query)}"
-    # The endpoint can time out mid-response, which arrives as truncated JSON.
-    for attempt in range(SPARQL_ATTEMPTS):
-        try:
-            return json.loads(fetch(url))["results"]["bindings"]
-        except (json.JSONDecodeError, urllib.error.URLError):
-            if attempt == SPARQL_ATTEMPTS - 1:
-                raise
-            time.sleep(30)
-    raise AssertionError("unreachable")
-
-
-def parse_disease_ontology(obo: str) -> Dict[str, Tuple[str, List[str]]]:
-    """Map each DOID to its name and the symptoms named in its definition."""
-    diseases = {}
-    for term in obo.split("[Term]")[1:]:
-        if "is_obsolete: true" in term:
-            continue
-        doid = re.search(r"^id: (DOID:\d+)", term, re.M)
-        name = re.search(r"^name: (.+)", term, re.M)
-        definition = re.search(r'^def: "(.*?)(?<!\\)"', term, re.M)
-        if not (doid and name and definition):
-            continue
-        symptoms = re.findall(r"has_symptom ([^,.;]+?)\s*(?=,|\.|;|\bhas_symptom\b|$)", definition.group(1))
-        symptoms = [re.sub(r"\s+and$", "", symptom).strip() for symptom in symptoms]
-        if symptoms:
-            diseases[doid.group(1)] = (name.group(1), symptoms)
-    return diseases
 
 
 def normalize_name(name: str) -> str:
@@ -199,36 +146,32 @@ def is_condition_topic(title: str, groups: Sequence[str]) -> bool:
     return not _SERVICE_GROUPS.intersection(groups) and not set(groups) <= _ADVICE_GROUPS
 
 
-def parse_medlineplus(xml_text: bytes) -> Dict[str, Tuple[str, List[str], List[str]]]:
-    """Map each English condition topic's title to its also-called names and symptoms."""
-    topics = {}
-    for topic in ET.fromstring(xml_text).findall("health-topic"):
-        if topic.get("language") != "English":
-            continue
-        if not is_condition_topic(topic.get("title"), [group.text for group in topic.findall("group")]):
-            continue
-        symptoms = parse_summary(topic.findtext("full-summary") or "")
-        if symptoms:
-            synonyms = [other.text for other in topic.findall("also-called") if other.text]
-            topics[topic.get("title")] = (topic.get("title"), synonyms, symptoms)
-    return topics
+def condition_topics(topics: Iterable[dict]) -> List[Tuple[str, List[str], List[str]]]:
+    """Return the title, also-called names and symptoms of each condition topic."""
+    conditions = []
+    for topic in topics:
+        if is_condition_topic(topic["title"], topic["groups"]) and not _EXCLUDED_NAME.search(topic["title"]):
+            symptoms = parse_summary(topic["summary"])
+            if symptoms:
+                conditions.append((topic["title"], topic["also_called"], symptoms))
+    return conditions
 
 
-def latest_medlineplus_url() -> str:
-    index = fetch(MEDLINEPLUS_INDEX_URL).decode("utf-8")
-    return re.search(r"https://medlineplus\.gov/xml/mplus_topics_\d{4}-\d{2}-\d{2}\.xml", index).group(0)
+def read_csv(path: Path) -> List[dict]:
+    with open(path, newline="", encoding="utf-8") as file:
+        return list(csv.DictReader(file))
 
 
-def main() -> None:
+def build(sources_dir: Path = SOURCES_DIR) -> List[Tuple[str, str, str]]:
+    """Merge the saved sources into sorted (disease, symptom, sources) rows."""
     names: Dict[str, str] = {}  # normalized name -> display name
     links: Dict[str, Dict[str, Set[str]]] = defaultdict(lambda: defaultdict(set))
     synonyms: Dict[str, str] = {}  # normalized synonym -> normalized primary name
 
     # MedlinePlus goes first, so its plain-language titles become the display names.
-    medlineplus_url = latest_medlineplus_url()
-    for title, also_called, symptoms in parse_medlineplus(fetch(medlineplus_url)).values():
-        if _EXCLUDED_NAME.search(title):
-            continue
+    with open(sources_dir / "medlineplus_topics.jsonl", encoding="utf-8") as file:
+        topics = [json.loads(line) for line in file]
+    for title, also_called, symptoms in condition_topics(topics):
         key = normalize_name(title)
         names[key] = title
         for other in also_called:
@@ -236,30 +179,21 @@ def main() -> None:
         for symptom in symptoms:
             links[key][symptom].add("medlineplus")
 
-    doid_names = parse_disease_ontology(fetch(DOID_URL).decode("utf-8"))
-
-    def resolve(name: str) -> str:
-        key = normalize_name(name)
-        return synonyms.get(key, key)
-
     # Wikidata and the Disease Ontology use some of the same overview names.
     excluded_keys = {normalize_name(title) for title in _NOT_CONDITIONS}
 
-    for row in run_sparql(LINKS_QUERY):
-        disease, symptom = row["diseaseLabel"]["value"], row["symptomLabel"]["value"]
+    def add_link(disease: str, symptom: str, source: str) -> None:
         if _EXCLUDED_NAME.search(disease) or normalize_name(disease) in excluded_keys:
-            continue
-        key = resolve(disease)
+            return
+        key = normalize_name(disease)
+        key = synonyms.get(key, key)
         names.setdefault(key, disease[0].upper() + disease[1:])
-        links[key][symptom.lower()].add("wikidata")
+        links[key][symptom.lower()].add(source)
 
-    for name, symptoms in doid_names.values():
-        if _EXCLUDED_NAME.search(name) or normalize_name(name) in excluded_keys:
-            continue
-        key = resolve(name)
-        names.setdefault(key, name[0].upper() + name[1:])
-        for symptom in symptoms:
-            links[key][symptom.lower()].add("disease_ontology")
+    for row in read_csv(sources_dir / "wikidata_links.csv"):
+        add_link(row["disease"], row["symptom"], "wikidata")
+    for row in read_csv(sources_dir / "disease_ontology_symptoms.csv"):
+        add_link(row["disease"], row["symptom"], "disease_ontology")
 
     rows = []
     for key, symptoms in links.items():
@@ -272,14 +206,64 @@ def main() -> None:
         from_medlineplus = any("medlineplus" in seen for _, seen in merged.values())
         if len(merged) >= MIN_SYMPTOMS or from_medlineplus:
             rows += [(names[key], display, "+".join(sorted(seen))) for display, seen in merged.values()]
-    rows.sort()
+    return sorted(rows)
 
-    with open(DATA_DIR / "diseases.csv", "w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerow(["disease", "symptom", "sources"])
-        writer.writerows(rows)
 
-    print(f"{medlineplus_url}\n{len({r[0] for r in rows})} diseases, {len({r[1] for r in rows})} symptoms, {len(rows)} links")
+def validate(rows: Sequence[Tuple[str, str, str]], previous_entries: int = 0) -> List[str]:
+    """Return every problem found. A rebuild with problems must not replace the dataset."""
+    problems = []
+    if any(not (disease.strip() and symptom.strip()) for disease, symptom, _ in rows):
+        problems.append("a row has an empty disease or symptom")
+    pairs = [(disease, symptom.lower()) for disease, symptom, _ in rows]
+    if len(pairs) != len(set(pairs)):
+        problems.append("a symptom is listed twice for one disease")
+    unknown = {label for _, _, sources in rows for label in sources.split("+")} - SOURCE_LABELS
+    if unknown:
+        problems.append(f"unknown sources: {sorted(unknown)}")
+    entries = {disease for disease, _, _ in rows}
+    excluded = sorted(entries & _NOT_CONDITIONS)
+    if excluded:
+        problems.append(f"entries that aren't conditions: {excluded}")
+    if previous_entries and len(entries) < previous_entries * (1 - MAX_ENTRY_DROP):
+        problems.append(f"entries fell from {previous_entries} to {len(entries)}, which suggests a broken source")
+    return problems
+
+
+def to_csv(rows: Sequence[Tuple[str, str, str]]) -> str:
+    buffer = io.StringIO(newline="")
+    writer = csv.writer(buffer)
+    writer.writerow(["disease", "symptom", "sources"])
+    writer.writerows(rows)
+    return buffer.getvalue()
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--check", action="store_true", help="fail if data/diseases.csv doesn't match its sources")
+    args = parser.parse_args()
+
+    path = DATA_DIR / "diseases.csv"
+    old_rows = read_csv(path) if path.exists() else []
+    old_entries = {row["disease"] for row in old_rows}
+    rows = build()
+    new_entries = {disease for disease, _, _ in rows}
+
+    problems = validate(rows, len(old_entries))
+    if problems:
+        sys.exit("Dataset not written:\n  " + "\n  ".join(problems))
+
+    if args.check:
+        current = path.read_bytes().decode("utf-8") if path.exists() else ""
+        sys.exit(0 if current == to_csv(rows) else "data/diseases.csv doesn't match data/sources/. Run scripts/build_dataset.py.")
+
+    with open(path, "w", newline="", encoding="utf-8") as file:
+        file.write(to_csv(rows))
+    print(f"{len(new_entries)} entries, {len({r[1] for r in rows})} symptoms, {len(rows)} links")
+    print(f"Since the last build: {len(new_entries - old_entries)} entries added, {len(old_entries - new_entries)} removed, "
+          f"{len(rows) - len(old_rows):+d} links")
+    for label, names in (("Added", new_entries - old_entries), ("Removed", old_entries - new_entries)):
+        if names:
+            print(f"{label}: {', '.join(sorted(names))}")
 
 
 if __name__ == "__main__":

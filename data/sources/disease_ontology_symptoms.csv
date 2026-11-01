@@ -1,0 +1,1117 @@
+doid,disease,symptom
+DOID:0050012,chikungunya,arthralgia
+DOID:0050012,chikungunya,fever
+DOID:0050012,chikungunya,maculopapular rash
+DOID:0050035,African tick-bite fever,eschar
+DOID:0050035,African tick-bite fever,fever
+DOID:0050035,African tick-bite fever,maculopapular rash
+DOID:0050041,Astrakhan spotted fever,eschar (usually single)
+DOID:0050041,Astrakhan spotted fever,fever
+DOID:0050041,Astrakhan spotted fever,maculopapular rash on extremities
+DOID:0050041,Astrakhan spotted fever,regional adenopathy
+DOID:0050042,Indian tick typhus,eschar
+DOID:0050042,Indian tick typhus,fever
+DOID:0050042,Indian tick typhus,maculopapular rash on extremities
+DOID:0050042,Indian tick typhus,regional adenopathy
+DOID:0050043,Israeli tick typhus,eschar
+DOID:0050043,Israeli tick typhus,fever
+DOID:0050043,Israeli tick typhus,maculopapular rash on extremities
+DOID:0050043,Israeli tick typhus,regional adenopathy
+DOID:0050046,Far Eastern spotted fever,eschar
+DOID:0050046,Far Eastern spotted fever,fever
+DOID:0050046,Far Eastern spotted fever,maculopapular rash
+DOID:0050046,Far Eastern spotted fever,regional adenopathy
+DOID:0050047,Flinders Island spotted fever,adenopathy
+DOID:0050047,Flinders Island spotted fever,eschar
+DOID:0050047,Flinders Island spotted fever,mild spotted fever
+DOID:0050050,Japanese spotted fever,eschars
+DOID:0050050,Japanese spotted fever,fever
+DOID:0050050,Japanese spotted fever,rash on extremities
+DOID:0050050,Japanese spotted fever,regional adenopathy
+DOID:0050051,Rickettsia parkeri spotted fever,eschar
+DOID:0050051,Rickettsia parkeri spotted fever,fever
+DOID:0050051,Rickettsia parkeri spotted fever,headache
+DOID:0050051,Rickettsia parkeri spotted fever,rash
+DOID:0050052,Rocky Mountain spotted fever,abdominal pain
+DOID:0050052,Rocky Mountain spotted fever,fever
+DOID:0050052,Rocky Mountain spotted fever,headache
+DOID:0050052,Rocky Mountain spotted fever,maculopapular rash progressing into papular or petechial rash
+DOID:0050061,erysipeloid,redness of skin
+DOID:0050061,erysipeloid,tenderness of skin
+DOID:0050061,erysipeloid,warmth of skin
+DOID:0050096,tinea barbae,inflammatory kerion-like plaques
+DOID:0050118,La Crosse encephalitis,coma
+DOID:0050118,La Crosse encephalitis,fever
+DOID:0050118,La Crosse encephalitis,headache
+DOID:0050118,La Crosse encephalitis,paralysis
+DOID:0050118,La Crosse encephalitis,seizures
+DOID:0050125,dengue shock syndrome,bleeding gums
+DOID:0050125,dengue shock syndrome,blood spots
+DOID:0050125,dengue shock syndrome,easy bruising
+DOID:0050125,dengue shock syndrome,nosebleeds
+DOID:0050152,aspiration pneumonia,cough
+DOID:0050152,aspiration pneumonia,tachypnea
+DOID:0050174,Kunjin encephalitis,confusion
+DOID:0050174,Kunjin encephalitis,fever
+DOID:0050174,Kunjin encephalitis,headache
+DOID:0050174,Kunjin encephalitis,lethargy
+DOID:0050174,Kunjin encephalitis,rigor
+DOID:0050175,tick-borne encephalitis,confusion
+DOID:0050175,tick-borne encephalitis,drowsiness
+DOID:0050175,tick-borne encephalitis,paralysis
+DOID:0050175,tick-borne encephalitis,sensory disturbances
+DOID:0050179,Powassan encephalitis,breathing distress
+DOID:0050179,Powassan encephalitis,coma
+DOID:0050179,Powassan encephalitis,confusion
+DOID:0050179,Powassan encephalitis,fever
+DOID:0050179,Powassan encephalitis,headache
+DOID:0050179,Powassan encephalitis,paralysis
+DOID:0050179,Powassan encephalitis,seizures
+DOID:0050179,Powassan encephalitis,sleepiness
+DOID:0050179,Powassan encephalitis,stiff neck
+DOID:0050179,Powassan encephalitis,tremors
+DOID:0050179,Powassan encephalitis,vomiting
+DOID:0050192,Nipah virus encephalitis,altered consciousness
+DOID:0050192,Nipah virus encephalitis,coma
+DOID:0050192,Nipah virus encephalitis,disorientation
+DOID:0050192,Nipah virus encephalitis,dizziness
+DOID:0050192,Nipah virus encephalitis,drowsiness
+DOID:0050194,Argentine hemorrhagic fever,fatigue
+DOID:0050194,Argentine hemorrhagic fever,fever
+DOID:0050194,Argentine hemorrhagic fever,hemorrhagic manifestations
+DOID:0050194,Argentine hemorrhagic fever,leukopenia
+DOID:0050194,Argentine hemorrhagic fever,malaise
+DOID:0050194,Argentine hemorrhagic fever,thrombocytopenia
+DOID:0050195,Bolivian hemorrhagic fever,arthralgia
+DOID:0050195,Bolivian hemorrhagic fever,bleeding from the bronchopulmonary
+DOID:0050195,Bolivian hemorrhagic fever,bleeding from the oral and nasal mucosa
+DOID:0050195,Bolivian hemorrhagic fever,fatigue
+DOID:0050195,Bolivian hemorrhagic fever,fever
+DOID:0050195,Bolivian hemorrhagic fever,headache
+DOID:0050195,Bolivian hemorrhagic fever,myalgia
+DOID:0050196,Venezuelan hemorrhagic fever,anorexia
+DOID:0050196,Venezuelan hemorrhagic fever,bleeding gums
+DOID:0050196,Venezuelan hemorrhagic fever,convulsions
+DOID:0050196,Venezuelan hemorrhagic fever,epistaxis
+DOID:0050196,Venezuelan hemorrhagic fever,fever
+DOID:0050196,Venezuelan hemorrhagic fever,headache
+DOID:0050196,Venezuelan hemorrhagic fever,hematemesis
+DOID:0050196,Venezuelan hemorrhagic fever,melena
+DOID:0050196,Venezuelan hemorrhagic fever,menorrhagia
+DOID:0050196,Venezuelan hemorrhagic fever,myalgia
+DOID:0050196,Venezuelan hemorrhagic fever,nausea
+DOID:0050196,Venezuelan hemorrhagic fever,sore throat
+DOID:0050196,Venezuelan hemorrhagic fever,vomiting
+DOID:0050196,Venezuelan hemorrhagic fever,weakness
+DOID:0050199,Whitewater Arroyo hemorrhagic fever,fever
+DOID:0050199,Whitewater Arroyo hemorrhagic fever,headache
+DOID:0050199,Whitewater Arroyo hemorrhagic fever,hemorrhagic manifestations
+DOID:0050199,Whitewater Arroyo hemorrhagic fever,myalgia
+DOID:0050200,Korean hemorrhagic fever,abdominal pain
+DOID:0050200,Korean hemorrhagic fever,acute kidney failure
+DOID:0050200,Korean hemorrhagic fever,acute shock
+DOID:0050200,Korean hemorrhagic fever,back pain
+DOID:0050200,Korean hemorrhagic fever,blurred vision
+DOID:0050200,Korean hemorrhagic fever,chills
+DOID:0050200,Korean hemorrhagic fever,fever
+DOID:0050200,Korean hemorrhagic fever,flushing of the face
+DOID:0050200,Korean hemorrhagic fever,headache
+DOID:0050200,Korean hemorrhagic fever,low blood pressure
+DOID:0050200,Korean hemorrhagic fever,nausea
+DOID:0050200,Korean hemorrhagic fever,rash
+DOID:0050200,Korean hemorrhagic fever,redness of the eyes
+DOID:0050200,Korean hemorrhagic fever,vascular leakage
+DOID:0050201,nephropathia epidemica,abdominal pain
+DOID:0050201,nephropathia epidemica,back pain
+DOID:0050201,nephropathia epidemica,headache
+DOID:0050201,nephropathia epidemica,internal hemorrhage
+DOID:0050201,nephropathia epidemica,myalgia
+DOID:0050201,nephropathia epidemica,nausea
+DOID:0050201,nephropathia epidemica,renal failure
+DOID:0050201,nephropathia epidemica,vomiting
+DOID:0050202,Lujo hemorrhagic fever,bleeding
+DOID:0050202,Lujo hemorrhagic fever,fever
+DOID:0050202,Lujo hemorrhagic fever,headache
+DOID:0050202,Lujo hemorrhagic fever,myalgia
+DOID:0050202,Lujo hemorrhagic fever,thrombocytopenia
+DOID:0050204,Epstein-Barr virus hepatitis,abdominal pain
+DOID:0050204,Epstein-Barr virus hepatitis,fatigue
+DOID:0050204,Epstein-Barr virus hepatitis,fever
+DOID:0050204,Epstein-Barr virus hepatitis,headache
+DOID:0050204,Epstein-Barr virus hepatitis,jaundice
+DOID:0050204,Epstein-Barr virus hepatitis,nausea
+DOID:0050211,swine influenza,coughing
+DOID:0050211,swine influenza,diarrhea
+DOID:0050211,swine influenza,fever
+DOID:0050211,swine influenza,lack of appetite
+DOID:0050211,swine influenza,lethargy
+DOID:0050211,swine influenza,nausea
+DOID:0050211,swine influenza,runny nose
+DOID:0050211,swine influenza,sore throat
+DOID:0050211,swine influenza,vomiting
+DOID:0050254,acanthocephaliasis,abdominal pain
+DOID:0050254,acanthocephaliasis,bloody stools
+DOID:0050254,acanthocephaliasis,constipation or
+DOID:0050254,acanthocephaliasis,decreased appetite
+DOID:0050254,acanthocephaliasis,diarrhea
+DOID:0050254,acanthocephaliasis,distension
+DOID:0050254,acanthocephaliasis,fever
+DOID:0050254,acanthocephaliasis,nausea
+DOID:0050254,acanthocephaliasis,vomiting
+DOID:0050254,acanthocephaliasis,weight loss
+DOID:0050288,penicilliosis,anemia
+DOID:0050288,penicilliosis,fever
+DOID:0050288,penicilliosis,hepatosplenomegaly
+DOID:0050288,penicilliosis,lymphadenopathy
+DOID:0050288,penicilliosis,respiratory signs
+DOID:0050288,penicilliosis,skin lesions
+DOID:0050288,penicilliosis,weight loss
+DOID:0050354,infant botulism,constipation
+DOID:0050354,infant botulism,difficulty feeding
+DOID:0050354,infant botulism,lethargy
+DOID:0050354,infant botulism,loss of head control
+DOID:0050354,infant botulism,muscle weakness
+DOID:0050354,infant botulism,ptosis
+DOID:0050354,infant botulism,swallowing
+DOID:0050383,typhoidal tularemia,chills
+DOID:0050383,typhoidal tularemia,fever
+DOID:0050383,typhoidal tularemia,malaise
+DOID:0050383,typhoidal tularemia,myalgia
+DOID:0050383,typhoidal tularemia,weight loss
+DOID:0050456,Buruli ulcer disease,nodule
+DOID:0050480,epidemic typhus,chills
+DOID:0050480,epidemic typhus,cough
+DOID:0050480,epidemic typhus,delirium
+DOID:0050480,epidemic typhus,falling blood pressure
+DOID:0050480,epidemic typhus,high fever
+DOID:0050480,epidemic typhus,rash
+DOID:0050480,epidemic typhus,sensitivity to light
+DOID:0050480,epidemic typhus,severe muscle pain
+DOID:0050480,epidemic typhus,stupor
+DOID:0050484,aneruptive fever,fever
+DOID:0050484,aneruptive fever,headache
+DOID:0050484,aneruptive fever,myalgia
+DOID:0050485,sennetsu fever,anorexia
+DOID:0050485,sennetsu fever,backache
+DOID:0050485,sennetsu fever,chills
+DOID:0050485,sennetsu fever,fatigue
+DOID:0050485,sennetsu fever,fever
+DOID:0050485,sennetsu fever,headache
+DOID:0050485,sennetsu fever,hepatosplenomegaly
+DOID:0050485,sennetsu fever,lymphadenopathy
+DOID:0050485,sennetsu fever,malaise
+DOID:0050485,sennetsu fever,myalgia
+DOID:0050488,early congenital syphilis,blood-stained nasal discharge
+DOID:0050488,early congenital syphilis,choroiditis
+DOID:0050488,early congenital syphilis,failure to thrive
+DOID:0050488,early congenital syphilis,hepatosplenomegaly
+DOID:0050488,early congenital syphilis,hydrocephalus
+DOID:0050488,early congenital syphilis,intellectual disability
+DOID:0050488,early congenital syphilis,lymphadenopathy
+DOID:0050488,early congenital syphilis,meningitis
+DOID:0050488,early congenital syphilis,osteochondritis
+DOID:0050488,early congenital syphilis,perioral fissures
+DOID:0050488,early congenital syphilis,pseudoparalysis
+DOID:0050488,early congenital syphilis,seizures
+DOID:0050488,early congenital syphilis,skin lesions
+DOID:0050490,parenchymatous neurosyphilis,defective judgment
+DOID:0050490,parenchymatous neurosyphilis,deterioration of memory
+DOID:0050490,parenchymatous neurosyphilis,difficulty concentrating
+DOID:0050490,parenchymatous neurosyphilis,fatigue
+DOID:0050490,parenchymatous neurosyphilis,headaches
+DOID:0050490,parenchymatous neurosyphilis,insomnia
+DOID:0050490,parenchymatous neurosyphilis,irritability
+DOID:0050490,parenchymatous neurosyphilis,lethargy
+DOID:0050491,meningovascular neurosyphilis,behavioral abnormalities
+DOID:0050491,meningovascular neurosyphilis,blurred vision
+DOID:0050491,meningovascular neurosyphilis,dizziness
+DOID:0050491,meningovascular neurosyphilis,headache
+DOID:0050491,meningovascular neurosyphilis,insomnia
+DOID:0050491,meningovascular neurosyphilis,memory loss
+DOID:0050491,meningovascular neurosyphilis,neck stiffness
+DOID:0050491,meningovascular neurosyphilis,paralysis of the legs due to thrombosis of spinal arteries
+DOID:0050491,meningovascular neurosyphilis,slowly progressive leg weakness with urinary or fecal incontinence or both
+DOID:0050491,meningovascular neurosyphilis,weakness and wasting of shoulder-girdle and arm muscles
+DOID:0050495,exanthema subitum,red rash that occurs first on the trunk then spreading to legs and neck
+DOID:0050495,exanthema subitum,sudden high fever
+DOID:0050516,O'nyong-nyong fever,arthralgia
+DOID:0050516,O'nyong-nyong fever,fever
+DOID:0050516,O'nyong-nyong fever,lymphadenitis
+DOID:0050516,O'nyong-nyong fever,rash
+DOID:0050517,Barmah Forest virus disease,arthralgia
+DOID:0050517,Barmah Forest virus disease,fever
+DOID:0050517,Barmah Forest virus disease,rash
+DOID:0050518,Ross River fever,arthralgia
+DOID:0050518,Ross River fever,fever
+DOID:0050518,Ross River fever,rash
+DOID:0050637,Finnish type amyloidosis,bilateral facial paralysis
+DOID:0050637,Finnish type amyloidosis,corneal lattice dystrophy
+DOID:0050637,Finnish type amyloidosis,cutis laxa
+DOID:0050659,biotin-responsive basal ganglia disease,ataxia
+DOID:0050659,biotin-responsive basal ganglia disease,confusion
+DOID:0050659,biotin-responsive basal ganglia disease,dysphagia
+DOID:0050659,biotin-responsive basal ganglia disease,dystonia
+DOID:0050659,biotin-responsive basal ganglia disease,external ophthalmoplegia
+DOID:0050659,biotin-responsive basal ganglia disease,seizure
+DOID:0050659,biotin-responsive basal ganglia disease,supranuclear facial palsy
+DOID:0050710,3-methylcrotonyl-CoA carboxylase deficiency,feeding difficulties
+DOID:0050710,3-methylcrotonyl-CoA carboxylase deficiency,lethargy
+DOID:0050710,3-methylcrotonyl-CoA carboxylase deficiency,muscular atrophy
+DOID:0050710,3-methylcrotonyl-CoA carboxylase deficiency,muscular hypotonia (weak muscle tone)
+DOID:0050710,3-methylcrotonyl-CoA carboxylase deficiency,recurrent episodes of vomiting and diarrhea
+DOID:0060041,autism spectrum disorder,highly repetitive behavior
+DOID:0060041,autism spectrum disorder,severely restricted interests
+DOID:0060041,autism spectrum disorder,widespread abnormalities of social interactions and communication
+DOID:0060188,jejunoileitis,abdominal pain
+DOID:0060188,jejunoileitis,cramps
+DOID:0060188,jejunoileitis,diarrhea
+DOID:0060188,jejunoileitis,formation of fistulas
+DOID:0060189,ileitis,abdominal pain
+DOID:0060189,ileitis,diarrhea
+DOID:0060189,ileitis,weight loss
+DOID:0060190,ileocolitis,abdominal pain in middle or lower right part
+DOID:0060190,ileocolitis,diarrhea
+DOID:0060190,ileocolitis,weight loss
+DOID:0060191,gastroduodenal Crohn's disease,loss of appetite
+DOID:0060191,gastroduodenal Crohn's disease,nausea
+DOID:0060191,gastroduodenal Crohn's disease,vomiting
+DOID:0060191,gastroduodenal Crohn's disease,weight loss
+DOID:0060192,Crohn's colitis,diarrhea
+DOID:0060192,Crohn's colitis,formation of ulcers
+DOID:0060192,Crohn's colitis,rectal bleeding
+DOID:0060192,Crohn's colitis,skin lesions
+DOID:0060216,Cogan syndrome,fatigue
+DOID:0060216,Cogan syndrome,fever
+DOID:0060478,Zika fever,fever
+DOID:0060478,Zika fever,headaches
+DOID:0060478,Zika fever,joint pain
+DOID:0060478,Zika fever,rash
+DOID:0070308,rippling muscle disease 1,characteristic lateral rolling movement of muscle
+DOID:0070308,rippling muscle disease 1,muscle cramps
+DOID:0070308,rippling muscle disease 1,muscle pain
+DOID:0070308,rippling muscle disease 1,muscle stiffness during or following exercise
+DOID:0070317,wet beriberi,increased heart rate
+DOID:0070318,dry beriberi,difficulty walking
+DOID:0070344,ocular tuberculosis,inflamed eyes
+DOID:0070347,encephalopathy due to defective mitochondrial and peroxisomal fission 1,hypotonia that may lead to death in childhood
+DOID:0070352,stress-induced childhood-onset neurodegeneration with variable ataxia and seizures,seizures
+DOID:0070527,Borrelia miyamotoi disease,fever
+DOID:0080044,hypochondrogenesis,enlarged abdomen
+DOID:0080045,Kniest dysplasia,large joints
+DOID:0080045,Kniest dysplasia,round flat face
+DOID:0080045,Kniest dysplasia,wide set eyes
+DOID:10039,late congenital syphilis,dental deformities
+DOID:10039,late congenital syphilis,gummatous ulcers
+DOID:10039,late congenital syphilis,interstitial keratitis
+DOID:10039,late congenital syphilis,optic atrophy
+DOID:10039,late congenital syphilis,paresis
+DOID:10039,late congenital syphilis,periosteal lesions
+DOID:10039,late congenital syphilis,sensorineural deafness
+DOID:10039,late congenital syphilis,tabes
+DOID:10071,larynx squamous papilloma,hoarseness
+DOID:1022,pinta disease,pruritic plaque
+DOID:1024,leprosy,eye damage
+DOID:1024,leprosy,motor loss
+DOID:1024,leprosy,sensory loss
+DOID:1024,leprosy,skin lesions
+DOID:10242,ehrlichiosis,fatigue
+DOID:10242,ehrlichiosis,headache
+DOID:10242,ehrlichiosis,muscle aches
+DOID:10242,ehrlichiosis,rash
+DOID:10398,pneumonic plague,chills
+DOID:10398,pneumonic plague,cough
+DOID:10398,pneumonic plague,difficulty breathing
+DOID:10398,pneumonic plague,fever
+DOID:10525,double pterygium,multiple fleshy bumps on the surface of the eye
+DOID:10526,conjunctival pterygium,fleshy bumps on the surface of the eye
+DOID:10608,celiac disease,abdominal pain
+DOID:10608,celiac disease,constipation
+DOID:10608,celiac disease,diarrhea
+DOID:10608,celiac disease,loss of appetite
+DOID:10608,celiac disease,nausea and vomiting
+DOID:10612,allergic urticaria,pruritis
+DOID:10773,bubonic plague,chills
+DOID:10773,bubonic plague,enlarged
+DOID:10773,bubonic plague,fever
+DOID:10773,bubonic plague,prostration
+DOID:10784,Queensland tick typhus,fever
+DOID:10784,Queensland tick typhus,headache
+DOID:10784,Queensland tick typhus,lymphadenopathy
+DOID:10784,Queensland tick typhus,maculopapular rash
+DOID:10784,Queensland tick typhus,myalgia
+DOID:10842,Murray Valley encephalitis,confusion
+DOID:10842,Murray Valley encephalitis,drowsiness
+DOID:10842,Murray Valley encephalitis,fever
+DOID:10842,Murray Valley encephalitis,fitting
+DOID:10842,Murray Valley encephalitis,headache
+DOID:10842,Murray Valley encephalitis,nausea
+DOID:10842,Murray Valley encephalitis,vomiting
+DOID:10842,Murray Valley encephalitis,weakness
+DOID:10843,Western equine encephalitis,altered mental status
+DOID:10843,Western equine encephalitis,anorexia
+DOID:10843,Western equine encephalitis,fever
+DOID:10843,Western equine encephalitis,headache
+DOID:10843,Western equine encephalitis,malaise
+DOID:10843,Western equine encephalitis,nausea
+DOID:10843,Western equine encephalitis,vomiting
+DOID:10843,Western equine encephalitis,weakness
+DOID:10844,Japanese encephalitis,coma
+DOID:10844,Japanese encephalitis,convulsions
+DOID:10844,Japanese encephalitis,disorientation
+DOID:10844,Japanese encephalitis,headache
+DOID:10844,Japanese encephalitis,high fever
+DOID:10844,Japanese encephalitis,neck stiffness
+DOID:10844,Japanese encephalitis,spastic paralysis
+DOID:10844,Japanese encephalitis,stupor
+DOID:10844,Japanese encephalitis,tremors
+DOID:10845,St. Louis encephalitis,coma
+DOID:10845,St. Louis encephalitis,convulsions
+DOID:10845,St. Louis encephalitis,disorientation
+DOID:10845,St. Louis encephalitis,headache
+DOID:10845,St. Louis encephalitis,high fever
+DOID:10845,St. Louis encephalitis,neck stiffness
+DOID:10845,St. Louis encephalitis,spastic paralysis
+DOID:10845,St. Louis encephalitis,stupor
+DOID:10845,St. Louis encephalitis,tremors
+DOID:10881,"hand, foot and mouth disease",fever
+DOID:10881,"hand, foot and mouth disease",malaise
+DOID:10881,"hand, foot and mouth disease",painful sores in the mouth
+DOID:10881,"hand, foot and mouth disease",poor appetite
+DOID:10881,"hand, foot and mouth disease",skin rash on the palms of the hands and soles of the feet
+DOID:10881,"hand, foot and mouth disease",sore throat
+DOID:10921,Siberian tick typhus,eschar
+DOID:10921,Siberian tick typhus,fever
+DOID:10921,Siberian tick typhus,maculopapular rash
+DOID:10921,Siberian tick typhus,regional adenopathy
+DOID:11055,pasteurellosis,fever
+DOID:11055,pasteurellosis,joint pain
+DOID:11055,pasteurellosis,meningeal irritation
+DOID:11055,pasteurellosis,pneumonia
+DOID:11055,pasteurellosis,rigors
+DOID:11055,pasteurellosis,tachycardia
+DOID:11076,Brucella suis brucellosis,anorexia
+DOID:11076,Brucella suis brucellosis,arthralgia
+DOID:11076,Brucella suis brucellosis,chills
+DOID:11076,Brucella suis brucellosis,diaphoresis
+DOID:11076,Brucella suis brucellosis,fatigue
+DOID:11076,Brucella suis brucellosis,fever
+DOID:11076,Brucella suis brucellosis,headache
+DOID:11076,Brucella suis brucellosis,malaise
+DOID:11076,Brucella suis brucellosis,myalgia
+DOID:11077,brucellosis,back pain
+DOID:11077,brucellosis,fatigue
+DOID:11077,brucellosis,fever
+DOID:11077,brucellosis,headache
+DOID:11077,brucellosis,joint pain
+DOID:11077,brucellosis,physical weakness
+DOID:11077,brucellosis,sweat
+DOID:11100,Q fever,arthralgia
+DOID:11100,Q fever,cough
+DOID:11100,Q fever,fever
+DOID:11100,Q fever,headache
+DOID:11100,Q fever,myalgia
+DOID:11100,Q fever,pleuritic chest pain
+DOID:11103,rickettsialpox,chills
+DOID:11103,rickettsialpox,fever
+DOID:11103,rickettsialpox,headache
+DOID:11103,rickettsialpox,myalgia
+DOID:11103,rickettsialpox,papulovesicular rash
+DOID:11148,hypersecretion glaucoma,progressive peripheral vision loss
+DOID:11149,aqueous misdirection,progressive peripheral vision loss
+DOID:11155,hypohidrosis,hyperthermia and dry skin of affected areas
+DOID:11156,anhidrosis,hyperthermia and dry skin
+DOID:11168,anogenital venereal wart,anogenital warts
+DOID:11211,buphthalmos,early vision loss
+DOID:11212,hydrophthalmos,early vision loss
+DOID:11234,orbital cellulitis,blurred vision
+DOID:11234,orbital cellulitis,chemiosis
+DOID:11234,orbital cellulitis,double vision
+DOID:11234,orbital cellulitis,erythema
+DOID:11234,orbital cellulitis,eyelid edema
+DOID:11234,orbital cellulitis,fever
+DOID:11234,orbital cellulitis,headache
+DOID:11234,orbital cellulitis,proptosis
+DOID:11258,cat-scratch disease,abdominal pain
+DOID:11258,cat-scratch disease,backache
+DOID:11258,cat-scratch disease,chills
+DOID:11258,cat-scratch disease,headache
+DOID:11258,cat-scratch disease,regional lymphadenopathy
+DOID:11262,ornithosis,chills
+DOID:11262,ornithosis,fever
+DOID:11262,ornithosis,headache
+DOID:11262,ornithosis,pneumonia
+DOID:11262,ornithosis,rash
+DOID:11563,retinal vasculitis,painless decrease of visual acuity
+DOID:11573,listeriosis,back pain
+DOID:11573,listeriosis,diarrhea
+DOID:11573,listeriosis,fever
+DOID:11573,listeriosis,headache
+DOID:11573,listeriosis,malaise
+DOID:11573,listeriosis,nausea
+DOID:11573,listeriosis,vomiting
+DOID:11668,hypopigmentation of eyelid,white or light macules or patches on the eyelid
+DOID:11729,Lyme disease,fatigue
+DOID:11729,Lyme disease,fever
+DOID:11729,Lyme disease,headache
+DOID:11729,Lyme disease,skin rash called erythema migrans
+DOID:11750,Bordetella parapertussis whooping cough,coughing
+DOID:11750,Bordetella parapertussis whooping cough,runny nose
+DOID:11750,Bordetella parapertussis whooping cough,sneezing
+DOID:11782,astigmatism,blurred vision
+DOID:11917,tinea cruris,itching in groin
+DOID:12029,sympathetic ophthalmia,blurry vision
+DOID:1209,nutritional optic neuropathy,painless bilateral progressive decrease in visual acuity and color perception
+DOID:12096,sodoku disease,chills
+DOID:12096,sodoku disease,joint pain
+DOID:12096,sodoku disease,rash
+DOID:12096,sodoku disease,relapsing fever
+DOID:12124,episcleritis periodica fugax,pain
+DOID:12179,tinea corporis,itching
+DOID:12179,tinea corporis,red colored skin rash
+DOID:12206,dengue hemorrhagic fever,hemorrhagic lesions of the skin
+DOID:12206,dengue hemorrhagic fever,high fever
+DOID:12206,dengue hemorrhagic fever,reduction in the fluid part of the blood
+DOID:12206,dengue hemorrhagic fever,thrombocytopenia
+DOID:12287,Crimean-Congo hemorrhagic fever,back pain
+DOID:12287,Crimean-Congo hemorrhagic fever,blood in the feces and urine
+DOID:12287,Crimean-Congo hemorrhagic fever,flushed face
+DOID:12287,Crimean-Congo hemorrhagic fever,headache
+DOID:12287,Crimean-Congo hemorrhagic fever,high fever
+DOID:12287,Crimean-Congo hemorrhagic fever,jaundice
+DOID:12287,Crimean-Congo hemorrhagic fever,joint pain
+DOID:12287,Crimean-Congo hemorrhagic fever,nosebleeds
+DOID:12287,Crimean-Congo hemorrhagic fever,petechiae (red spots) on the palate
+DOID:12287,Crimean-Congo hemorrhagic fever,red eyes
+DOID:12287,Crimean-Congo hemorrhagic fever,red throat
+DOID:12287,Crimean-Congo hemorrhagic fever,stomach pain
+DOID:12287,Crimean-Congo hemorrhagic fever,vomiting
+DOID:12328,marasmus,emaciation
+DOID:12386,balantidiasis,abdominal pain
+DOID:12386,balantidiasis,cramping
+DOID:12386,balantidiasis,foul breath
+DOID:12386,balantidiasis,nausea
+DOID:12403,tinea pedis,fissures
+DOID:12403,tinea pedis,maceration
+DOID:12403,tinea pedis,scaling
+DOID:1251,tuberculous epididymitis,pain
+DOID:1251,tuberculous epididymitis,scrotal swelling
+DOID:1252,trichuriasis,abdominal pain
+DOID:1252,trichuriasis,diarrhea
+DOID:1252,trichuriasis,growth retardation
+DOID:1252,trichuriasis,rectal prolapse
+DOID:12549,hepatitis A,abdominal pain
+DOID:12549,hepatitis A,clay-colored bowel movements
+DOID:12549,hepatitis A,fatigue
+DOID:12549,hepatitis A,fever
+DOID:12549,hepatitis A,jaundice
+DOID:12549,hepatitis A,joint pain
+DOID:12549,hepatitis A,loss of appetite
+DOID:12549,hepatitis A,nausea
+DOID:12549,hepatitis A,vomiting
+DOID:12570,phacolytic glaucoma,chronic progressive vision loss with acute onset of pain
+DOID:12571,phacogenic glaucoma,progressive decreased vision
+DOID:12663,blastomycosis,lung lesions
+DOID:12663,blastomycosis,pleural thickening
+DOID:12663,blastomycosis,skin lesions
+DOID:12680,pseudobulbar palsy,dysarthria
+DOID:12680,pseudobulbar palsy,dysphagia
+DOID:12680,pseudobulbar palsy,emotional outbursts
+DOID:12680,pseudobulbar palsy,gag reflex
+DOID:12680,pseudobulbar palsy,spasticity located_in tongue
+DOID:1273,respiratory syncytial virus infectious disease,cough
+DOID:1273,respiratory syncytial virus infectious disease,fever
+DOID:1273,respiratory syncytial virus infectious disease,respiratory distress
+DOID:1273,respiratory syncytial virus infectious disease,runny nose
+DOID:1273,respiratory syncytial virus infectious disease,wheezing
+DOID:12841,ancylostomiasis,abdominal pain
+DOID:12841,ancylostomiasis,anemia
+DOID:12841,ancylostomiasis,intestinal bleeding
+DOID:12841,ancylostomiasis,malnutrition
+DOID:12841,ancylostomiasis,severe diarrhea
+DOID:12900,Mikulicz disease,lumps of the face and neck
+DOID:13035,louse-borne relapsing fever,hepatosplenomegaly
+DOID:13035,louse-borne relapsing fever,lymphadenopathy
+DOID:13035,louse-borne relapsing fever,tachycardia
+DOID:13035,louse-borne relapsing fever,tachypnea
+DOID:13036,tick-borne relapsing fever,hepatosplenomegaly
+DOID:13036,tick-borne relapsing fever,lymphadenopathy
+DOID:13036,tick-borne relapsing fever,tachycardia
+DOID:13036,tick-borne relapsing fever,tachypnea
+DOID:13060,traumatic glaucoma,progressive decreased vision
+DOID:13074,tinea unguium,thickening of subungueal area
+DOID:13129,severe pre-eclampsia,at least one of the following: SBP of 160mm HG or higher or DPB of 110mm HG or higher on 2 occasions at least 6 hours apart
+DOID:13140,suppurative uveitis,pain
+DOID:13238,Haverhill fever,chills
+DOID:13238,Haverhill fever,fever
+DOID:13238,Haverhill fever,joint pain
+DOID:13238,Haverhill fever,rash
+DOID:13258,typhoid fever,diarrhea
+DOID:13258,typhoid fever,eruption of rose-colored spots
+DOID:13258,typhoid fever,fever
+DOID:13258,typhoid fever,headache
+DOID:13258,typhoid fever,leukopenia
+DOID:13258,typhoid fever,liver enlargement
+DOID:13258,typhoid fever,prostration
+DOID:13258,typhoid fever,splenomegaly
+DOID:1328,Rift Valley fever,bleeding from the nose or gums
+DOID:1328,Rift Valley fever,bleeding from venepuncture sites
+DOID:1328,Rift Valley fever,ecchymoses (caused by bleeding in the skin)
+DOID:1328,Rift Valley fever,jaundice
+DOID:1328,Rift Valley fever,menorrhagia
+DOID:1328,Rift Valley fever,passing blood in the feces
+DOID:1328,Rift Valley fever,vomiting blood
+DOID:13282,intestinal tuberculosis,abdominal pain
+DOID:13282,intestinal tuberculosis,gastrointestinal bleeding
+DOID:13282,intestinal tuberculosis,nausea
+DOID:13282,intestinal tuberculosis,vomiting
+DOID:13369,tinea manuum,burning
+DOID:13369,tinea manuum,cracking
+DOID:13369,tinea manuum,itching
+DOID:13369,tinea manuum,scaling
+DOID:13381,pernicious anemia,fatigue
+DOID:13406,pulmonary sarcoidosis,shortness of breath
+DOID:13450,coccidioidomycosis,arthritis
+DOID:13450,coccidioidomycosis,chest pain and results_in_formation_of skin nodules
+DOID:13450,coccidioidomycosis,conjunctivitis
+DOID:13473,central pterygium,fleshy bumps on the surface of the eye
+DOID:13474,progressive peripheral pterygium,fleshy bumps on the surface of the eye
+DOID:13544,low tension glaucoma,progressive decreased vision and progressive loss of peripheral vision
+DOID:13549,interval angle-closure glaucoma,sudden pain
+DOID:13550,angle-closure glaucoma,progressive peripheral vision loss
+DOID:13579,kwashiorkor,swelling
+DOID:13622,campylobacteriosis,abdominal cramps and pain
+DOID:13622,campylobacteriosis,diarrhea or
+DOID:13622,campylobacteriosis,dysentery
+DOID:13622,campylobacteriosis,fever
+DOID:13641,exfoliation syndrome,progressive decreased vision
+DOID:13724,scurvy,fatigue
+DOID:13775,plantar wart,lesions that appear on the sole of the foot
+DOID:13777,epidermodysplasia verruciformis,lesions on the body
+DOID:13800,inclusion conjunctivitis,discharge of pus and mucus
+DOID:13800,inclusion conjunctivitis,swollen conjunctiva and eyelids
+DOID:1381,Fox-Fordyce disease,flesh colored papules with hair loss and pruritis
+DOID:13819,lymphogranuloma venereum,abscesses in the groin area
+DOID:13819,lymphogranuloma venereum,inguinal lymphadenitis
+DOID:13819,lymphogranuloma venereum,lymphangitis
+DOID:13861,scleroperikeratitis,pain
+DOID:13862,acute closed-angle glaucoma,sudden pain
+DOID:13891,bird fancier's lung,abrupt onset of dyspnea
+DOID:13891,bird fancier's lung,cough
+DOID:13891,bird fancier's lung,fever
+DOID:13891,bird fancier's lung,malaise
+DOID:14019,Brucella canis brucellosis,fever
+DOID:14019,Brucella canis brucellosis,headache
+DOID:14019,Brucella canis brucellosis,lymphadenopathy
+DOID:14019,Brucella canis brucellosis,splenomegaly
+DOID:14019,Brucella canis brucellosis,sweats
+DOID:14019,Brucella canis brucellosis,weakness
+DOID:14019,Brucella canis brucellosis,weight loss
+DOID:1405,primary angle-closure glaucoma,progressive peripheral vision loss
+DOID:14095,boutonneuse fever,eschar (usually single)
+DOID:14095,boutonneuse fever,fever
+DOID:14095,boutonneuse fever,maculopapular rash on extremities
+DOID:14095,boutonneuse fever,regional adenopathy
+DOID:14115,toxic shock syndrome,desquamation
+DOID:14115,toxic shock syndrome,diarrhea
+DOID:14115,toxic shock syndrome,fever
+DOID:14115,toxic shock syndrome,headache
+DOID:14115,toxic shock syndrome,hypotension
+DOID:14115,toxic shock syndrome,multiorgan failure
+DOID:14115,toxic shock syndrome,nonfocal neurologic abnormalities
+DOID:14115,toxic shock syndrome,rash
+DOID:14115,toxic shock syndrome,vomiting
+DOID:14188,frozen shoulder,pain
+DOID:14188,frozen shoulder,restricted range of motion
+DOID:14230,scleromalacia perforans,loss of vision and appearance of a dark bulge
+DOID:14287,brawny scleritis,pain
+DOID:14444,sclerosing keratitis,pain
+DOID:14445,chronic closed-angle glaucoma,progressive loss of peripheral vision
+DOID:14456,Brucella melitensis brucellosis,anorexia
+DOID:14456,Brucella melitensis brucellosis,back pain
+DOID:14456,Brucella melitensis brucellosis,fever
+DOID:14456,Brucella melitensis brucellosis,limb pain
+DOID:14456,Brucella melitensis brucellosis,malaise
+DOID:14457,Brucella abortus brucellosis,arthralgia
+DOID:14457,Brucella abortus brucellosis,chills
+DOID:14457,Brucella abortus brucellosis,fever
+DOID:14457,Brucella abortus brucellosis,headaches
+DOID:14457,Brucella abortus brucellosis,malaise
+DOID:14457,Brucella abortus brucellosis,myalgia
+DOID:14457,Brucella abortus brucellosis,sweats
+DOID:14457,Brucella abortus brucellosis,weight loss
+DOID:14482,pemphigoid gestationis,pruritis
+DOID:14723,beta-ketothiolase deficiency,recurrent ketoacidotic attacks in infancy marked by vomiting
+DOID:1556,arthus reaction,pain
+DOID:1584,acute chest syndrome,cough
+DOID:1584,acute chest syndrome,diffuse infiltrates on chest radiograph
+DOID:1584,acute chest syndrome,fever
+DOID:1584,acute chest syndrome,hypoxemia
+DOID:1584,acute chest syndrome,marked leukocytosis
+DOID:1584,acute chest syndrome,pleuritic chest pain
+DOID:1584,acute chest syndrome,tachypnea
+DOID:1586,rheumatic fever,arthralgia
+DOID:1586,rheumatic fever,carditis
+DOID:1586,rheumatic fever,chorea
+DOID:1586,rheumatic fever,erythema marginatum
+DOID:1586,rheumatic fever,fever
+DOID:1586,rheumatic fever,polyarthritis
+DOID:1586,rheumatic fever,prolonged PR interval
+DOID:1586,rheumatic fever,subcutaneous nodules
+DOID:1607,hypoglycemic coma,coma
+DOID:1607,hypoglycemic coma,decreased cognition
+DOID:1607,hypoglycemic coma,seizure
+DOID:1678,chronic interstitial cystitis,discomfort
+DOID:1678,chronic interstitial cystitis,dysuria
+DOID:1678,chronic interstitial cystitis,pain
+DOID:1678,chronic interstitial cystitis,pressure
+DOID:1678,chronic interstitial cystitis,urinary frequency
+DOID:1687,neovascular glaucoma,progressive peripheral vision loss
+DOID:1731,histoplasmosis,headache
+DOID:1731,histoplasmosis,loss of appetite
+DOID:1731,histoplasmosis,muscle pains
+DOID:1731,histoplasmosis,nonproductive cough
+DOID:1787,pericarditis,chest pain
+DOID:1883,hepatitis C,abdominal pain
+DOID:1883,hepatitis C,clay-colored bowel movements
+DOID:1883,hepatitis C,fatigue
+DOID:1883,hepatitis C,fever
+DOID:1883,hepatitis C,jaundice
+DOID:1883,hepatitis C,joint pain
+DOID:1883,hepatitis C,loss of appetite
+DOID:1883,hepatitis C,nausea
+DOID:1883,hepatitis C,vomiting
+DOID:2043,hepatitis B,fever
+DOID:2047,hepatitis D,abnormal behavior
+DOID:2047,hepatitis D,anorexia
+DOID:2047,hepatitis D,changes in personality
+DOID:2047,hepatitis D,clay-colored stools
+DOID:2047,hepatitis D,coma
+DOID:2047,hepatitis D,confusion
+DOID:2047,hepatitis D,dark urine
+DOID:2047,hepatitis D,disturbances in sleep
+DOID:2047,hepatitis D,fatigue
+DOID:2047,hepatitis D,jaundice
+DOID:2047,hepatitis D,lethargy
+DOID:2047,hepatitis D,nausea
+DOID:2047,hepatitis D,somnolence
+DOID:2058,chronic mucocutaneous candidiasis,scaling of skin lesions
+DOID:2058,chronic mucocutaneous candidiasis,scarring of the scalp
+DOID:2058,chronic mucocutaneous candidiasis,swollen periungal tissue
+DOID:2058,chronic mucocutaneous candidiasis,thickening of nails
+DOID:2064,vulvar syringoma,itching
+DOID:2064,vulvar syringoma,vulvar discomfort
+DOID:2122,pneumonic tularemia,chest
+DOID:2122,pneumonic tularemia,cough
+DOID:2122,pneumonic tularemia,difficulty breathing
+DOID:2122,pneumonic tularemia,pain
+DOID:2211,factor XIII deficiency,prolonged umbilical cord bleeding
+DOID:2215,factor VII deficiency,epistaxis
+DOID:2280,hidradenitis suppurativa,painful nodules
+DOID:2282,hidradenitis,erythema
+DOID:2312,nocardiosis,ascending regional lymphadenopathy
+DOID:2312,nocardiosis,cellulitis
+DOID:2312,nocardiosis,lesions in the brain or meninges
+DOID:2312,nocardiosis,pneumonia
+DOID:2365,West Nile encephalitis,coma
+DOID:2365,West Nile encephalitis,convulsions
+DOID:2365,West Nile encephalitis,disorientation
+DOID:2365,West Nile encephalitis,headache
+DOID:2365,West Nile encephalitis,high fever
+DOID:2365,West Nile encephalitis,muscle weakness
+DOID:2365,West Nile encephalitis,neck stiffness
+DOID:2365,West Nile encephalitis,numbness
+DOID:2365,West Nile encephalitis,paralysis
+DOID:2365,West Nile encephalitis,stupor
+DOID:2365,West Nile encephalitis,tremors
+DOID:2365,West Nile encephalitis,vision loss
+DOID:2366,West Nile fever,body ache
+DOID:2366,West Nile fever,fever
+DOID:2366,West Nile fever,headache
+DOID:2366,West Nile fever,maculopapular rash
+DOID:2366,West Nile fever,nausea
+DOID:2366,West Nile fever,sore throat
+DOID:2366,West Nile fever,vomiting
+DOID:2479,central nervous system origin vertigo,difficulty walking
+DOID:2479,central nervous system origin vertigo,dizziness
+DOID:2479,central nervous system origin vertigo,nausea
+DOID:2479,central nervous system origin vertigo,vomiting
+DOID:2772,irritant dermatitis,erythema
+DOID:2786,cerebellar disease,ataxia
+DOID:2786,cerebellar disease,cerebellar cognitive affective syndrome
+DOID:2786,cerebellar disease,dysarthria
+DOID:2841,asthma,chest tightness
+DOID:2841,asthma,coughing
+DOID:2841,asthma,mucus production
+DOID:2841,asthma,recurring periods of wheezing (a whistling sound while breathing)
+DOID:2841,asthma,shortness of breath
+DOID:2929,Newcastle disease,circling
+DOID:2929,Newcastle disease,complete paralysis
+DOID:2929,Newcastle disease,conjunctivitis
+DOID:2929,Newcastle disease,coughing
+DOID:2929,Newcastle disease,gasping
+DOID:2929,Newcastle disease,headache
+DOID:2929,Newcastle disease,lacrimation in humans
+DOID:2929,Newcastle disease,reduced egg production in birds
+DOID:2929,Newcastle disease,twisting of head and neck
+DOID:2929,Newcastle disease,watery diarrhea
+DOID:2934,aleutian mink disease,anemia
+DOID:2934,aleutian mink disease,enlarged spleen
+DOID:2934,aleutian mink disease,hepatomegaly
+DOID:2934,aleutian mink disease,weight loss
+DOID:2942,bronchiolitis,bluish skin due to lack of oxygen
+DOID:2942,bronchiolitis,cough
+DOID:2942,bronchiolitis,fever
+DOID:2942,bronchiolitis,nasal flaring in infants
+DOID:2942,bronchiolitis,shortness of breath
+DOID:2942,bronchiolitis,wheezing
+DOID:2945,severe acute respiratory syndrome,body aches
+DOID:2945,severe acute respiratory syndrome,dry cough
+DOID:2945,severe acute respiratory syndrome,fever
+DOID:2945,severe acute respiratory syndrome,headache
+DOID:2945,severe acute respiratory syndrome,hypoxia
+DOID:2957,pulmonary tuberculosis,caseation
+DOID:2957,pulmonary tuberculosis,cough
+DOID:2957,pulmonary tuberculosis,difficulty in breathing
+DOID:2957,pulmonary tuberculosis,fever
+DOID:2957,pulmonary tuberculosis,fibrosis
+DOID:2957,pulmonary tuberculosis,formation of tubercles
+DOID:2957,pulmonary tuberculosis,inflammatory infiltrations
+DOID:2957,pulmonary tuberculosis,pleural effusion
+DOID:3049,Churg-Strauss syndrome,asthma along with hay fever
+DOID:3055,paratyphoid fever,abdominal pain
+DOID:3055,paratyphoid fever,anorexia
+DOID:3055,paratyphoid fever,bradycardia
+DOID:3055,paratyphoid fever,constipation
+DOID:3055,paratyphoid fever,fever
+DOID:3055,paratyphoid fever,headache
+DOID:3055,paratyphoid fever,hepatosplenomegaly
+DOID:3055,paratyphoid fever,malaise
+DOID:3055,paratyphoid fever,non productive cough (in early stage of illness)
+DOID:3055,paratyphoid fever,rosy spots on the central body
+DOID:3073,brain glioblastoma multiforme,seizure
+DOID:3082,interstitial lung disease,shortness of breath
+DOID:3133,acute porphyria,abdominal pain
+DOID:3133,acute porphyria,autonomic instability
+DOID:3133,acute porphyria,neuropathy
+DOID:3133,acute porphyria,psychosis
+DOID:3140,scleredema adultorum,skin hardening or stiffening
+DOID:3240,aspiration pneumonitis,bloody sputum
+DOID:3240,aspiration pneumonitis,bronchospasm
+DOID:3240,aspiration pneumonitis,frothy sputum
+DOID:3240,aspiration pneumonitis,non-productive cough
+DOID:3240,aspiration pneumonitis,respiratory distress
+DOID:3240,aspiration pneumonitis,tachypnea
+DOID:3298,vaccinia,body aches
+DOID:3298,vaccinia,fever
+DOID:3298,vaccinia,rash
+DOID:3481,septicemic plague,abdominal pain
+DOID:3481,septicemic plague,bleeding into skin and other organs
+DOID:3481,septicemic plague,chills
+DOID:3481,septicemic plague,fever
+DOID:3481,septicemic plague,prostration
+DOID:3481,septicemic plague,shock
+DOID:3522,lateral medullary syndrome,contralateral sensory deficits of limbs and torso
+DOID:3522,lateral medullary syndrome,ipsilateral Horner's syndrome
+DOID:3522,lateral medullary syndrome,ipsilateral cerebellar signs
+DOID:3522,lateral medullary syndrome,ipsilateral sensory deficits of face
+DOID:3522,lateral medullary syndrome,laryngeal
+DOID:3522,lateral medullary syndrome,vertigo
+DOID:3523,brain stem infarction,decreased level of arousal
+DOID:3523,brain stem infarction,imbalance
+DOID:3523,brain stem infarction,vertigo
+DOID:3651,pyruvate carboxylase deficiency disease,periodic lactate elevations
+DOID:3660,wheat allergy,that are both gastrointestinal and nongastrointestinal in nature
+DOID:367,olfactory nerve disease,anosmia or loss of smell
+DOID:367,olfactory nerve disease,impaired sense of smell
+DOID:3687,MELAS syndrome,myalgia
+DOID:3770,pulmonary fibrosis,progressive shortness of breath
+DOID:3818,photoallergic dermatitis,erythematous papules
+DOID:3819,toxicodendron dermatitis,pruritic erythematous rash with papules
+DOID:3905,lung carcinoma,chest discomfort or pain
+DOID:3905,lung carcinoma,cough
+DOID:3905,lung carcinoma,hemoptysis
+DOID:3905,lung carcinoma,weight loss
+DOID:4033,bacterial gastritis,abdominal bloating
+DOID:4033,bacterial gastritis,abdominal pain
+DOID:4033,bacterial gastritis,indigestion
+DOID:4033,bacterial gastritis,nausea
+DOID:4033,bacterial gastritis,ulcer formation
+DOID:4033,bacterial gastritis,vomiting
+DOID:404,gastrointestinal tuberculosis,abdominal pain
+DOID:404,gastrointestinal tuberculosis,anorexia
+DOID:404,gastrointestinal tuberculosis,constipation
+DOID:404,gastrointestinal tuberculosis,fever
+DOID:404,gastrointestinal tuberculosis,nausea
+DOID:404,gastrointestinal tuberculosis,vomiting
+DOID:404,gastrointestinal tuberculosis,weight loss
+DOID:407,hepatic tuberculosis,abdominal pain
+DOID:407,hepatic tuberculosis,anorexia
+DOID:407,hepatic tuberculosis,fever
+DOID:407,hepatic tuberculosis,jaundice
+DOID:407,hepatic tuberculosis,weight loss
+DOID:4325,Ebola virus disease,diarrhea
+DOID:4325,Ebola virus disease,fever
+DOID:4325,Ebola virus disease,headache
+DOID:4325,Ebola virus disease,hiccups
+DOID:4325,Ebola virus disease,internal and external bleeding
+DOID:4325,Ebola virus disease,joint pain
+DOID:4325,Ebola virus disease,muscle aches
+DOID:4325,Ebola virus disease,rash
+DOID:4325,Ebola virus disease,red eyes
+DOID:4325,Ebola virus disease,sore throat
+DOID:4325,Ebola virus disease,stomach pain
+DOID:4325,Ebola virus disease,vomiting
+DOID:4325,Ebola virus disease,weakness
+DOID:4327,Marburg hemorrhagic fever,abdominal pain
+DOID:4327,Marburg hemorrhagic fever,bleeding
+DOID:4327,Marburg hemorrhagic fever,chest pain
+DOID:4327,Marburg hemorrhagic fever,chills
+DOID:4327,Marburg hemorrhagic fever,diarrhea
+DOID:4327,Marburg hemorrhagic fever,fever
+DOID:4327,Marburg hemorrhagic fever,headache
+DOID:4327,Marburg hemorrhagic fever,maculopapular rash on the trunk
+DOID:4327,Marburg hemorrhagic fever,myalgia
+DOID:4327,Marburg hemorrhagic fever,nausea
+DOID:4327,Marburg hemorrhagic fever,sore throat
+DOID:4327,Marburg hemorrhagic fever,vomiting
+DOID:4337,tinea capitis,itching of the scalp
+DOID:4337,tinea capitis,patches of hair loss
+DOID:4337,tinea capitis,pus filled lesions on the scalp
+DOID:437,myasthenia gravis,diplopia
+DOID:437,myasthenia gravis,dysarthria
+DOID:437,myasthenia gravis,dysphagia
+DOID:437,myasthenia gravis,muscle weakness
+DOID:437,myasthenia gravis,ptosis
+DOID:437,myasthenia gravis,shortness of breath
+DOID:4371,Schnitzler syndrome,rash
+DOID:4379,nut allergy,asthma
+DOID:4411,hepatitis E,abdominal pain
+DOID:4411,hepatitis E,clay-colored bowel movements
+DOID:4411,hepatitis E,dark urine
+DOID:4411,hepatitis E,fatigue
+DOID:4411,hepatitis E,fever
+DOID:4411,hepatitis E,jaundice
+DOID:4411,hepatitis E,joint pain
+DOID:4411,hepatitis E,loss of appetite
+DOID:4411,hepatitis E,nausea
+DOID:4411,hepatitis E,vomiting
+DOID:4448,macular degeneration,vision loss
+DOID:4492,avian influenza,acute respiratory distress
+DOID:4492,avian influenza,cough
+DOID:4492,avian influenza,diarrhea
+DOID:4492,avian influenza,fever
+DOID:4492,avian influenza,muscle aches
+DOID:4492,avian influenza,nausea
+DOID:4492,avian influenza,neurologic changes
+DOID:4492,avian influenza,pneumonia
+DOID:4492,avian influenza,sore throat
+DOID:4492,avian influenza,vomiting
+DOID:4723,intracranial hypotension,orthostatic headache
+DOID:4724,brain edema,blurred vision
+DOID:4724,brain edema,coma
+DOID:4724,brain edema,nausea
+DOID:4724,brain edema,seizure
+DOID:4724,brain edema,vomiting
+DOID:4885,Colorado tick fever,fatigue
+DOID:4885,Colorado tick fever,fever for 2-3 days
+DOID:4885,Colorado tick fever,headache
+DOID:4885,Colorado tick fever,myalgia
+DOID:4889,lymph node tuberculosis,cough
+DOID:4889,lymph node tuberculosis,fatigue
+DOID:4889,lymph node tuberculosis,fever
+DOID:4889,lymph node tuberculosis,lymphadenopathy
+DOID:4889,lymph node tuberculosis,night sweats
+DOID:4889,lymph node tuberculosis,weight loss
+DOID:4969,Gerstmann syndrome,acalculia
+DOID:4969,Gerstmann syndrome,agraphia
+DOID:4969,Gerstmann syndrome,finger agnosia
+DOID:4998,trichorhinophalangeal syndrome type II,rounded nose
+DOID:4998,trichorhinophalangeal syndrome type II,sparse scalp hair
+DOID:4998,trichorhinophalangeal syndrome type II,thin upper lip
+DOID:5052,melioidosis,chest pain
+DOID:5052,melioidosis,fever
+DOID:5052,melioidosis,respiratory distress
+DOID:5052,melioidosis,stomach pain
+DOID:5112,copper deficiency myelopathy,imbalance and jerking movements
+DOID:5154,borna disease,behaviour disturbances
+DOID:5154,borna disease,cognitive disturbances
+DOID:5154,borna disease,mood disturbances
+DOID:5154,borna disease,movement impairment
+DOID:5154,borna disease,neurologic disturbances
+DOID:5362,focal epithelial hyperplasia,papules or nodules in the oral cavity
+DOID:5425,ovarian hyperstimulation syndrome,abdominal pain
+DOID:5425,ovarian hyperstimulation syndrome,nausea
+DOID:5425,ovarian hyperstimulation syndrome,vomiting
+DOID:5641,diffuse pulmonary fibrosis,progressive shortness of breath
+DOID:5642,localized pulmonary fibrosis,progressive shortness of breath
+DOID:6088,acute stress disorder,avoidance or
+DOID:6088,acute stress disorder,bad dreams
+DOID:6088,acute stress disorder,flashbacks
+DOID:6088,acute stress disorder,frightening thoughts
+DOID:6088,acute stress disorder,hyperarousal of PTSD occurring within one month of a traumatic experience as Acute Stress Disorder or ASD
+DOID:6132,bronchitis,chest tightness
+DOID:6132,bronchitis,cough with mucus
+DOID:6132,bronchitis,low fever
+DOID:6132,bronchitis,shortness of breath
+DOID:636,central pontine myelinolysis,acute paralysis
+DOID:636,central pontine myelinolysis,dysarthria
+DOID:636,central pontine myelinolysis,dysphagia
+DOID:6969,acute canaliculitis,conjunctivitis
+DOID:6969,acute canaliculitis,epiphora
+DOID:6969,acute canaliculitis,eyelid mattering
+DOID:6969,acute canaliculitis,purulent discharge
+DOID:7033,anisakiasis,abdominal pain
+DOID:7033,anisakiasis,nausea and vomiting
+DOID:7147,ankylosing spondylitis,pain
+DOID:7147,ankylosing spondylitis,stiffness in the hips
+DOID:7147,ankylosing spondylitis,stiffness in the jaw
+DOID:7147,ankylosing spondylitis,stiffness in the neck
+DOID:7147,ankylosing spondylitis,stiffness in the rib cage
+DOID:7147,ankylosing spondylitis,stiffness in the spine
+DOID:728,nodular episcleritis,pain
+DOID:7332,esophageal tuberculosis,chest pain
+DOID:7332,esophageal tuberculosis,cough
+DOID:7332,esophageal tuberculosis,dysphagia
+DOID:7332,esophageal tuberculosis,fever
+DOID:7332,esophageal tuberculosis,weight loss
+DOID:7426,cutaneous anthrax,skin lesion that eventually forms an ulcer with a black center
+DOID:7427,anthrax disease,bloody diarrhea
+DOID:7427,anthrax disease,fever or
+DOID:7427,anthrax disease,nausea
+DOID:7427,anthrax disease,poor appetite
+DOID:7427,anthrax disease,shortness of breath
+DOID:7427,anthrax disease,skin ulcer
+DOID:7465,chronic NK-cell lymphocytosis,fever
+DOID:7551,gonorrhea,burning sensation during urination
+DOID:7551,gonorrhea,discharge from the penis
+DOID:7551,gonorrhea,increased vaginal discharge
+DOID:7551,gonorrhea,vaginal bleeding between periods
+DOID:8337,appendicitis,fever
+DOID:8337,appendicitis,nausea
+DOID:8337,appendicitis,pain
+DOID:8337,appendicitis,vomiting
+DOID:8354,complement component 3 deficiency,recurrent bacterial infections
+DOID:8454,riboflavin deficiency,red chapped lips
+DOID:8457,pellagra,gastrointestinal disturbance
+DOID:8469,influenza,chills
+DOID:8469,influenza,cough
+DOID:8469,influenza,fever
+DOID:8469,influenza,muscle pains
+DOID:8469,influenza,runny nose
+DOID:8469,influenza,severe headache
+DOID:8469,influenza,sore throat
+DOID:8469,influenza,weakness
+DOID:8536,herpes zoster,burning pain
+DOID:8536,herpes zoster,fever
+DOID:8536,herpes zoster,headache
+DOID:8536,herpes zoster,itching
+DOID:8536,herpes zoster,malaise
+DOID:8536,herpes zoster,paresthesia
+DOID:8536,herpes zoster,rash which is followed by blisters
+DOID:8607,herpetic whitlow,fever
+DOID:8607,herpetic whitlow,lesions
+DOID:8607,herpetic whitlow,swollen lymph nodes
+DOID:8622,measles,conjunctivitis
+DOID:8622,measles,coryza
+DOID:8622,measles,cough
+DOID:8622,measles,fever
+DOID:8622,measles,maculopapular
+DOID:8659,chickenpox,anorexia
+DOID:8659,chickenpox,blisters
+DOID:8659,chickenpox,fever
+DOID:8659,chickenpox,headache
+DOID:8659,chickenpox,myalgia
+DOID:8659,chickenpox,nausea
+DOID:8659,chickenpox,sore throat
+DOID:8704,genital herpes,fever
+DOID:8704,genital herpes,sores
+DOID:8704,genital herpes,swollen glands
+DOID:8729,milker's nodule,fever
+DOID:8729,milker's nodule,lymphadenopathy
+DOID:8729,milker's nodule,lymphangitis
+DOID:8771,contagious pustular dermatitis,lesions on the finger
+DOID:8781,rubella,conjunctivitis
+DOID:8781,rubella,fever
+DOID:8781,rubella,headache
+DOID:8781,rubella,joint pains
+DOID:8781,rubella,lymphadenopathy
+DOID:8781,rubella,rash on the face which spreads to the trunk and limbs
+DOID:8857,lupus erythematosus,rashes
+DOID:8867,molluscum contagiosum,lesions which are flesh-colored with a pit in the center
+DOID:8936,plantar fascial fibromatosis,decreased range of motion
+DOID:8936,plantar fascial fibromatosis,early painless nodules
+DOID:8936,plantar fascial fibromatosis,eventual contracture
+DOID:8936,plantar fascial fibromatosis,weakened grip
+DOID:9063,Ritter's disease,fever
+DOID:9063,Ritter's disease,fluid-filled blister formation
+DOID:9063,Ritter's disease,irritability
+DOID:9063,Ritter's disease,redness of skin
+DOID:9113,granuloma inguinale,painless genital ulcers
+DOID:9123,eczema herpeticum,fever
+DOID:9123,eczema herpeticum,swelling of the lymph nodes
+DOID:9123,eczema herpeticum,watery blisters
+DOID:9210,Ramsay Hunt syndrome,headache
+DOID:9210,Ramsay Hunt syndrome,otalgia
+DOID:9210,Ramsay Hunt syndrome,tinnitus
+DOID:9210,Ramsay Hunt syndrome,vertigo
+DOID:9210,Ramsay Hunt syndrome,vesicular rash of the ear or mouth
+DOID:9230,pompholyx,pruritis and cracked skin
+DOID:9415,allergic asthma,chest tightness
+DOID:9415,allergic asthma,coughing
+DOID:9415,allergic asthma,rapid breathing
+DOID:9415,allergic asthma,shortness of breath or
+DOID:9415,allergic asthma,wheezing
+DOID:9428,intracranial hypertension,altered mental status
+DOID:9428,intracranial hypertension,headache
+DOID:9428,intracranial hypertension,papilledema
+DOID:9428,intracranial hypertension,vomiting
+DOID:9537,Lassa fever,abdominal pain
+DOID:9537,Lassa fever,back pain
+DOID:9537,Lassa fever,conjunctivitis
+DOID:9537,Lassa fever,cough
+DOID:9537,Lassa fever,diarrhea
+DOID:9537,Lassa fever,facial swelling
+DOID:9537,Lassa fever,fever
+DOID:9537,Lassa fever,mucosal bleeding
+DOID:9537,Lassa fever,proteinuria (protein in the urine)
+DOID:9537,Lassa fever,retrosternal pain
+DOID:9537,Lassa fever,sore throat
+DOID:9537,Lassa fever,vomiting
+DOID:9584,Venezuelan equine encephalitis,chills
+DOID:9584,Venezuelan equine encephalitis,fever
+DOID:9584,Venezuelan equine encephalitis,malaise
+DOID:9584,Venezuelan equine encephalitis,myalgia in the legs and lumbosacral region
+DOID:9584,Venezuelan equine encephalitis,photophobia
+DOID:9584,Venezuelan equine encephalitis,severe headache
+DOID:96,staphyloenterotoxemia,cramps
+DOID:96,staphyloenterotoxemia,diarrhea
+DOID:96,staphyloenterotoxemia,nausea
+DOID:96,staphyloenterotoxemia,vomiting
+DOID:96,staphyloenterotoxemia,weakness
+DOID:9643,babesiosis,anemia described as malaria-like symptoms caused by a protozoan of genus Babesia
+DOID:9643,babesiosis,mild fevers
+DOID:9801,tuberculous peritonitis,abdominal discomfort
+DOID:9801,tuberculous peritonitis,digestive disturbances
+DOID:9801,tuberculous peritonitis,distention from gas or fluid
+DOID:9801,tuberculous peritonitis,emaciation
+DOID:9801,tuberculous peritonitis,pain
+DOID:9809,hypersensitivity vasculitis,purpura
+DOID:9857,interstitial keratitis,lacrimation
+DOID:9857,interstitial keratitis,pain
+DOID:9857,interstitial keratitis,visual acuity loss
+DOID:992,Omsk hemorrhagic fever,blood in the sputum
+DOID:992,Omsk hemorrhagic fever,blood in the urine
+DOID:992,Omsk hemorrhagic fever,cervical lymphadenopathy
+DOID:992,Omsk hemorrhagic fever,chills
+DOID:992,Omsk hemorrhagic fever,conjunctival suffusion
+DOID:992,Omsk hemorrhagic fever,fever
+DOID:992,Omsk hemorrhagic fever,headache
+DOID:992,Omsk hemorrhagic fever,pain in lower and upper extremities
+DOID:992,Omsk hemorrhagic fever,papulovesicular rash on the soft palate
+DOID:992,Omsk hemorrhagic fever,stiff neck
+DOID:9935,chronic inflammation of lacrimal passage,pain
+DOID:9938,dacryocystitis,conjunctivitis
+DOID:9938,dacryocystitis,purulent discharge
+DOID:9946,steroid-induced glaucoma,progressive decreased vision
+DOID:9971,hypervitaminosis D,myalgia
+DOID:9972,hypervitaminosis A,hepatomegaly

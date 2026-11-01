@@ -1,0 +1,20 @@
+{
+  "medlineplus_topics.jsonl": {
+    "url": "https://medlineplus.gov/xml/mplus_topics_2026-10-31.xml",
+    "retrieved": "2026-11-01",
+    "records": 1017,
+    "sha256": "73c5782b1bda3fb06fdbb55053a89c632dfafd62b276a78883872b2b02aa7180"
+  },
+  "wikidata_links.csv": {
+    "url": "https://query.wikidata.org/sparql",
+    "retrieved": "2026-11-01",
+    "records": 3361,
+    "sha256": "08ba5ccccca93b36aab43055d6cda83ce7774f4390d10074c5270788ae9d3b62"
+  },
+  "disease_ontology_symptoms.csv": {
+    "url": "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/main/src/ontology/doid.obo",
+    "retrieved": "2026-11-01",
+    "records": 1116,
+    "sha256": "e3830bcf7b1cf9c8f1a759011ddb068581c4753c55082c2c71009722915fed55"
+  }
+}
