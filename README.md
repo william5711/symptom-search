@@ -36,19 +36,46 @@ Reciprocal rank fusion merges the two rankings. The scores only order results wi
 
 ## Results
 
-The test set is 24 patient-style descriptions that avoid naming the disease. They were written for this project and don't come from real patients. Settings were picked on a separate set of 24, and the test set was run once after those were frozen.
+There are two held-out test sets. Brackets show 95% intervals (Wilson for Hit@3, bootstrap for MRR). Neither set comes from real patients.
+
+**Written queries (100).** Descriptions in everyday language that avoid naming the disease, one per condition, written with Claude's help for this project. No condition appears in both these and the tuning queries. The conditions were chosen before checking whether the dataset had them, and 17 of the 100 have no entry.
 
 | Method | Hit@1 | Hit@3 | Hit@10 | MRR |
 |---|---:|---:|---:|---:|
-| TF-IDF keywords | 0.292 | 0.375 | 0.542 | 0.369 |
-| Original 2023 method (`pooler_output`) | 0.292 | 0.500 | 0.625 | 0.421 |
-| Whole text, mean pooling | 0.250 | 0.500 | 0.708 | 0.405 |
-| Clauses only | 0.375 | 0.583 | 0.667 | 0.489 |
-| Hybrid (default) | 0.375 | 0.583 | 0.667 | 0.494 |
+| TF-IDF keywords | 0.180 | 0.310 [0.23, 0.41] | 0.440 | 0.267 [0.20, 0.34] |
+| Original 2023 method (`pooler_output`) | 0.210 | 0.370 [0.28, 0.47] | 0.510 | 0.313 [0.24, 0.39] |
+| Whole text, mean pooling | 0.300 | 0.430 [0.34, 0.53] | 0.570 | 0.390 [0.31, 0.48] |
+| Clauses only | 0.240 | 0.350 [0.26, 0.45] | 0.460 | 0.314 [0.24, 0.40] |
+| Hybrid (default) | 0.320 | 0.420 [0.33, 0.52] | 0.560 | 0.398 [0.31, 0.49] |
 
-The right condition is first in about 3 of 8 queries and in the top 10 in about 2 of 3, so treat the output as a shortlist.
+**DDXPlus patients (186).** Synthetic patients from [DDXPlus](https://doi.org/10.6084/m9.figshare.20043374), so nobody on this project wrote the cases or their diagnoses. `scripts/build_ddxplus_queries.py` turns their questionnaire answers into sentences. These read like a form, and the conditions lean toward acute care. 36 of the 186 have no entry.
 
-The hybrid and clause-only versions are tied on this set, and whole-text matching does better at Hit@10. One query moves a hit rate by about 4 points, so small gaps here don't mean much. Two test queries (and four tuning queries) describe conditions the dataset doesn't have, and they count as misses.
+| Method | Hit@1 | Hit@3 | Hit@10 | MRR |
+|---|---:|---:|---:|---:|
+| TF-IDF keywords | 0.027 | 0.129 [0.09, 0.18] | 0.317 | 0.120 [0.09, 0.15] |
+| Original 2023 method (`pooler_output`) | 0.038 | 0.118 [0.08, 0.17] | 0.371 | 0.132 [0.10, 0.16] |
+| Whole text, mean pooling | 0.043 | 0.129 [0.09, 0.18] | 0.430 | 0.148 [0.12, 0.18] |
+| Clauses only | 0.097 | 0.172 [0.12, 0.23] | 0.360 | 0.172 [0.13, 0.22] |
+| Hybrid (default) | 0.134 | 0.237 [0.18, 0.30] | 0.430 | 0.223 [0.18, 0.27] |
+
+The hybrid gets the right condition into the top 3 for about 4 of 10 written queries and about 1 of 4 DDXPlus patients, so treat the output as a rough shortlist. The gap between those two numbers suggests the written queries are easier than an outside test.
+
+The hybrid's MRR beats TF-IDF on both sets: by 0.131 [0.050, 0.212] on the written queries and by 0.103 [0.057, 0.149] on DDXPlus. On the written queries it can't be told apart from whole-text matching.
+
+An earlier version of this benchmark had 24 test queries and gave a Hit@3 of 0.583. That set was too small to compare methods, and its queries are now part of the tuning set.
+
+Labels were assigned from condition names before any scores were seen. A label can be the condition itself, a synonym or subtype, or a narrow category when no specific entry exists (cluster headache counts as "Headache"). Queries with no entry count as misses. Settings have not changed since they were tuned on the original 24 tuning queries.
+
+### What goes wrong
+
+`python evaluate.py --errors` lists the hybrid's misses on the tuning queries:
+
+| Tuning set | In the top 3 | Ranked 4 to 10 | Outside the top 10 | No entry |
+|---|---:|---:|---:|---:|
+| Written (98) | 55 | 9 | 20 | 14 |
+| DDXPlus (95) | 23 | 18 | 36 | 18 |
+
+Missing entries alone cost 14% to 19% of queries. Among the rest, broad topics and rare diseases often outrank the right answer: a sprained ankle returns "Vulvovaginal candidiasis" in the top 3, and a tension headache ranks "Heart Disease in Women" above "Headache". Distinctive wording also gets lost, as with the barking cough in croup.
 
 ## Data
 
@@ -81,6 +108,7 @@ pip install -r requirements.txt
 python -m symptom_search "I have a sore throat and a fever"
 streamlit run app.py
 python evaluate.py --split test
+python evaluate.py --split test --queries ddxplus
 pytest
 ```
 
@@ -93,7 +121,8 @@ pytest
 | `symptom_search/embeddings.py` | Encodes text and caches vectors |
 | `symptom_search/matcher.py` | Scores and ranks conditions |
 | `scripts/build_dataset.py` | Rebuilds the dataset from its sources |
-| `evaluate.py`, `eval/queries.jsonl` | Benchmark and labeled queries |
+| `evaluate.py`, `eval/` | Benchmark and labeled queries |
+| `scripts/build_ddxplus_queries.py` | Samples DDXPlus patients into benchmark queries |
 | `app.py` | Streamlit demo |
 | `tests/` | Unit tests, which run without the model |
 | `legacy/` | The original 2023 scripts, which need a dataset that is no longer in this repo |

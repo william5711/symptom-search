@@ -12,4 +12,10 @@ Source: MedlinePlus, National Library of Medicine. This project isn't affiliated
 
 No content from the copyrighted A.D.A.M. Medical Encyclopedia or the ASHP drug monographs on MedlinePlus is used.
 
+## Benchmark data
+
+`eval/ddxplus_queries.jsonl` is adapted from the [DDXPlus Dataset](https://doi.org/10.6084/m9.figshare.20043374) (version 15) by Arsene Fansi Tchango, Rishab Goel, Zhi Wen, Julien Martel, and Joumana Ghosn, used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Changes: patients were sampled from its test file, questionnaire answers were rewritten as sentences, demographics and medical history were removed, and conditions were matched to entries in `diseases.csv`. The creators don't endorse this project.
+
+## Model
+
 The embedding model, [`all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), is downloaded at runtime and isn't part of this repo.
