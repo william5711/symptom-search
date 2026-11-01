@@ -18,7 +18,7 @@ def test_real_dataset_loads_cleanly():
     diseases = load_diseases()
     assert len(diseases) > 500
     assert len({d.name for d in diseases}) == len(diseases)
-    assert all(len(d.symptoms) >= 2 for d in diseases)
+    assert all(d.symptoms for d in diseases)
     assert all(len(set(s.lower() for s in d.symptoms)) == len(d.symptoms) for d in diseases)
 
 

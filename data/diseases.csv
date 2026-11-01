@@ -52,8 +52,10 @@ Actinomycosis,Abscess,wikidata
 Actinomycosis,Fistula,wikidata
 Actinomycosis,Granulomatous inflammation,wikidata
 Actinomycosis,Idiopathic chronic fatigue,wikidata
-Acupuncture,It can also relieve pain,medlineplus
-Acupuncture,It might aid the activity of your body's pain-killing chemicals,medlineplus
+Acute Bronchitis,But your cough can last for several weeks after the infection is gone,medlineplus
+Acute Bronchitis,"It can also cause shortness of breath, wheezing, a low fever, and chest tightness",medlineplus
+Acute Bronchitis,It causes a cough that often brings up mucus,medlineplus
+Acute Bronchitis,You may get antibiotics if the cause is bacterial,medlineplus
 Acute Flaccid Myelitis,A loss of muscle tone and reflexes,medlineplus
 Acute Flaccid Myelitis,"AFM causes many of the same symptoms as other neurologic diseases, such as transverse myelitis and Guillain-Barre syndrome",medlineplus
 Acute Flaccid Myelitis,Arm or leg weakness,medlineplus
@@ -129,6 +131,10 @@ Addison Disease,Low blood pressure,medlineplus
 Addison Disease,Muscle weakness,medlineplus+wikidata
 Addison Disease,Patchy or dark skin,medlineplus
 Addison Disease,Weight loss,medlineplus+wikidata
+Adenoids,Enlarged adenoids are adenoids that are swollen,medlineplus
+Adenoids,Your child might end up breathing only through the mouth,medlineplus
+Adenoids,"Your child will probably have some throat pain, bad breath, and a runny nose",medlineplus
+Adenoids,"Your child's adenoids can be enlarged, or swollen, for different reasons",medlineplus
 Adenovirus infection,Conjunctivitis,wikidata
 Adenovirus infection,Diarrhea,wikidata
 Adenovirus infection,Low-grade fever,wikidata
@@ -139,6 +145,9 @@ Adenovirus infection,Rhinitis,wikidata
 Adenovirus infection,Runny nose,wikidata
 Adenovirus infection,Sore throat,wikidata
 Adenovirus infection,Xerostomia,wikidata
+Adhesions,"If you have a complete intestinal obstruction, it is life-threatening",medlineplus
+Adrenal Gland Cancer,"A number of disorders can affect the adrenal glands, including tumors",medlineplus
+Adrenal Gland Cancer,Types of tumors include: Symptoms depend on the type of cancer you have,medlineplus
 Adrenal Gland Disorders,The symptoms depend on the type of problem you have and how much it affects the hormone levels in your body,medlineplus
 Adrenal Gland Disorders,"When you have an adrenal gland disorder, your body makes too much or too little of one or more hormones",medlineplus
 Adult hepatocellular carcinoma,Abdominal mass,wikidata
@@ -174,8 +183,6 @@ African trypanosomiasis,Tachycardia,wikidata
 African trypanosomiasis,Winterbottom's sign,wikidata
 Alcohol Use Disorder (AUD),"AUD can range from mild to severe, depending on the symptoms",medlineplus
 Alcohol Use Disorder (AUD),"The more symptoms you have, the more serious the problem is",medlineplus
-Alcohol Use Disorder (AUD) Treatment,"But overcoming an alcohol use disorder is an ongoing process, and you may relapse (start drinking again)",medlineplus
-Alcohol Use Disorder (AUD) Treatment,"It is a medical condition in which you: An AUD can range from mild to severe, depending on the symptoms",medlineplus
 Alkhurma hemorrhagic fever,Arthralgia,wikidata
 Alkhurma hemorrhagic fever,Thrombocytopenia,wikidata
 Alkhurma hemorrhagic fever,Vomiting,wikidata
@@ -189,6 +196,7 @@ Allergic rhinitis,Allergic response,wikidata
 Allergic rhinitis,Cough,wikidata
 Allergic rhinitis,Rhinitis,wikidata
 Allergic rhinitis,Sneeze,wikidata
+Allergy,"Allergies can cause a variety of symptoms such as a runny nose, sneezing, itching, rashes, swelling, or asthma",medlineplus
 Alpha-1 Antitrypsin Deficiency,Chest pain,medlineplus
 Alpha-1 Antitrypsin Deficiency,Chronic cough with phlegm (mucus),medlineplus
 Alpha-1 Antitrypsin Deficiency,Faster-than-normal heartbeat when you stand up,medlineplus
@@ -231,6 +239,7 @@ Alzheimer's Disease,Some health conditions can cause memory loss or symptoms lik
 Alzheimer's Disease,The brain changes from the disease lead to symptoms that get worse over time,medlineplus
 Alzheimer's Disease,Trouble understanding visual images and spatial relationships,wikidata
 Alzheimer's Disease,Withdrawal from work or social activities,wikidata
+Amblyopia,"One is to have the child wear a patch over the good eye for several hours each day, over a number of weeks to months",medlineplus
 Amebiasis,Abdominal pain,wikidata
 Amebiasis,Blood in stool,wikidata
 Amebiasis,Diarrhea,wikidata
@@ -242,6 +251,8 @@ Amebiasis,Rectal tenesmus,wikidata
 Amebiasis,Weight loss,wikidata
 Amino Acid Metabolism Disorders,A baby who is born with one may not have any symptoms right away,medlineplus
 Amino Acid Metabolism Disorders,"If you have a metabolic disorder, something goes wrong with this process",medlineplus
+Amyloidosis,The goal is to help with symptoms and limit the production of proteins,medlineplus
+Amyotrophic Lateral Sclerosis,"A breathing machine can help, but most people with ALS die from respiratory failure",medlineplus
 Anal Cancer,"A change in bowel habits, such as narrower stools, having to go more often, or bowel incontinence",medlineplus
 Anal Cancer,A lump near the anus,medlineplus
 Anal Cancer,Bleeding from the anus or rectum,medlineplus
@@ -267,9 +278,8 @@ Anemia,You may be short of breath or have a headache,medlineplus
 Aneruptive fever,Fever,disease_ontology
 Aneruptive fever,Headache,disease_ontology
 Aneruptive fever,Myalgia,disease_ontology
-Anesthesia,"Anesthesia can cause a loss of feeling, awareness, or both",medlineplus
-Anesthesia,"In other cases, you may need an anesthesiologist",medlineplus
-Anesthesia,"It helps reduce pain, keep you calm, and make you less aware during procedures such as minor surgeries, endoscopies, imaging, or dental work",medlineplus
+Aneurysms,Aneurysms can develop and become large before causing any symptoms,medlineplus
+Aneurysms,"If an aneurysm grows large, it can burst and cause dangerous bleeding or even death",medlineplus
 Angina,Angina is chest pain or discomfort you feel when there is not enough blood flow to your heart muscle,medlineplus
 Angina,Angina may feel like pressure or a squeezing pain in your chest,medlineplus
 Angina,It may feel like indigestion,medlineplus
@@ -278,11 +288,6 @@ Angina,"You may also feel pain in your shoulders, arms, neck, jaw, or back",medl
 Angiokeratoma,Acanthosis,wikidata
 Angiokeratoma,Hyperkeratosis,wikidata
 Angiokeratoma,Telangiectasia,wikidata
-Angioplasty,"If you had an angioplasty for chest pain, you'll go to a recovery room for a few hours",medlineplus
-Angioplasty,"If you have coronary artery disease, a sticky material called plaque builds up in your coronary arteries",medlineplus
-Angioplasty,"Most people have angioplasties in a hospital in a special room called a cardiac catheterization, or cath, lab",medlineplus
-Angioplasty,"You may get a bruise, feel sore, or have some bleeding where the tubes were inserted",medlineplus
-Angioplasty,You may stay in the hospital overnight,medlineplus
 Anisakiasis,Abdominal pain,disease_ontology+wikidata
 Anisakiasis,Allergy,wikidata
 Anisakiasis,Diarrhea,wikidata
@@ -394,6 +399,7 @@ Argentine hemorrhagic fever,Stomach bleeding,wikidata
 Argentine hemorrhagic fever,Stupor,wikidata
 Argentine hemorrhagic fever,Thrombocytopenia,disease_ontology+wikidata
 Argentine hemorrhagic fever,Vomiting,wikidata
+Arm Injuries and Disorders,"Types of arm injuries include : You may also have problems or injure specific parts of your arm, such as your hand, wrist, elbow, or shoulder",medlineplus
 Arrhythmia,"But if you have a frequent irregular rhythm, it may mean your heart isn't pumping enough blood into your body",medlineplus
 Arrhythmia,Chest pain or discomfort,medlineplus
 Arrhythmia,Dizziness or fainting,medlineplus
@@ -402,9 +408,6 @@ Arrhythmia,Shortness of breath,medlineplus
 Arrhythmia,"Skipping, fluttering, or pounding heartbeats",medlineplus
 Arrhythmia,Sweating,medlineplus
 Arrhythmia,Tiredness or weakness,medlineplus
-Arsenic,Exposure to high levels of arsenic can cause death,medlineplus
-Arsenic,It can cause corns and small warts,medlineplus
-Arsenic,You may be exposed to arsenic by: Exposure to arsenic can cause many health problems,medlineplus
 Arteriovenous Malformations,Confusion,medlineplus
 Arteriovenous Malformations,Dizziness,medlineplus
 Arteriovenous Malformations,Headache,medlineplus
@@ -449,6 +452,8 @@ Aseptic meningitis,Photophobia,wikidata
 Asperger syndrome,Autistic special interest,wikidata
 Asperger syndrome,Clumsiness,wikidata
 Asperger syndrome,Stereotypy,wikidata
+Aspergillosis,"If you have ABPA, you may also take steroids",medlineplus
+Aspergillosis,It usually occurs in people with lung diseases or weakened immune systems,medlineplus
 Aspiration pneumonia,Cough,disease_ontology
 Aspiration pneumonia,Tachypnea,disease_ontology
 Aspiration pneumonitis,Bloody sputum,disease_ontology
@@ -581,21 +586,14 @@ Autism Spectrum Disorder,"It is called a ""spectrum"" disorder because people wi
 Autism Spectrum Disorder,Severely restricted interests,disease_ontology
 Autism Spectrum Disorder,Stimming,wikidata
 Autism Spectrum Disorder,Widespread abnormalities of social interactions and communication,disease_ontology
-Autoimmune Diseases,"And if you have one autoimmune disease, you are more likely to get another",medlineplus
-Autoimmune Diseases,"And some symptoms, such as muscle aches, are common in many other illnesses",medlineplus
-Autoimmune Diseases,But other illnesses can cause the same symptoms,medlineplus
-Autoimmune Diseases,"If you have an autoimmune disease, your immune system attacks the healthy cells of your organs and tissues by mistake",medlineplus
-Autoimmune Diseases,"Later on, you may have a remission, which means that your symptoms get better or disappear for a period of time",medlineplus
-Autoimmune Diseases,That's because many autoimmune diseases have similar symptoms,medlineplus
 Autoimmune lymphoproliferative syndrome,Hepatomegaly,wikidata
 Autoimmune lymphoproliferative syndrome,Lymphadenopathy,wikidata
 Autoimmune lymphoproliferative syndrome,Splenomegaly,wikidata
 Autoimmune thyroiditis,Chronic secondary musculoskeletal pain,wikidata
 Autoimmune thyroiditis,Fatigue,wikidata
+Autonomic Nervous System Disorders,"Problems can affect either part of the system, as in complex regional pain syndromes, or all of the system",medlineplus
 "Autosomal dominant cerebellar ataxia, deafness and narcolepsy",Deafness,wikidata
 "Autosomal dominant cerebellar ataxia, deafness and narcolepsy",Narcolepsy,wikidata
-B Vitamins,A lack of B12 or B6 can cause anemia,medlineplus
-B Vitamins,Not getting enough of certain B vitamins can cause diseases,medlineplus
 Babesiosis,Anemia described as malaria-like symptoms caused by a protozoan of genus babesia,disease_ontology
 Babesiosis,Anorexia,wikidata
 Babesiosis,Fatigue,wikidata
@@ -606,6 +604,7 @@ Babesiosis,Mild fevers,disease_ontology
 Babesiosis,Myalgia,wikidata
 Babesiosis,Nausea,wikidata
 Babesiosis,Vomiting,wikidata
+Back Injuries,The lower back is the most common site of back injuries and back pain,medlineplus
 Back Pain,Acute back pain comes on suddenly and usually lasts from a few days to a few weeks,medlineplus
 Back Pain,"Back pain can range from a dull, constant ache to a sudden, sharp pain",medlineplus
 Back Pain,Back pain is called chronic if it lasts for more than three months,medlineplus
@@ -675,6 +674,8 @@ Barth syndrome,Sensorineural hearing loss,wikidata
 Barth syndrome,X-linked recessive,wikidata
 Becker muscular dystrophy,Cardiomyopathy,wikidata
 Becker muscular dystrophy,Muscle weakness,wikidata
+Bed Bugs,"You may have no reaction to the bites, or you may have small marks or itching",medlineplus
+Behcet's Syndrome,"The most common symptoms are: More serious problems can include meningitis, blood clots, inflammation of the digestive system and blindness",medlineplus
 Behçet's disease,Abdominal pain,wikidata
 Behçet's disease,Acne,wikidata
 Behçet's disease,Aphthous stomatitis,wikidata
@@ -701,6 +702,8 @@ Bejel,Lymphadenopathy,wikidata
 Bejel,Periostitis,wikidata
 Bejel,Primary affect,wikidata
 Bejel,Scar,wikidata
+Bell's Palsy,Symptoms appear suddenly and are at their worst about 48 hours after they start,medlineplus
+Bell's Palsy,They can range from mild to severe and include: Scientists think that a viral infection makes the facial nerve swell or become inflamed,medlineplus
 Benign paroxysmal positional nystagmus,Dizziness,wikidata
 Benign paroxysmal positional nystagmus,Vertigo,wikidata
 Bile Duct Cancer,Abdominal pain,medlineplus
@@ -777,43 +780,28 @@ Blastomycosis,Skin lesions,disease_ontology
 Bleeding,"It can also be internal, or inside the body, like when you have an injury to an internal organ",medlineplus
 Bleeding,"Some people have a problem with clotting, due to another medical condition or an inherited disease",medlineplus
 Bleeding,There are two types of problems: Sometimes bleeding can cause other problems,medlineplus
-Blood,"If you lose too much blood, you may need a transfusion",medlineplus
-Blood,Platelets help blood to clot when you have a cut or wound,medlineplus
-Blood,"So if you have type A blood, it's either A positive or A negative",medlineplus
+Bleeding Disorders,"Bleeding disorders can be the result of other diseases, such as severe liver disease or a lack of vitamin K",medlineplus
+Bleeding Disorders,Hemophilia is an inherited bleeding disorder,medlineplus
+Bleeding Disorders,"If you have a bleeding disorder, you either do not have enough platelets or clotting factors or they don't work the way they should",medlineplus
+Bleeding Disorders,"Normally, if you get hurt, your body forms a blood clot to stop the bleeding",medlineplus
+Blisters,Blisters are fluid-filled sacs on the outer layer of your skin,medlineplus
+Blisters,Blisters often happen when there is friction - rubbing or pressure - on one spot,medlineplus
+Blisters,Blisters will usually heal on their own,medlineplus
+Blisters,"But if a blister is large, painful, or looks like it will pop on its own, you can drain the fluid",medlineplus
+Blisters,Make sure that there is no more rubbing or friction on the blister,medlineplus
+Blisters,Other names for blisters are vesicles (usually for smaller blisters) and bulla (for larger blisters),medlineplus
+Blisters,The skin over the blister helps keep out infections,medlineplus
+Blisters,What causes blisters?,medlineplus
+Blisters,You can put a bandage on the blister to keep it clean,medlineplus
 Blood Clots,"In an arm or leg: Sudden or gradual pain, swelling, tenderness, and warmth",medlineplus
 Blood Clots,"In the abdomen: Abdominal pain, nausea and vomiting",medlineplus
 Blood Clots,"In the brain: Trouble speaking, vision problems, seizures, weakness on one side of the body, and sudden severe headache",medlineplus
 Blood Clots,"In the heart: Chest pain, sweating, shortness of breath, and pain in the left arm",medlineplus
 Blood Clots,"In the lungs: Shortness of breath, pain with deep breathing, rapid breathing, and increased heart rate",medlineplus
 Blood Clots,"The symptoms for blood clots can be different, depending on where the blood clot is",medlineplus
-Blood Glucose,Blurred vision,medlineplus
-Blood Glucose,Dizziness,medlineplus
-Blood Glucose,Feeling thirsty,medlineplus
-Blood Glucose,Feeling tired or weak,medlineplus
-Blood Glucose,Headaches,medlineplus
-Blood Glucose,Hunger,medlineplus
-Blood Glucose,"If you have diabetes, you'll likely need to check your blood glucose every day to make sure that your blood glucose numbers are in your target range",medlineplus
-Blood Glucose,"If you have diabetes, your blood glucose target is the range you try to reach as much as possible",medlineplus
-Blood Glucose,"If you think you may have low blood glucose, check your level, even if you don't have symptoms",medlineplus
-Blood Glucose,Irritability or confusion,medlineplus
-Blood Glucose,Nervousness or anxiety,medlineplus
-Blood Glucose,"Over time, having too much glucose in your blood can cause serious health problems (diabetes complications)",medlineplus
-Blood Glucose,Shaking,medlineplus
-Blood Glucose,"So if you have diabetes, it's important to keep your blood glucose levels within your target range",medlineplus
-Blood Glucose,Sweating,medlineplus
-Blood Glucose,Urinating (peeing) often,medlineplus
-Blood Glucose,"When you have diabetes, your body doesn't make enough insulin, can't use it as well as it should, or both",medlineplus
-Blood Thinners,A cut that does not stop bleeding,medlineplus
-Blood Thinners,A serious fall or bump on the head,medlineplus
-Blood Thinners,Bleeding from the gums or nose that does not stop quickly,medlineplus
-Blood Thinners,Bowel movements that are red or black,medlineplus
-Blood Thinners,Coughing up something red,medlineplus
-Blood Thinners,Dizziness or weakness,medlineplus
-Blood Thinners,Menstrual bleeding that is much heavier than normal,medlineplus
-Blood Thinners,Red or brown urine,medlineplus
-Blood Thinners,"Severe pain, such as a headache or stomachache",medlineplus
-Blood Thinners,Unusual bruising,medlineplus
-Blood Thinners,Vomit that is brown or bright red,medlineplus
+Body Lice,"Body lice can spread diseases, such as typhus, trench fever, and relapsing fever",medlineplus
+Body Lice,How do you know if you have body lice?,medlineplus
+Body Lice,The itching causes some people to scratch until they get sores,medlineplus
 Bolivian hemorrhagic fever,Alopecia,wikidata
 Bolivian hemorrhagic fever,Arthralgia,disease_ontology
 Bolivian hemorrhagic fever,Bleeding,wikidata
@@ -826,9 +814,11 @@ Bolivian hemorrhagic fever,Headache,disease_ontology
 Bolivian hemorrhagic fever,Myalgia,disease_ontology
 Bolivian hemorrhagic fever,Nosebleed,wikidata
 Bolivian hemorrhagic fever,Rash,wikidata
+Bone Cancer,"Other symptoms vary, depending on the location and size of the cancer",medlineplus
 Bone Infections,Chills and fever,medlineplus
 Bone Infections,Pain in the infected area,medlineplus
 Bone Infections,"Swelling, warmth, and redness",medlineplus
+Bone Marrow Diseases,"The stem cells can develop into the red blood cells that carry oxygen through your body, the white blood cells that fight infections, and the platelets that help with blood clotting",medlineplus
 Borderline personality disorder,Anger,wikidata
 Borderline personality disorder,Dysphoria,wikidata
 Borderline personality disorder,Emotional dysregulation,wikidata
@@ -842,8 +832,6 @@ Borna disease,Cognitive disturbances,disease_ontology
 Borna disease,Mood disturbances,disease_ontology
 Borna disease,Movement impairment,disease_ontology
 Borna disease,Neurologic disturbances,disease_ontology
-Botox,"The most common side effects are pain, swelling, or bruising at the injection site",medlineplus
-Botox,"You could also have flu-like symptoms, headache, and upset stomach",medlineplus
 Botulism,Acute respiratory insufficiency,wikidata
 Botulism,Blurred vision,wikidata
 Botulism,Constipation,wikidata
@@ -879,11 +867,14 @@ Bovine tuberculosis,Dyspnea,wikidata
 Bovine tuberculosis,Infertility,wikidata
 Bovine tuberculosis,Weakness,wikidata
 Bovine tuberculosis,Weight loss,wikidata
+Bowel Incontinence,"When you feel the urge to have a bowel movement, you may not be able to hold it until you get to a toilet",medlineplus
+Brachial Plexus Injuries,"Damage to the brachial plexus can cause symptoms such as: Brachial plexus injuries can happen because of shoulder trauma, tumors, or inflammation",medlineplus
 Brain Aneurysm,Diplopia,wikidata
 Brain Aneurysm,"If a brain aneurysm presses on nerves in your brain, it can cause signs and symptoms",medlineplus
 Brain Aneurysm,Mental confusion,wikidata
 Brain Aneurysm,Peripheral neuropathy,wikidata
 Brain Aneurysm,Vomiting,wikidata
+Brain Tumors,Brain tumors can cause many symptoms,medlineplus
 Brain cancer,Back pain,wikidata
 Brain cancer,Chronic pain,wikidata
 Brain cancer,Convulsion,wikidata
@@ -996,21 +987,17 @@ Brucellosis,Physical weakness,disease_ontology
 Brucellosis,Splenomegaly,wikidata
 Brucellosis,Sweat,disease_ontology
 Brucellosis,Undulant fever,wikidata
+Bruises,Bone bruises are the most serious,medlineplus
+Bruises,Bruises are often painful and swollen,medlineplus
+Bruises,"It can take months for a bruise to fade, but most last about two weeks",medlineplus
+Bruises,"To reduce bruising, ice the injured area and elevate it above your heart",medlineplus
+Bruises,"You can get skin, muscle and bone bruises",medlineplus
 Bubonic plague,Chills,disease_ontology+wikidata
 Bubonic plague,Enlarged,disease_ontology
 Bubonic plague,Fever,disease_ontology
 Bubonic plague,Prostration,disease_ontology+wikidata
-Bullying and Cyberbullying,"Depression, loneliness, or anxiety",medlineplus
-Bullying and Cyberbullying,"Disliking school, not wanting to go to school, or getting worse grades than before",medlineplus
-Bullying and Cyberbullying,"Headaches, stomachaches, or poor eating habits",medlineplus
-Bullying and Cyberbullying,"Lost or destroyed clothing, books, electronics, or jewelry",medlineplus
-Bullying and Cyberbullying,Low self-esteem,medlineplus
-Bullying and Cyberbullying,"Self-destructive behaviors, such as running away from home, harming themselves, or talking about suicide",medlineplus
-Bullying and Cyberbullying,So it is important to know the signs of a bullying problem,medlineplus
-Bullying and Cyberbullying,So it is important to know the signs of a bullying problem: How do you help someone who is being bullied?,medlineplus
-Bullying and Cyberbullying,Sudden loss of friends or avoidance of social situations,medlineplus
-Bullying and Cyberbullying,Trouble sleeping or frequent nightmares,medlineplus
-Bullying and Cyberbullying,Unexplained injuries,medlineplus
+Burns,"There are three types of burns: Burns can cause swelling, blistering, scarring and, in serious cases, shock, and even death",medlineplus
+Bursitis,He or she may also take fluid from the swollen area to be sure the problem isn't an infection,medlineplus
 Buruli ulcer disease,Necrosis,wikidata
 Buruli ulcer disease,Nodule,disease_ontology
 C. diff Infections,Abdominal pain,wikidata
@@ -1074,21 +1061,6 @@ COVID-19 (Coronavirus Disease 2019),Psychosis,wikidata
 COVID-19 (Coronavirus Disease 2019),Respiratory failure,wikidata
 COVID-19 (Coronavirus Disease 2019),Thromboinflammation,wikidata
 COVID-19 (Coronavirus Disease 2019),Viral pneumonia,wikidata
-CT Scans,"For some CT scans, you may receive a contrast material",medlineplus
-CT Scans,You may be asked not to eat or drink for a few hours before the scan,medlineplus
-CT Scans,You may be asked to change clothes and remove jewelry or other items that could interfere with the scan,medlineplus
-CT Scans,You may be asked to hold your breath for short periods,medlineplus
-CT Scans,You may hear whirring sounds during the scan,medlineplus
-Caffeine,Drowsiness,medlineplus
-Caffeine,Headaches,medlineplus
-Caffeine,"If you have been consuming caffeine on a regular basis and then suddenly stop, you may have caffeine withdrawal",medlineplus
-Caffeine,Irritability,medlineplus
-Caffeine,Nausea,medlineplus
-Caffeine,Trouble concentrating,medlineplus
-Caffeine,You may continue to feel the effects of caffeine for four to six hours,medlineplus
-Calcium,"Calcium has many important jobs: Not getting enough calcium can cause several conditions, including: How do I get calcium?",medlineplus
-Calcium,You have more calcium in your body than any other mineral,medlineplus
-Calcium,"You may be able to get enough calcium by eating a variety of foods, including: Calcium is available in supplements",medlineplus
 Campylobacter Infections,Abdominal pain,medlineplus
 Campylobacter Infections,Cramping,medlineplus
 Campylobacter Infections,Diarrhea (which could be bloody),medlineplus
@@ -1101,44 +1073,15 @@ Campylobacteriosis,Abdominal cramps and pain,disease_ontology
 Campylobacteriosis,Diarrhea or,disease_ontology
 Campylobacteriosis,Dysentery,disease_ontology
 Campylobacteriosis,Fever,disease_ontology
-Cancer,A lump in your breast,medlineplus
-Cancer,A new mole or a change to a mole you already have,medlineplus
-Cancer,A sore that doesn't heal,medlineplus
-Cancer,"Ask about your family health history, including relatives who have had cancer",medlineplus
-Cancer,Ask about your medical history,medlineplus
-Cancer,Bleeding or bruising for no known reason,medlineplus
-Cancer,Blood in your urine (pee) or stool (poop),medlineplus
-Cancer,Cancer symptoms depend on the type of cancer,medlineplus
-Cancer,Do a physical exam,medlineplus
-Cancer,Trouble swallowing,medlineplus
-Cancer Immunotherapy,"Other side effects may include flu-like symptoms or, rarely, severe reactions",medlineplus
-Cancer Immunotherapy,"When you have cancer, some of your cells begin to multiply without stopping, and old cells don't die when they should",medlineplus
-Cancer Immunotherapy,You may have side effects,medlineplus
-Cancer in Children,Chemotherapy,medlineplus
-Cancer in Children,"Childhood cancers may happen suddenly, without early symptoms",medlineplus
-Cancer in Children,Radiation therapy,medlineplus
-Cancer in Children,Stem cell transplants,medlineplus
-Cancer in Children,"Targeted therapy, which uses drugs or other substances that attack specific cancer cells with less harm to normal cells",medlineplus
-Cancer--Living with Cancer,"Along with doctors and nurses, you may be able to talk with social workers, pharmacists, dietitians, and other health professionals",medlineplus
-Cancer--Living with Cancer,And you may need their help doing things you've always done for yourself,medlineplus
-Cancer--Living with Cancer,Good communication with your providers may help you feel more in control and satisfied with your care,medlineplus
 Canker Sores,"Avoiding hot, spicy food while you have a canker sore also helps",medlineplus
 Canker Sores,"Some ointments, creams or rinses may help with the pain",medlineplus
 Canker Sores,They may happen if you have a viral infection,medlineplus
-Cannabis,Anxiety,medlineplus
-Cannabis,Cannabis can cause short-term and long-term effects,medlineplus
-Cannabis,Cravings,medlineplus
-Cannabis,Decreased appetite,medlineplus
-Cannabis,"In rare cases, an overdose can cause paranoia and hallucinations",medlineplus
-Cannabis,Irritability,medlineplus
-Cannabis,The plant contains chemicals that affect the brain and can change how you feel or think,medlineplus
-Cannabis,Trouble sleeping,medlineplus
-Cannabis,"When you try to quit, you may have mild withdrawal symptoms such as: What is medical cannabis?",medlineplus
-Cannabis,You may feel anxious or panicked or have a rapid heartbeat,medlineplus
+Carbohydrate Metabolism Disorders,"If you have a metabolic disorder, something goes wrong with this process",medlineplus
 Carbon Monoxide Poisoning,A CO detector can warn you if you have high levels of CO in your home,medlineplus
 Carbon Monoxide Poisoning,It can cause sudden illness and death,medlineplus
 Carbon Monoxide Poisoning,People who are sleeping or intoxicated can die from CO poisoning before they have symptoms,medlineplus
 Carcinoid Tumors,In later stages the tumors sometimes produce hormones that can cause carcinoid syndrome,medlineplus
+Carcinoid Tumors,"The syndrome causes flushing of the face and upper chest, diarrhea, and trouble breathing",medlineplus
 Carcinoid Tumors,They grow slowly and don't produce symptoms in the early stages,medlineplus
 Cardiac tamponade,Cough,wikidata
 Cardiac tamponade,Dyspnea,wikidata
@@ -1148,10 +1091,6 @@ Cardiovascular disease,Chest pain,wikidata
 Cardiovascular disease,Dyspnea,wikidata
 Cardiovascular disease,Fatigue,wikidata
 Cardiovascular disease,Unconsciousness,wikidata
-Caregivers,"Because when you feel better, you can take better care of your loved one",medlineplus
-Caregivers,Or they may have a chronic illness such as Alzheimer's disease or cancer,medlineplus
-Caregivers,You have to take care of your own physical and mental health as well,medlineplus
-Caregivers,You may feel fulfillment from helping someone else,medlineplus
 Carotid Artery Disease,Carotid artery disease often does not cause symptoms until the blockage or narrowing is severe,medlineplus
 Carotid Artery Disease,"If you have carotid artery disease, the arteries become narrow or blocked, usually because of atherosclerosis",medlineplus
 Carotid Artery Disease,Stroke is another sign,medlineplus
@@ -1165,6 +1104,8 @@ Carpal Tunnel Syndrome,Start slowly in your dominant hand (the one you write wit
 Carpal Tunnel Syndrome,"Tingling, pain, or weakness with certain activities, such as driving or holding a phone",medlineplus
 Carpal Tunnel Syndrome,Wrist pain,wikidata
 Carpal Tunnel Syndrome,"You may feel numbness, tingling or burning in your fingers, especially in your thumb, index, and middle fingers",medlineplus
+Cartilage Disorders,"Injured, inflamed, or damaged cartilage can cause symptoms such as pain and limited movement",medlineplus
+Cat Scratch Disease,"However, the scratch or bite of an infected cat can cause symptoms in people, including : For people with weak immune systems, CSD may cause more serious problems",medlineplus
 Cat-scratch disease,Abdominal pain,disease_ontology
 Cat-scratch disease,Backache,disease_ontology
 Cat-scratch disease,Chills,disease_ontology+wikidata
@@ -1294,7 +1235,9 @@ Chapare hemorrhagic fever,Arthralgia,wikidata
 Chapare hemorrhagic fever,Bleeding,wikidata
 Chapare hemorrhagic fever,Shock,wikidata
 Chapare hemorrhagic fever,Vomiting,wikidata
+Charcot-Marie-Tooth Disease,"As CMT progresses, your lower legs may weaken",medlineplus
 Charcot-Marie-Tooth Disease,Foot problems such as high arches or hammertoes can be early symptoms,medlineplus
+Charcot-Marie-Tooth Disease,"Later, your hands may also become weak",medlineplus
 Charcot-Marie-Tooth Disease,The disease can be so mild you don't realize you have it or severe enough to make you weak,medlineplus
 Charcot–Marie–Tooth disease,Hyporeflexia,wikidata
 Charcot–Marie–Tooth disease,Muscle atrophy,wikidata
@@ -1302,6 +1245,7 @@ Charcot–Marie–Tooth disease,Muscle weakness,wikidata
 Charcot–Marie–Tooth disease,Pes cavus,wikidata
 Charcot–Marie–Tooth disease,Scoliosis,wikidata
 Charcot–Marie–Tooth disease,Sensory loss,wikidata
+Chest Injuries and Disorders,"Your chest holds many important structures for breathing, digestion, blood circulation, and other important body functions",medlineplus
 Chest Pain,"Get immediate medical care if you have chest pain that does not go away, crushing pain or pressure in the chest, or chest pain along with nausea, sweating, dizziness or shortness of breath",medlineplus
 Chest Pain,Having a pain in your chest can be scary,medlineplus
 Chickenpox,Anorexia,disease_ontology
@@ -1348,12 +1292,7 @@ Child Behavior Disorders,"Harming or threatening themselves, other people or pet
 Child Behavior Disorders,Lying or stealing,medlineplus
 Child Behavior Disorders,"Not doing well in school, skipping school",medlineplus
 Child Behavior Disorders,"Warning signs can include: If you see signs of a problem, ask for help",medlineplus
-Childbirth,Abdominal (belly) cramps,medlineplus
-Childbirth,Leaking fluid or bleeding from the vagina,medlineplus
-Childbirth,"Low, dull backache",medlineplus
-Childbirth,Regular contractions start to come closer together,medlineplus
-Childbirth,"Signs that you might be going into labor include: The signs of labor, when labor starts, and the time it takes to deliver your baby can vary with each pregnancy",medlineplus
-Childbirth,"The amount of pain during childbirth can vary based on the size and position of the baby, your level of comfort with the process, and the strength of your contractions",medlineplus
+Childbirth Problems,"But if the heart rate gets very fast or very slow, it can be a sign that your baby is not getting enough oxygen or that there are other problems",medlineplus
 Childhood Brain Tumors,Childhood brain and spinal cord tumors can cause headaches and other symptoms,medlineplus
 Childhood Brain Tumors,"However, other conditions can also cause the same symptoms",medlineplus
 Childhood Leukemia,Chronic leukemia may not cause symptoms at first,medlineplus
@@ -1372,12 +1311,15 @@ Chlamydia Infections,"It often doesn't cause symptoms, so people may not know th
 Chlamydia Infections,PID can cause permanent damage to your reproductive system,medlineplus
 Chlamydia Infections,So you may not realize that you have it,medlineplus
 Chlamydia Infections,You are more likely to get infected with chlamydia if you don't consistently use a condom or if you have multiple partners,medlineplus
+Choking,Food or small objects can cause choking if they get caught in your throat and block your airway,medlineplus
+Cholera,Cholera is a bacterial infection that causes diarrhea,medlineplus
 Cholera,Cyanosis,wikidata
 Cholera,Dehydration,wikidata
 Cholera,Diarrhea,wikidata
 Cholera,Discomfort,wikidata
 Cholera,Hypotension,wikidata
 Cholera,Hypovolemia,wikidata
+Cholera,"In some cases, the infection can be severe, causing lots of watery diarrhea, vomiting, and leg cramps",medlineplus
 Cholera,Muscle cramp,wikidata
 Cholera,Oliguria,wikidata
 Cholera,Some people don't have any symptoms,medlineplus
@@ -1457,6 +1399,9 @@ Chronic obstructive pulmonary disease,Wheeze,wikidata
 Churg-Strauss syndrome,Asthma along with hay fever,disease_ontology
 Churg-Strauss syndrome,Bleeding,wikidata
 Churg-Strauss syndrome,Gastrointestinal bleeding,wikidata
+Cirrhosis,Cirrhosis can lead to : A small number of people with cirrhosis get liver cancer,medlineplus
+Cirrhosis,"If too much scar tissue forms, you may need to consider a liver transplant",medlineplus
+Cleft Lip and Palate,"Babies may have both the front and back parts of the palate open, or they may have only one part open",medlineplus
 Clonorchiasis,Abdominal pain,wikidata
 Clonorchiasis,Ascending cholangitis,wikidata
 Clonorchiasis,Cancer,wikidata
@@ -1468,20 +1413,19 @@ Clonorchiasis,Hepatitis,wikidata
 Clonorchiasis,Jaundice,wikidata
 Clonorchiasis,Liver cirrhosis,wikidata
 Clonorchiasis,Nausea,wikidata
-Cocaine,Bad dreams and insomnia,medlineplus
-Cocaine,Depression,medlineplus
-Cocaine,Fatigue,medlineplus
-Cocaine,"If someone who is dependent on cocaine stops using it, they will have withdrawal symptoms",medlineplus
-Cocaine,"In some cases, cocaine can cause very serious health problems such as a heart attack, stroke, or coma",medlineplus
-Cocaine,Increased appetite,medlineplus
-Cocaine,Restlessness,medlineplus
-Cocaine,Slowed thinking,medlineplus
 Cogan syndrome,Fatigue,disease_ontology
 Cogan syndrome,Fever,disease_ontology
+Cold Sores,But others develop painful and unsightly cold sores,medlineplus
+Cold Sores,"Cold sores usually occur outside the mouth, on or around the lips",medlineplus
+Cold Sores,There is no cure for cold sores,medlineplus
+Cold Sores,"Type 1 usually causes oral herpes, or cold sores",medlineplus
 Collapsed Lung,A chest x-ray can tell if you have it,medlineplus
 Collapsed Lung,"If a large area is affected, you may feel short of breath and have a rapid heart rate",medlineplus
+Colonic Diseases,"It's a long, hollow tube at the end of your digestive tract where your body makes and stores stool",medlineplus
 Colonic Polyps,"If you have symptoms, they may include blood on your underwear or on toilet paper after a bowel movement, blood in your stool, or constipation or diarrhea lasting more than a week",medlineplus
 Colonic Polyps,You may have a greater chance of getting polyps if you : Most colon polyps do not cause symptoms,medlineplus
+Color Blindness,Red-green color vision defects are the most common,medlineplus
+Color Blindness,We enjoy looking at a lush green lawn or a red rose in full bloom,medlineplus
 Colorado tick fever,Abdominal pain,wikidata
 Colorado tick fever,Chills,wikidata
 Colorado tick fever,Encephalitis,wikidata
@@ -1602,19 +1546,21 @@ Congenital rubella syndrome,Cataract,wikidata
 Congenital rubella syndrome,Deafness,wikidata
 Congenital rubella syndrome,Diabetes,wikidata
 Congenital rubella syndrome,Glaucoma,wikidata
-Coping with Chronic Illness,"You may not be able to work, causing financial problems",medlineplus
-Coping with Chronic Illness,You may often be tired and in pain,medlineplus
-Coping with Chronic Illness,"You will find that you are not alone, and you may learn some new tips on how to cope",medlineplus
-Coping with Disasters,Many people have short tempers and get angry easily,medlineplus
-Coping with Disasters,"No matter how well you have prepared, you might feel dazed or numb after going through a disaster",medlineplus
-Coping with Disasters,"You may also feel sad, helpless, or anxious",medlineplus
-Coping with Disasters,You may avoid places or people that remind you of the disaster,medlineplus
+Constipation,"At one time or another, almost everyone gets constipated",medlineplus
+Constipation,Constipation means having fewer than three bowel movements a week,medlineplus
+Constipation,Sometimes it is painful to pass,medlineplus
+Constipation,The stool (poop) can be hard and dry,medlineplus
+Constipation,They include: It's not important that you have a bowel movement every day,medlineplus
 Coronary Artery Disease,"Chest pain, pressure, tightness, or discomfort that may spread to your neck, jaw, shoulder or arm",medlineplus
 Coronary Artery Disease,Feeling unusually fatigued,medlineplus
 Coronary Artery Disease,Shortness of breath,medlineplus
 Coronary Artery Disease,This may be a sign of a heart attack,medlineplus
-Cosmetics,Cosmetics can cause allergic reactions,medlineplus
-Cosmetics,The first sign is often red and irritated skin,medlineplus
+Cough,"Acute coughs are the kind you most often get with a cold, flu, or acute bronchitis",medlineplus
+Cough,Acute coughs begin suddenly and usually last no more than 2 to 3 weeks,medlineplus
+Cough,"Although it can be annoying, coughing helps your body heal or protect itself",medlineplus
+Cough,Chronic coughs last longer than 2 to 3 weeks,medlineplus
+Cough,Coughing is a reflex that keeps your throat and airways clear,medlineplus
+Cough,Coughs can be either acute or chronic,medlineplus
 Cowpox,Low-grade fever,wikidata
 Cowpox,Vesicle,wikidata
 Creutzfeldt-Jakob disease,Acalculia,wikidata
@@ -1705,10 +1651,14 @@ Crohn's colitis,Formation of ulcers,disease_ontology
 Crohn's colitis,Inflammation,wikidata
 Crohn's colitis,Rectal bleeding,disease_ontology
 Crohn's colitis,Skin lesions,disease_ontology
+Croup,"But then the vocal cords and windpipe become swollen, causing the hoarseness and the cough",medlineplus
 Croup,Cough,wikidata
 Croup,Hoarseness,wikidata
+Croup,"It causes difficulty breathing, a barking cough, and a hoarse voice",medlineplus
+Croup,"Rarely, croup can become serious and interfere with your child's breathing",medlineplus
 Croup,Stridor,wikidata
 Croup,"The symptoms are usually worse at night, and last for about three to five days",medlineplus
+Croup,There may also be a fever and high-pitched noisy sounds when breathing,medlineplus
 Croup,They may also have more severe symptoms,medlineplus
 Cryptogenic organizing pneumonia,Inflammation,wikidata
 Cryptogenic organizing pneumonia,Weight loss,wikidata
@@ -1776,11 +1726,16 @@ Cystoisosporiasis,Abdominal pain,wikidata
 Cystoisosporiasis,Dehydration,wikidata
 Cystoisosporiasis,Diarrhea,wikidata
 Cystoisosporiasis,Weight loss,wikidata
+Cytomegalovirus Infections,But infection with the virus can be serious in babies and people with weak immune systems,medlineplus
 Dacryocystitis,Conjunctivitis,disease_ontology
 Dacryocystitis,Purulent discharge,disease_ontology
+"Dandruff, Cradle Cap, and Other Scalp Conditions",Dandruff may make your scalp feel itchy,medlineplus
+"Dandruff, Cradle Cap, and Other Scalp Conditions",It is a skin condition that can also cause redness and irritation of the skin,medlineplus
+"Dandruff, Cradle Cap, and Other Scalp Conditions","Unless you have hair loss, hair grows on your scalp",medlineplus
 Deep Vein Thrombosis,Pain or swelling in the part of the body affected,medlineplus
 Deep Vein Thrombosis,Skin redness,medlineplus
 Deep Vein Thrombosis,Warmth and tenderness over the vein,medlineplus
+Degenerative Nerve Diseases,"Degenerative nerve diseases affect many of your body's activities, such as balance, movement, talking, breathing, and heart function",medlineplus
 Dehydration,A high fever,medlineplus
 Dehydration,Being unusually sleepy or drowsy,medlineplus
 Dehydration,Confusion,medlineplus
@@ -1859,12 +1814,6 @@ Dengue shock syndrome,Easy bruising,disease_ontology
 Dengue shock syndrome,Hypotension,wikidata
 Dengue shock syndrome,Nosebleeds,disease_ontology
 Dengue shock syndrome,Shock,wikidata
-Dentures,"Also, you may not notice biting on a bone from your food",medlineplus
-Dentures,Dentures are false teeth made to replace teeth you have lost,medlineplus
-Dentures,Dentures may feel strange at first,medlineplus
-Dentures,"Keep your dentures clean and free from food that can cause stains, bad breath, or swollen gums",medlineplus
-Dentures,"Over time, your mouth will change and you may need to have your dentures adjusted or replaced",medlineplus
-Dentures,Speaking and eating may feel different,medlineplus
 Depersonalization-derealization disorder,Depersonalization,wikidata
 Depersonalization-derealization disorder,Derealization,wikidata
 Depersonalization-derealization disorder,Dissociation,wikidata
@@ -1903,6 +1852,11 @@ Diabetes,Polyphagia,wikidata
 Diabetes,Polyuria,wikidata
 Diabetes,Sores that do not heal,medlineplus
 Diabetes,"Urinating (peeing) more often, including at night",medlineplus
+Diabetes Insipidus,Hyposthenuria,wikidata
+Diabetes Insipidus,Nocturia,wikidata
+Diabetes Insipidus,Polydipsia,wikidata
+Diabetes Insipidus,Polyuria,wikidata
+Diabetes Insipidus,"You become extremely thirsty, so you drink",medlineplus
 Diabetes Type 1,Feeling very hungry,medlineplus
 Diabetes Type 1,Feeling very thirsty,medlineplus
 Diabetes Type 1,Having blurry vision,medlineplus
@@ -1926,16 +1880,6 @@ Diabetes Type 2,Unexplained weight loss,medlineplus
 Diabetes and Pregnancy,"But if you have an increased chance of developing gestational diabetes, you may be tested during your first prenatal visit",medlineplus
 Diabetes and Pregnancy,"If you have diabetes, your blood glucose, or blood sugar, levels are too high",medlineplus
 Diabetes and Pregnancy,You may be able to manage them with a healthy diet and regular physical activity,medlineplus
-Diabetes insipidus,Hyposthenuria,wikidata
-Diabetes insipidus,Nocturia,wikidata
-Diabetes insipidus,Polydipsia,wikidata
-Diabetes insipidus,Polyuria,wikidata
-Diabetic Diet,"If you have diabetes, it's important to eat the right amount of food every day",medlineplus
-Diabetic Diet,"If you have diabetes, your blood glucose, or blood sugar, levels are too high",medlineplus
-Diabetic Diet,"If you have prediabetes, you are more likely to develop type 2 diabetes",medlineplus
-Diabetic Diet,"If you take insulin, you may need to learn how to count carbs to help you know how much insulin to take",medlineplus
-Diabetic Diet,"To keep your blood glucose under control, you may need to cut back on certain foods and drinks",medlineplus
-Diabetic Diet,"Whether you have type 1 or type 2 diabetes, making the right food choices is an important way to keep your blood glucose at a level that is healthy for you",medlineplus
 Diabetic Eye Problems,"A dark shadow over part of your vision, like a curtain",medlineplus
 Diabetic Eye Problems,Blurry or wavy vision,medlineplus
 Diabetic Eye Problems,Eye pain or redness,medlineplus
@@ -1998,14 +1942,6 @@ Dicrocoeliasis,Xerostomia,wikidata
 Dientamoebiasis,Abdominal cramps,wikidata
 Dientamoebiasis,Diarrhea,wikidata
 Dientamoebiasis,Nausea,wikidata
-Dietary Fiber,"Good sources of dietary fiber include: Dietary fiber adds bulk to your diet and makes you feel full faster, helping you control your weight",medlineplus
-Dietary Fiber,You may also see it listed on a food label as soluble fiber or insoluble fiber,medlineplus
-Digestive Diseases,Blood in your stool,medlineplus
-Digestive Diseases,Changes in bowel habits,medlineplus
-Digestive Diseases,Heartburn not relieved by antacids,medlineplus
-Digestive Diseases,Severe abdominal pain,medlineplus
-Digestive Diseases,The symptoms vary widely depending on the problem,medlineplus
-Digestive Diseases,Unintentional weight loss,medlineplus
 Diphtheria,Barking cough,wikidata
 Diphtheria,Fever,medlineplus+wikidata
 Diphtheria,Heart failure,wikidata
@@ -2028,14 +1964,13 @@ Dipsogenic diabetes insipidus,Xerostomia,wikidata
 Dirofilariasis,Chills,wikidata
 Dirofilariasis,Cough,wikidata
 Dirofilariasis,Fever,wikidata
-Disaster Preparation and Recovery,"Make sure you have the insurance you need, including special types, like flood insurance",medlineplus
-Disaster Preparation and Recovery,You should know the risks and danger signs of different types of disasters,medlineplus
 Dislocated Shoulder,Muscle spasms in your shoulder,medlineplus
 Dislocated Shoulder,"Numbness and/or weakness in your arm, neck, hand, or fingers",medlineplus
 Dislocated Shoulder,Severe shoulder pain,medlineplus
 Dislocated Shoulder,Swelling and bruising of your shoulder or upper arm,medlineplus
 Dislocated Shoulder,Trouble moving your arm,medlineplus
 Dislocated Shoulder,Your arm seems to be out of place,medlineplus
+Dislocations,"Dislocated joints often are swollen, very painful and visibly out of place",medlineplus
 Dislocations,"If you have one, seek medical attention",medlineplus
 Dislocations,You may not be able to move it,medlineplus
 Dissociative identity disorder,Amnesia,wikidata
@@ -2064,6 +1999,9 @@ Diverticulosis and Diverticulitis,Most of those people will not have symptoms or
 Diverticulosis and Diverticulitis,Most people who have diverticulosis do not have symptoms or problems,medlineplus
 Diverticulosis and Diverticulitis,Nausea or vomiting,medlineplus
 Diverticulosis and Diverticulitis,Probiotics,medlineplus
+Dizziness and Vertigo,What causes dizziness and vertigo?,medlineplus
+Dizziness and Vertigo,What is dizziness and vertigo?,medlineplus
+Dizziness and Vertigo,"You may also have nausea, vomiting, sweating, trouble walking, or ringing in your ears",medlineplus
 Down Syndrome,A flat face,medlineplus
 Down Syndrome,A short neck,medlineplus
 Down Syndrome,And people with Down syndrome may have different problems at different times of their lives,medlineplus
@@ -2120,6 +2058,8 @@ Duchenne muscular dystrophy,Muscular atrophy,wikidata
 Dumping syndrome,Diarrhea,wikidata
 Dumping syndrome,Hypoglycemia,wikidata
 Dumping syndrome,Vomiting,wikidata
+Dwarfism,"Achondroplasia is a genetic condition that affects about 1 in 15,000 to 1 in 40,000 people",medlineplus
+Dwarfism,Achondroplasia is the most common type of dwarfism,medlineplus
 Dwarfism,More than 300 different conditions can cause dwarfism,medlineplus
 Dwarfism,You may also have a larger head and weak muscle tone,medlineplus
 E. coli Infections,Fatigue,medlineplus
@@ -2241,6 +2181,10 @@ Ectopic Pregnancy,Shoulder pain,medlineplus
 Ectopic Pregnancy,"They may do a pelvic exam to check for areas of pain, tenderness, or a mass",medlineplus
 Ectopic Pregnancy,Vaginal bleeding,medlineplus
 Ectopic Pregnancy,You may not notice any symptoms at first,medlineplus
+Eczema,Eczema is a term for several different types of skin swelling,medlineplus
+Eczema,"Most types cause dry, itchy skin and rashes on the face, inside the elbows and behind the knees, and on the hands and feet",medlineplus
+Eczema,People who have it may also develop hay fever and asthma,medlineplus
+Eczema,"Scratching the skin can cause it to turn red, and to swell and itch even more",medlineplus
 Eczema herpeticum,Fever,disease_ontology
 Eczema herpeticum,Swelling of the lymph nodes,disease_ontology
 Eczema herpeticum,Watery blisters,disease_ontology
@@ -2259,6 +2203,7 @@ Ehrlichiosis,Muscle aches,disease_ontology
 Ehrlichiosis,Myalgia,wikidata
 Ehrlichiosis,Nausea,wikidata
 Ehrlichiosis,Rash,disease_ontology
+Elbow Injuries and Disorders,You may also get tendinitis from overuse of the elbow,medlineplus
 Electrical Injuries,You may have internal damage and not realize it,medlineplus
 Electrical Injuries,You may have one or both types,medlineplus
 Emery-Dreifuss muscular dystrophy,Heart arrhythmia,wikidata
@@ -2352,11 +2297,7 @@ Enlarged Prostate (BPH),Urinary incontinence,medlineplus
 Enlarged Prostate (BPH),Urine with an unusual color or smell,medlineplus
 Enlarged Prostate (BPH),Waking up many times to urinate,medlineplus
 Enlarged Prostate (BPH),Widen the urethra,medlineplus
-Enterobiasis,Abdominal pain,wikidata
-Enterobiasis,Asthenia,wikidata
-Enterobiasis,Constipation,wikidata
-Enterobiasis,Irritability,wikidata
-Enterobiasis,Itch,wikidata
+Eosinophilic Disorders,Normally your blood doesn't have a large number of eosinophils,medlineplus
 Eosinophilic Esophagitis,Abdominal pain,medlineplus
 Eosinophilic Esophagitis,Chest pain,medlineplus
 Eosinophilic Esophagitis,Feeding problems,medlineplus
@@ -2405,7 +2346,9 @@ Epidemic typhus,Severe muscle pain,disease_ontology
 Epidemic typhus,Stupor,disease_ontology
 Epidemic typhus,Thrombosis,wikidata
 Epidemic typhus,Tremor,wikidata
+Epilepsy,Epilepsy is a brain disorder that causes people to have recurring seizures,medlineplus
 Epilepsy,People may have strange sensations and emotions or behave strangely,medlineplus
+Epilepsy,"The seizures happen when clusters of nerve cells, or neurons, in the brain send out the wrong signals",medlineplus
 Epilepsy,They may have violent muscle spasms or lose consciousness,medlineplus
 Episcleritis periodica fugax,Inflammation,wikidata
 Episcleritis periodica fugax,Pain,disease_ontology
@@ -2433,6 +2376,7 @@ Erysipelothrix rhusiopathiae infectious disease,Low-grade fever,wikidata
 Erysipelothrix rhusiopathiae infectious disease,Lymphadenopathy,wikidata
 Erysipelothrix rhusiopathiae infectious disease,Lymphangitis,wikidata
 Erysipelothrix rhusiopathiae infectious disease,Papule,wikidata
+Esophageal Cancer,Early esophageal cancer usually does not cause symptoms,medlineplus
 Esophageal tuberculosis,Chest pain,disease_ontology
 Esophageal tuberculosis,Cough,disease_ontology
 Esophageal tuberculosis,Dysphagia,disease_ontology+wikidata
@@ -2464,17 +2408,9 @@ Exanthema subitum,Sudden high fever,disease_ontology
 Extrinsic allergic alveolitis,Allergic response,wikidata
 Extrinsic allergic alveolitis,Chills,wikidata
 Extrinsic allergic alveolitis,Weight loss,wikidata
-Eye Diseases,A sudden change in vision,medlineplus
-Eye Diseases,But some eye conditions or diseases don't have any symptoms and can lead to a permanent loss of vision,medlineplus
-Eye Diseases,Double vision,medlineplus
-Eye Diseases,Everything looks dim,medlineplus
-Eye Diseases,Eye pain,medlineplus
-Eye Diseases,Flashes of light,medlineplus
-Eye Diseases,Fluid coming from your eye,medlineplus
-Eye Diseases,Inflammation (swelling),medlineplus
-Eye Diseases,Some eye conditions and diseases do not always have symptoms,medlineplus
 Eye Injuries,"If you play sports or work in certain jobs, you may need protection",medlineplus
 Eye Injuries,"With chemicals, the pain may cause you to close your eyes",medlineplus
+Eye Movement Disorders,"If you have a problem with the muscles, the eyes don't work properly",medlineplus
 Eyelid Disorders,Blurry vision,medlineplus
 Eyelid Disorders,Burning or stinging,medlineplus
 Eyelid Disorders,Feeling like something is in your eye,medlineplus
@@ -2494,6 +2430,7 @@ Fabry disease,Peripheral neuropathy,wikidata
 Fabry disease,Restrictive cardiomyopathy,wikidata
 Fabry disease,Vertigo,wikidata
 Facial Injuries and Disorders,Face injuries and disorders can cause pain and affect how you look,medlineplus
+Facial Injuries and Disorders,"In severe cases, they can affect sight, speech, breathing and your ability to swallow",medlineplus
 Facial Injuries and Disorders,They can cause underdeveloped or unusually prominent facial features or a lack of facial expression,medlineplus
 Facial paralysis,Dormancy,wikidata
 Facial paralysis,Dysgeusia,wikidata
@@ -2506,6 +2443,10 @@ Facioscapulohumeral muscular dystrophy,Muscle weakness,wikidata
 Facioscapulohumeral muscular dystrophy,Winged scapula,wikidata
 Factor VII deficiency,Bleeding,wikidata
 Factor VII deficiency,Epistaxis,disease_ontology
+Fainting,Fainting is a temporary loss of consciousness,medlineplus
+Fainting,"Fainting is usually nothing to worry about, but it can sometimes be a sign of a serious problem",medlineplus
+Fainting,"Fainting usually happens when your blood pressure drops suddenly, causing a decrease in blood flow to your brain",medlineplus
+Fainting,"If you're about to faint, you'll feel dizzy, lightheaded, or nauseous",medlineplus
 Familial Mediterranean fever,Abdominal pain,wikidata
 Familial Mediterranean fever,Chest pain,wikidata
 Familial Mediterranean fever,Fever,wikidata
@@ -2554,13 +2495,27 @@ Fatal insomnia,Insomnia,wikidata
 Fatal insomnia,Panic attack,wikidata
 Fatal insomnia,Phobia,wikidata
 Fatigue,But sometimes it can be a sign of a mental or physical condition,medlineplus
+Fatigue,"Fatigue can be a normal response to physical activity, emotional stress, boredom, or lack of sleep",medlineplus
+Fatigue,"Fatigue is a feeling of weariness, tiredness, or lack of energy",medlineplus
 Fatigue,Fatigue itself is not a disease; it's a symptom,medlineplus
+Fatigue,"Instead, the fatigue in ME/CFS lasts a long time, does not get better with rest, and limits your ability to do ordinary daily activities",medlineplus
+Fatigue,They can help you find out what's causing your fatigue and recommend ways to relieve it,medlineplus
+Fatigue,What can I do to manage fatigue?,medlineplus
+Fatigue,What causes fatigue?,medlineplus
+Fatigue,What is fatigue?,medlineplus
+Fatigue,You can also make some lifestyle changes to feel less tired: It also may be helpful for you to keep a fatigue diary,medlineplus
 Felty's syndrome,Intermittent fever,wikidata
 Felty's syndrome,Leukopenia,wikidata
 Felty's syndrome,Rheumatoid arthritis,wikidata
 Felty's syndrome,Splenomegaly,wikidata
+Fetal Alcohol Spectrum Disorders,Drinking during pregnancy can cause a group of conditions called fetal alcohol spectrum disorders (FASDs),medlineplus
+Fever,A fever is a body temperature that is higher than normal,medlineplus
+Fever,A fever is not a disease,medlineplus
 Fever,"But if you have a fever, it is harder for them to survive",medlineplus
+Fever,Fever also activates your body's immune system,medlineplus
+Fever,Infections cause most fevers,medlineplus
 Fever,It is usually a sign that your body is trying to fight an illness or infection,medlineplus
+Fever,You get a fever because your body is trying to kill the virus or bacteria that caused the infection,medlineplus
 Fibrodysplasia ossificans progressiva,Ankylosis,wikidata
 Fibrodysplasia ossificans progressiva,Deformity,wikidata
 Fibrodysplasia ossificans progressiva,Myositis ossificans,wikidata
@@ -2617,8 +2572,6 @@ Fish allergy,Vomiting,wikidata
 Flinders Island spotted fever,Adenopathy,disease_ontology
 Flinders Island spotted fever,Eschar,disease_ontology
 Flinders Island spotted fever,Mild spotted fever,disease_ontology
-Floods,"Weather such as heavy rain, thunderstorms, hurricanes, or tsunamis can cause flooding",medlineplus
-Floods,You may need help in finding ways to cope,medlineplus
 Flu,Chest pain,wikidata
 Flu,Chills,disease_ontology+wikidata
 Flu,Cough,disease_ontology+medlineplus+wikidata
@@ -2639,9 +2592,6 @@ Flu,Severe headache,disease_ontology
 Flu,Sometimes people have trouble figuring out whether they have a cold or the flu,medlineplus
 Flu,Sore throat,disease_ontology+medlineplus
 Flu,Weakness,disease_ontology
-Fluid and Electrolyte Balance,"If something upsets this balance, you may have too little water (dehydration) or too much water (overhydration)",medlineplus
-Fluid and Electrolyte Balance,"In minor cases, you may just need to make some changes to your diet",medlineplus
-Fluid and Electrolyte Balance,"You have electrolytes in your blood, urine (pee), tissues, and other body fluids",medlineplus
 Food Allergy,Abdominal (belly) cramps,medlineplus
 Food Allergy,And the symptoms that you get each time you eat the food may not always be the same,medlineplus
 Food Allergy,"But if you have a food allergy, your immune system mistakenly reacts to certain foods as if they were harmful",medlineplus
@@ -2667,6 +2617,7 @@ Foodborne botulism,Diplopia,wikidata
 Foodborne botulism,Dysarthria,wikidata
 Foodborne botulism,Dysphagia,wikidata
 Foodborne botulism,Dysphonia,wikidata
+Foreign Bodies,"You may inhale or swallow a foreign body, or you may get one from an injury to almost any part of your body",medlineplus
 Fractures,"But they may include: If you think that you may have broken a bone, get medical care right away",medlineplus
 Fractures,Intense pain,medlineplus
 Fractures,"Since they can sometimes be serious, it's important to get medical care right away if you think you have a fracture",medlineplus
@@ -2742,6 +2693,8 @@ GRACILE syndrome,Intrauterine growth restriction,wikidata
 GRACILE syndrome,Lactic acidosis,wikidata
 GRACILE syndrome,Liver cirrhosis,wikidata
 GRACILE syndrome,Renal fanconi syndrome,wikidata
+Gallstones,"Signs of a gallstone attack may include nausea, vomiting, or pain in the abdomen, back, or just under the right arm",medlineplus
+Gangrene,"If the gangrene is internal, you may run a fever and feel unwell, and the area may be swollen and painful",medlineplus
 Gas gangrene,Gangrene,wikidata
 Gas gangrene,Necrosis,wikidata
 Gastroduodenal Crohn's disease,Inflammation,wikidata
@@ -2803,13 +2756,11 @@ Gastroparesis,Gastroesophageal reflux disease,wikidata
 Gastroparesis,Nausea,wikidata
 Gastroparesis,Satiety,wikidata
 Gastroparesis,Vomiting,wikidata
+Gaucher Disease,"If you have it, you do not have enough of an enzyme called glucocerebrosidase",medlineplus
 Gender dysphoria,Anxiety disorder,wikidata
 Gender dysphoria,Dysphoria,wikidata
 Gender dysphoria,Major depressive disorder,wikidata
 Gender dysphoria,Suicidal ideation,wikidata
-Genetic Counseling,Or you may get it when you are planning or expecting a baby,medlineplus
-Genetic Counseling,You may consider it if you,medlineplus
-Genetic Counseling,You may follow up with genetic testing,medlineplus
 Geniculate herpes zoster,Facial paralysis,wikidata
 Geniculate herpes zoster,Paralysis,wikidata
 Geniculate herpes zoster,Tinnitus,wikidata
@@ -2819,6 +2770,10 @@ Genital Herpes,"It can cause sores on your genital or rectal area, buttocks, and
 Genital Herpes,"Over time, you get them less often and the symptoms become milder",medlineplus
 Genital Herpes,Sores,disease_ontology
 Genital Herpes,Swollen glands,disease_ontology
+Genital Herpes,"The sores are blisters which break and become painful, and then heal",medlineplus
+Genital Herpes,The virus can be more serious in newborn babies or in people with weak immune systems,medlineplus
+Genital Herpes,The virus can spread even when sores are not present,medlineplus
+Genital Herpes,You usually get sores near the area where the virus has entered the body,medlineplus
 Genital Warts,Genital warts are often painless and may not cause any symptoms,medlineplus
 Genital Warts,Other types of HPV can cause cancer,medlineplus
 Genital Warts,Some types of HPV can cause genital warts,medlineplus
@@ -2872,6 +2827,7 @@ Glanders,Myalgia,wikidata
 Glanders,Primary affect,wikidata
 Glanders,Splenomegaly,wikidata
 Glanders,Ulcer,wikidata
+Glaucoma,A comprehensive eye exam can tell if you have glaucoma,medlineplus
 Gluten Sensitivity,"A wheat allergy can cause some different symptoms, such as itchy eyes or trouble breathing",medlineplus
 Gluten Sensitivity,"In addition to abdominal pain and fatigue, gluten sensitivity can cause digestive symptoms",medlineplus
 Gluten Sensitivity,"They can also cause some of the same symptoms, such as abdominal (belly) pain and fatigue",medlineplus
@@ -2916,8 +2872,12 @@ Granulomatous amebic encephalitis,Nausea,wikidata
 Granulomatous amebic encephalitis,Paralysis,wikidata
 Granulomatous amebic encephalitis,Spasm,wikidata
 Granulomatous amebic encephalitis,Vomiting,wikidata
+Growth Disorders,"In adults, it can cause acromegaly, which makes the hands, feet and face larger than normal",medlineplus
+Guillain-Barre Syndrome,The first symptom is usually weakness or a tingling feeling in your legs,medlineplus
 Gum Disease,"If you have gum disease, you're not alone",medlineplus
 Gum Disease,"If you have periodontitis, the gums pull away from the teeth and form pockets that become infected",medlineplus
+Gum Disease,"In gingivitis, the gums become red and swollen",medlineplus
+Gum Disease,They can bleed easily,medlineplus
 HIV,Chills,medlineplus
 HIV,Fatigue,medlineplus
 HIV,Fever,medlineplus
@@ -2929,6 +2889,8 @@ HIV,Rash,medlineplus
 HIV,So the only way to know for sure whether you have HIV is to get tested,medlineplus
 HIV,Sore throat,medlineplus
 HIV,Swollen lymph nodes,medlineplus
+HIV and Infections,Having HIV/AIDS weakens your body's immune system,medlineplus
+HIV and Infections,OIs are serious infections that take advantage of your weak immune system,medlineplus
 HIV/AIDS,Chills,wikidata
 HIV/AIDS,Diarrhea,wikidata
 HIV/AIDS,Enlargement of lymph nodes,wikidata
@@ -2946,15 +2908,14 @@ HIV/AIDS,Peripheral neuropathy,wikidata
 HIV/AIDS,Rash,wikidata
 HIV/AIDS,Sore throat,wikidata
 HIV/AIDS,Weight loss,wikidata
-HIV: PrEP and PEP,"PrEP does not protect against other STIs, so you should still use latex condoms every time you have sex",medlineplus
-HIV: PrEP and PEP,"Some people taking PEP may have side effects, like nausea",medlineplus
-HIV: PrEP and PEP,"Some people taking PrEP may have side effects, like nausea",medlineplus
 HPV,Health care providers can usually find out if you have warts by looking at them,medlineplus
 HPV,Most people have been exposed to HPV,medlineplus
 HPV,Which symptoms you have depends on which part of your body is affected,medlineplus
 HPV,You may also have symptoms if those cell changes develop into cancer,medlineplus
 Haemophilus Infections,"But sometimes the germs spread into the lungs or the bloodstream, and then Hib can cause serious problems such as meningitis and pneumonia",medlineplus
 Haemophilus Infections,"They can cause different types of illnesses involving breathing, bones and joints, and the nervous system",medlineplus
+Hair Loss,"You can also lose your hair if you have certain diseases, such as thyroid problems, diabetes, or lupus",medlineplus
+Hand Injuries and Disorders,"When there is something wrong with them, you may not be able to do your regular activities",medlineplus
 "Hand, foot and mouth disease",Fever,disease_ontology
 "Hand, foot and mouth disease",Malaise,disease_ontology
 "Hand, foot and mouth disease",Painful sores in the mouth,disease_ontology
@@ -3014,16 +2975,6 @@ Head and Neck Cancer,Trouble swallowing,medlineplus
 Headache,"Get medical help right away if you have a headache after a blow to your head, or if you have a headache along with a stiff neck, fever, confusion, loss of consciousness, or pain in the eye or ear",medlineplus
 Headache,Headache is the most common form of pain,medlineplus
 Headache,"Most people can feel much better by making lifestyle changes, learning ways to relax and taking pain relievers",medlineplus
-Healthy Aging,Ask your health care professional what a healthy weight for you may be,medlineplus
-Healthy Aging,Doing things that you enjoy may help you feel happier and improve your thinking abilities,medlineplus
-Healthy Aging,"Even if you have never done them before, it's never too late to start taking care of your health",medlineplus
-Healthy Aging,"If you have not been active, you can start slowly and work up to your goal",medlineplus
-Healthy Aging,Know the warning signs of a problem and ask for help if you are struggling,medlineplus
-Healthy Sleep,Getting enough sleep each night may help you feel happier and more productive during the day,medlineplus
-Healthy Sleep,"When you don't get enough sleep (sleep deprivation), it does more than just make you feel tired",medlineplus
-Healthy Sleep,You may also want to,medlineplus
-Hearing Aids,"If you think that you need a hearing aid, you have two different options: NIH: National Institute of Deafness and Communication Disorders",medlineplus
-Hearing Aids,The hearing aid that will work best for you depends on what kind of hearing loss you have and how severe it is,medlineplus
 Hearing Disorders and Deafness,"Earwax buildup, fluid, or a punctured eardrum can cause it",medlineplus
 Hearing Disorders and Deafness,"If you have trouble hearing, you can get help",medlineplus
 Heart Attack,Angina pectoris,wikidata
@@ -3035,36 +2986,6 @@ Heart Attack,Necrosis,wikidata
 Heart Attack,"The most common symptoms include: You may also have other symptoms, such as nausea, vomiting, dizziness, palpitations (racing or pounding heart), and lightheadedness",medlineplus
 Heart Attack,The symptoms one person has may not be the same as someone else's,medlineplus
 Heart Attack,You may break out in a cold sweat,medlineplus
-Heart Disease in Women,Chest pain is the most common symptom for both sexes,medlineplus
-Heart Disease in Women,Dizziness,medlineplus
-Heart Disease in Women,"Indigestion, heartburn, nausea, or vomiting",medlineplus
-Heart Disease in Women,It may feel like crushing or squeezing,medlineplus
-Heart Disease in Women,Nausea or vomiting,medlineplus
-Heart Disease in Women,"Pain in the neck, jaw, throat, upper belly, or back",medlineplus
-Heart Disease in Women,"Pain in the upper back, arms, neck, jaw or throat",medlineplus
-Heart Disease in Women,Pain or discomfort in the chest that may be dull and heavy or sharp,medlineplus
-Heart Disease in Women,Pressure or tightness in the chest,medlineplus
-Heart Disease in Women,Shortness of breath,medlineplus
-Heart Disease in Women,Shortness of breath (feeling like you can't get enough air) during physical activity,medlineplus
-Heart Disease in Women,Stomach pain,medlineplus
-Heart Disease in Women,Unusual fatigue,medlineplus
-Heart Diseases,Angina pectoris,wikidata
-Heart Diseases,Arterial hypertension,wikidata
-Heart Diseases,Ascites,wikidata
-Heart Diseases,Balance disorder,wikidata
-Heart Diseases,Cardiac rehabilitation,medlineplus
-Heart Diseases,Chest pain,wikidata
-Heart Diseases,Dyspnea,wikidata
-Heart Diseases,Edema,wikidata
-Heart Diseases,Heart arrhythmia,wikidata
-Heart Diseases,Heart-healthy lifestyle changes,medlineplus
-Heart Diseases,"In some cases, you may not know you have heart disease until you have a complication such as a heart attack",medlineplus
-Heart Diseases,Procedures or surgeries,medlineplus
-Heart Diseases,"Some you may be born with, called congenital heart disease",medlineplus
-Heart Diseases,Syncope,wikidata
-Heart Diseases,Tachycardia,wikidata
-Heart Diseases,You may not have symptoms at first,medlineplus
-Heart Diseases,Your symptoms will depend on the type of heart disease you have,medlineplus
 Heart Failure,"As the disease gets worse, your symptoms will usually bother you more",medlineplus
 Heart Failure,"But without enough blood flow, your organs may not work well, which can cause serious problems",medlineplus
 Heart Failure,"Conditions that can cause heart failure include: Over time, left-sided heart failure can lead to right-sided heart failure",medlineplus
@@ -3084,12 +3005,18 @@ Heart Valve Diseases,Dizziness or fainting,medlineplus
 Heart Valve Diseases,Fatigue,medlineplus
 Heart Valve Diseases,Shortness of breath (feeling like you can't get enough air),medlineplus
 Heart Valve Diseases,"Swelling in your feet, ankles, abdomen (belly), or the veins in your neck",medlineplus
+Heartburn,Heartburn is a painful burning feeling in your chest or throat,medlineplus
 Heartburn,"If you have heartburn more than twice a week, you may have GERD",medlineplus
 Heartburn,"If you have other symptoms such as crushing chest pain, it could be a heart attack",medlineplus
+Heat Illness,"During hot weather, especially when it is very humid, sweating just isn't enough to cool you off",medlineplus
+Heat Illness,Your body normally cools itself by sweating,medlineplus
+Heel Injuries and Disorders,Heel problems are common and can be painful,medlineplus
+Heel Injuries and Disorders,Over time the stress can cause bone spurs and deformities,medlineplus
 Helicobacter pylori Infections,"A peptic ulcer causes a dull or burning pain in your stomach, especially when you have an empty stomach",medlineplus
 Helicobacter pylori Infections,"In some cases, you may need an upper endoscopy, often with a biopsy",medlineplus
 Helicobacter pylori Infections,"It may also cause other symptoms, such as bloating, nausea, and weight loss",medlineplus
 Helicobacter pylori Infections,Pylori usually does not cause symptoms,medlineplus
+Hemochromatosis,"If you have hemochromatosis, you absorb more iron than you need",medlineplus
 Hemophagocytic lymphohistiocytosis,Fever,wikidata
 Hemophagocytic lymphohistiocytosis,Hepatomegaly,wikidata
 Hemophagocytic lymphohistiocytosis,Lymphadenopathy,wikidata
@@ -3263,8 +3190,10 @@ Hereditary central diabetes insipidus,Polydipsia,wikidata
 Hereditary central diabetes insipidus,Polyuria,wikidata
 Hereditary spastic paraplegia,Paraplegia,wikidata
 Hereditary spastic paraplegia,Spasticity,wikidata
-Heroin,"And then they may feel other effects, such as a warm flushing of the skin, dry mouth, and a heavy feeling in the arms and legs",medlineplus
-Heroin,"If someone who is dependent on heroin stops using it, they have withdrawal symptoms",medlineplus
+Hernia,"A combination of muscle weakness and straining, such as with heavy lifting, might contribute",medlineplus
+Hernia,A hernia happens when part of an internal organ or tissue bulges through a weak area of muscle,medlineplus
+Hernia,Some people are born with weak abdominal muscles and may be more likely to get a hernia,medlineplus
+Hernia,Untreated hernias can cause pain and health problems,medlineplus
 Heroin dependence,Brain damage,wikidata
 Heroin dependence,Cognitive dysfunction,wikidata
 Heroin dependence,Depression,wikidata
@@ -3273,7 +3202,11 @@ Herpes Simplex,Blister,wikidata
 Herpes Simplex,Low-grade fever,wikidata
 Herpes Simplex,Lymphadenopathy,wikidata
 Herpes Simplex,Most people have outbreaks several times a year,medlineplus
+Herpes Simplex,Oral herpes causes cold sores around the mouth or face,medlineplus
+Herpes Simplex,Others get sores near the area where the virus has entered the body,medlineplus
 Herpes Simplex,Rash,wikidata
+Herpes Simplex,The virus can be dangerous in newborn babies or in people with weak immune systems,medlineplus
+Herpes Simplex,"They turn into blisters, become itchy and painful, and then heal",medlineplus
 Herpetic whitlow,Fever,disease_ontology
 Herpetic whitlow,Lesions,disease_ontology
 Herpetic whitlow,Swollen lymph nodes,disease_ontology
@@ -3283,6 +3216,7 @@ Heterophyiasis,Diarrhea,wikidata
 Heterophyiasis,Lymphadenopathy,wikidata
 Hiatal Hernia,It may have to do with weakness in the surrounding muscles,medlineplus
 Hiatal Hernia,"When you have a hiatal hernia, it's easier for the acid to come up",medlineplus
+Hiccups,It is the main muscle used for breathing,medlineplus
 Hiccups,Some people have chronic hiccups,medlineplus
 Hiccups,You have probably heard different suggestions about how to cure hiccups,medlineplus
 Hidradenitis,Erythema,disease_ontology
@@ -3298,6 +3232,7 @@ Hidradenitis Suppurativa,Painful nodules,disease_ontology
 Hidradenitis Suppurativa,"Painful, red, lumps that get bigger and break open. This causes abscesses that drain fluid and pus. They may itch and have an unpleasant odor",medlineplus
 Hidradenitis Suppurativa,Small pitted areas of skin containing blackheads,medlineplus
 Hidradenitis Suppurativa,"The abscesses heal very slowly, come back over time, and can lead to scarring and tunnels under the skin",medlineplus
+High Blood Pressure,Usually the systolic number comes before or above the diastolic number,medlineplus
 High Blood Pressure in Pregnancy,A headache that does not go away,medlineplus
 High Blood Pressure in Pregnancy,"During pregnancy, high blood pressure can cause problems for you and your baby",medlineplus
 High Blood Pressure in Pregnancy,"If you go on to develop HELLP syndrome, you may also have bleeding or bruising easily, extreme fatigue, and liver failure",medlineplus
@@ -3308,8 +3243,10 @@ High Blood Pressure in Pregnancy,Too much protein in your urine (called proteinu
 High Blood Pressure in Pregnancy,Trouble breathing,medlineplus
 High Blood Pressure in Pregnancy,"Vision problems, including blurred vision or seeing spots",medlineplus
 High Blood Pressure in Pregnancy,"You may need to: If you have eclampsia, HELLP syndrome, or a severe case of preeclampsia, you will most likely need to go to the hospital",medlineplus
+High Cholesterol in Children and Teens,There are usually no signs or symptoms that your child or teen has high cholesterol,medlineplus
 Hip Injuries and Disorders,It can cause hip dislocation,medlineplus
 Hip Injuries and Disorders,Osteoarthritis can cause pain and limited motion,medlineplus
+Hip Injuries and Disorders,Osteoporosis of the hip causes weak bones that break easily,medlineplus
 Histoplasmosis,Body aches,medlineplus
 Histoplasmosis,Chest pain,medlineplus
 Histoplasmosis,Chills,medlineplus
@@ -3325,23 +3262,19 @@ Histoplasmosis,Loss of appetite,disease_ontology
 Histoplasmosis,Most people who breathe in the spores never have any symptoms,medlineplus
 Histoplasmosis,Muscle pains,disease_ontology
 Histoplasmosis,Nonproductive cough,disease_ontology
+Hives,Allergic reactions cause your body to release chemicals that can make your skin swell up in hives,medlineplus
+Hives,Hives are red and sometimes itchy bumps on your skin,medlineplus
 Hodgkin Lymphoma,Drenching night sweats (very heavy sweating during sleep),medlineplus
 Hodgkin Lymphoma,Fatigue,medlineplus
 Hodgkin Lymphoma,Fever for no known reason,medlineplus
 Hodgkin Lymphoma,"Itchy skin, especially after bathing or drinking alcohol",medlineplus
 Hodgkin Lymphoma,"Painless, swollen lymph nodes in the neck, underarm, or groin",medlineplus
 Hodgkin Lymphoma,Weight loss for no known reason in the past 6 months,medlineplus
-How to Prevent Diabetes,"If you have type 2 diabetes, your body doesn't make enough insulin or doesn't use it well",medlineplus
-How to Prevent Diabetes,"Over time, having too much glucose in your blood can cause health problems",medlineplus
-How to Prevent Heart Disease,"So, it is important to get tested for diabetes, and if you have it, to keep it under control",medlineplus
-How to Prevent Heart Disease,You may have a lot of changes to make,medlineplus
 Huntington's Disease,Choreatic disease,wikidata
 Huntington's Disease,Dementia,wikidata
 Huntington's Disease,"If one of your parents has Huntington's disease, you have a 50% chance of getting it",medlineplus
 Huntington's Disease,Personality change,wikidata
 Huntington's Disease,Weight loss,wikidata
-Hurricanes,Hurricanes can cause tremendous damage,medlineplus
-Hurricanes,You may need help in finding ways to cope,medlineplus
 Hydrocephalus,An unusually large head is the main sign of congenital hydrocephalus,medlineplus
 Hydrocephalus,"Symptoms include: Hydrocephalus can permanently damage the brain, causing problems with physical and mental development",medlineplus
 Hydrocephalus,"When you have too much, though, it puts harmful pressure on your brain",medlineplus
@@ -3415,6 +3348,7 @@ Hypoglycemic coma,Seizure,disease_ontology
 Hypokalemic periodic paralysis,Hypokalemia,wikidata
 Hypokalemic periodic paralysis,Muscle weakness,wikidata
 Hypothermia,"Because it happens gradually and affects your thinking, you may not realize you need help",medlineplus
+Hypothermia,"It can make you sleepy, confused, and clumsy",medlineplus
 Hypothermia,"That can cause hypothermia, or abnormally low body temperature",medlineplus
 Hypothyroidism,A puffy face,medlineplus
 Hypothyroidism,Constipation,medlineplus
@@ -3438,9 +3372,9 @@ Ileitis,Weight loss,disease_ontology
 Ileocolitis,Abdominal pain in middle or lower right part,disease_ontology
 Ileocolitis,Diarrhea,disease_ontology+wikidata
 Ileocolitis,Weight loss,disease_ontology
-Immune System and Disorders,"If you have an autoimmune disease, your immune system attacks healthy cells in your body by mistake",medlineplus
-Immune System and Disorders,"If you have an immunodeficiency disease, you get sick more often",medlineplus
-Immune System and Disorders,Sometimes a person may have an immune response even though there is no real threat,medlineplus
+Impetigo,Impetigo can spread by contact with sores or nasal discharge from an infected person,medlineplus
+Impetigo,Symptoms start with red or pimple-like sores surrounded by red skin,medlineplus
+Impetigo,"The sores fill with pus, then break open after a few days and form a thick crust",medlineplus
 Inclusion body myositis,Dysphagia,wikidata
 Inclusion body myositis,Muscle atrophy,wikidata
 Inclusion body myositis,Muscle weakness,wikidata
@@ -3463,8 +3397,6 @@ Infantile cerebellar-retinal degeneration,Neonatal hypotonia,wikidata
 Infantile cerebellar-retinal degeneration,Retinal degeneration,wikidata
 Infectious Arthritis,Arthritis,wikidata
 Infectious Arthritis,Most kinds of arthritis cause pain and swelling in your joints,medlineplus
-Infectious Diseases,Infectious diseases can cause many different symptoms,medlineplus
-Infectious Diseases,"Some are so mild that you may not even notice any symptoms, while others can be life-threatening",medlineplus
 Infectious Mononucleosis,Enlargement of lymph nodes,wikidata
 Infectious Mononucleosis,Extreme fatigue,medlineplus
 Infectious Mononucleosis,Fever,medlineplus+wikidata
@@ -3481,17 +3413,6 @@ Infectious Mononucleosis,Swollen lymph glands in your neck and armpits,medlinepl
 Infectious Mononucleosis,Teens and young adults who get EBV are more likely to have symptoms that are typical of mono,medlineplus
 Infectious Mononucleosis,Those antibiotics can cause a rash in people who have mono,medlineplus
 Infectious Mononucleosis,Tonsillitis,wikidata
-Inhalants,Chemical odors on breath or clothing,medlineplus
-Inhalants,Drunk or disoriented appearance,medlineplus
-Inhalants,Hidden empty spray paint or solvent containers and chemical-soaked rags or clothing,medlineplus
-Inhalants,"Inattentiveness, lack of coordination, irritability, and depression",medlineplus
-Inhalants,"Inhalants can cause both short-term and long-term health effects: Long-term health effects may include: Using inhalants, even once, could lead to an overdose",medlineplus
-Inhalants,Nausea or loss of appetite,medlineplus
-Inhalants,"Paint or other stains on face, hands, or clothes",medlineplus
-Inhalants,Red or runny eyes or nose,medlineplus
-Inhalants,Signs that someone is using inhalants include,medlineplus
-Inhalants,Slurred speech,medlineplus
-Inhalants,"Stopping them can cause withdrawal symptoms, such as nausea, sweating, trouble sleeping, and mood changes",medlineplus
 Inhalation Injuries,A runny nose,medlineplus
 Inhalation Injuries,A scratchy throat,medlineplus
 Inhalation Injuries,"But they often include: If you have a chronic heart or lung problem, an inhalation injury can make it worse",medlineplus
@@ -3502,6 +3423,7 @@ Inhalation Injuries,Irritated sinuses,medlineplus
 Inhalation Injuries,"Most people get better, but some people have permanent lung or breathing problems",medlineplus
 Inhalation Injuries,Shortness of breath,medlineplus
 Inhalation Injuries,Stinging eyes,medlineplus
+Insect Bites and Stings,Mosquito and flea bites usually itch,medlineplus
 Insomnia,"As a result, you may get too little sleep or have poor-quality sleep",medlineplus
 Insomnia,Being awake for much of the night,medlineplus
 Insomnia,Feeling as if you haven't slept at all,medlineplus
@@ -3519,12 +3441,13 @@ Interstitial Cystitis,Others have urgency and frequency without pain,medlineplus
 Interstitial Cystitis,Some people may have pain without urgency or frequency,medlineplus
 Interstitial Cystitis,The symptoms vary from person to person,medlineplus
 Interstitial Cystitis,They may also have pain with sexual intercourse,medlineplus
+Interstitial Lung Diseases,Breathing in dust or other particles in the air is responsible for some types of interstitial lung diseases,medlineplus
+Interstitial Lung Diseases,Inflammation,wikidata
+Interstitial Lung Diseases,Shortness of breath,disease_ontology
 Interstitial keratitis,Inflammation,wikidata
 Interstitial keratitis,Lacrimation,disease_ontology
 Interstitial keratitis,Pain,disease_ontology
 Interstitial keratitis,Visual acuity loss,disease_ontology
-Interstitial lung disease,Inflammation,wikidata
-Interstitial lung disease,Shortness of breath,disease_ontology
 Intestinal Cancer,A lump in the abdomen,medlineplus
 Intestinal Cancer,Abdominal pain,medlineplus
 Intestinal Cancer,Blood in the stool,medlineplus
@@ -3545,15 +3468,6 @@ Intestinal tuberculosis,Bleeding,wikidata
 Intestinal tuberculosis,Gastrointestinal bleeding,disease_ontology+wikidata
 Intestinal tuberculosis,Nausea,disease_ontology+wikidata
 Intestinal tuberculosis,Vomiting,disease_ontology+wikidata
-Intimate Partner Violence,"Avoid friends, family, and favorite activities?",medlineplus
-Intimate Partner Violence,Check up on them at work or school?,medlineplus
-Intimate Partner Violence,Force them to do sexual things they don't want to do?,medlineplus
-Intimate Partner Violence,Have unexplained cuts or bruises?,medlineplus
-Intimate Partner Violence,Look uncomfortable or fearful around their partner?,medlineplus
-Intimate Partner Violence,Make excuses for their partner's behavior?,medlineplus
-Intimate Partner Violence,Threaten to hurt themself if the partner wants to break up?,medlineplus
-Intimate Partner Violence,Try to control them by making all the decisions?,medlineplus
-Intimate Partner Violence,Yell at or make fun of them?,medlineplus
 Intracranial hypertension,Altered mental status,disease_ontology
 Intracranial hypertension,Headache,disease_ontology
 Intracranial hypertension,Papilledema,disease_ontology
@@ -3573,6 +3487,8 @@ Irritable Bowel Syndrome,Bloating,wikidata
 Irritable Bowel Syndrome,Constipation,wikidata
 Irritable Bowel Syndrome,Diarrhea,wikidata
 Irritable Bowel Syndrome,"It can cause abdominal cramping, bloating, and a change in bowel habits",medlineplus
+Irritable Bowel Syndrome,Some have diarrhea,medlineplus
+Irritable Bowel Syndrome,Some people with the disorder have constipation,medlineplus
 Ischemic Stroke,"Arm weakness that occurs when the arms are raised, and one arm drifts downward",medlineplus
 Ischemic Stroke,Face drooping on one side when smiling,medlineplus
 Ischemic Stroke,Speech is slurred or strange,medlineplus
@@ -3617,6 +3533,7 @@ Jejunoileitis,Abdominal pain,disease_ontology
 Jejunoileitis,Cramps,disease_ontology
 Jejunoileitis,Diarrhea,disease_ontology+wikidata
 Jejunoileitis,Formation of fistulas,disease_ontology
+Joint Disorders,"They often cause joint pain and make your joints stiff, red, or swollen",medlineplus
 Juvenile Arthritis,"It causes joint inflammation (swelling), pain, stiffness, and loss of motion",medlineplus
 Juvenile Arthritis,Others have symptoms that never go away,medlineplus
 Juvenile Arthritis,Symptoms and the number of joints affected help determine the type,medlineplus
@@ -3664,6 +3581,7 @@ Kidney Cancer,You may also have a biopsy,medlineplus
 Kidney Cysts,Blood in the urine,medlineplus
 Kidney Cysts,Headaches,medlineplus
 Kidney Cysts,Pain in the back and lower sides,medlineplus
+Kidney Failure,Your body may retain excess fluid and not make enough red blood cells,medlineplus
 Kidney Stones,A burning feeling when you urinate,medlineplus
 Kidney Stones,Blood in your urine,medlineplus
 Kidney Stones,Extreme pain in your back or side that will not go away,medlineplus
@@ -3689,9 +3607,6 @@ Klinefelter Syndrome,Smaller testes and penis,medlineplus
 Klinefelter Syndrome,Weaker bones,medlineplus
 Knee Injuries and Disorders,Knee problems can cause pain and difficulty walking,medlineplus
 Knee Injuries and Disorders,"The cartilage in the knee gradually wears away, causing pain and swelling",medlineplus
-Knee Replacement,The goal of a knee replacement is to relieve pain and help you move better,medlineplus
-Knee Replacement,"When cartilage becomes rough and wears away, the bones rub against each other, causing pain",medlineplus
-Knee Replacement,"You may need a knee replacement if you have knee damage that causes severe pain and difficulty doing daily activities, such as walking and climbing stairs",medlineplus
 Kniest dysplasia,Large joints,disease_ontology
 Kniest dysplasia,Round flat face,disease_ontology
 Kniest dysplasia,Wide set eyes,disease_ontology
@@ -3820,8 +3735,12 @@ Lateral medullary syndrome,Ipsilateral sensory deficits of face,disease_ontology
 Lateral medullary syndrome,Laryngeal,disease_ontology
 Lateral medullary syndrome,Nausea,wikidata
 Lateral medullary syndrome,Vertigo,disease_ontology+wikidata
+Latex Allergy,You could get a rash or asthma,medlineplus
+Lead Poisoning,"A child who swallows large amounts of lead may develop anemia, severe stomachache, muscle weakness, and brain damage",medlineplus
 Lead Poisoning,"In adults, lead can increase blood pressure and cause infertility, nerve disorders, and muscle and joint pain",medlineplus
+Lead Poisoning,Lead used to be in paint; older houses may still have lead paint,medlineplus
 Lead Poisoning,"You could be exposed to lead by: Breathing air, drinking water, eating food, or swallowing or touching dirt that contains lead can cause many health problems",medlineplus
+Learning Disabilities,A teacher or other learning specialist can help your child learn skills by building on their strengths and finding ways to make up for their weaknesses,medlineplus
 Legionnaires' Disease,But Legionnaires' disease may also cause gastrointestinal symptoms and mental changes,medlineplus
 Legionnaires' Disease,Chest pain,medlineplus
 Legionnaires' Disease,Chills,medlineplus+wikidata
@@ -3843,7 +3762,9 @@ Leishmaniasis,Anemia,wikidata
 Leishmaniasis,Fever,wikidata
 Leishmaniasis,Hepatomegaly,wikidata
 Leishmaniasis,Mouth ulcer,wikidata
+Leishmaniasis,"People with this form usually have fever, weight loss, and an enlarged spleen and liver",medlineplus
 Leishmaniasis,Splenomegaly,wikidata
+Leishmaniasis,The cutaneous type causes skin sores,medlineplus
 Leishmaniasis,Ulcer,wikidata
 Lemierre's syndrome,Abscess,wikidata
 Lemierre's syndrome,Chills,wikidata
@@ -3922,6 +3843,8 @@ Lewy Body Dementia,Speech therapy may help with swallowing difficulties and trou
 Lewy Body Dementia,The main difference is in when the cognitive (thinking) and movement symptoms start,medlineplus
 Lewy Body Dementia,This means that the symptoms start slowly and get worse over time,medlineplus
 Lewy Body Dementia,"Visual hallucinations, which means seeing things that are not there",medlineplus
+Limb Loss,"Common ones include: Some amputees have phantom pain, which is the feeling of pain in the missing limb",medlineplus
+Lipid Metabolism Disorders,"If you have a metabolic disorder, something goes wrong with this process",medlineplus
 Listeria Infections,Abortion,wikidata
 Listeria Infections,Anisocoria,wikidata
 Listeria Infections,Arachnoiditis,wikidata
@@ -3984,6 +3907,7 @@ Louse-borne relapsing fever,Tachycardia,disease_ontology+wikidata
 Louse-borne relapsing fever,Tachypnea,disease_ontology+wikidata
 Louse-borne relapsing fever,Vomiting,wikidata
 Low Blood Pressure,"If your blood pressure reading is 90/60 or lower, you have low blood pressure",medlineplus
+Low Blood Pressure,"Low blood pressure is a problem only if it causes dizziness, fainting or in extreme cases, shock",medlineplus
 Low Blood Pressure,Some people have low blood pressure all the time,medlineplus
 Lujo hemorrhagic fever,Bleeding,disease_ontology+wikidata
 Lujo hemorrhagic fever,Fever,disease_ontology
@@ -4078,6 +4002,8 @@ Lymph node tuberculosis,Fever,disease_ontology
 Lymph node tuberculosis,Lymphadenopathy,disease_ontology
 Lymph node tuberculosis,Night sweats,disease_ontology
 Lymph node tuberculosis,Weight loss,disease_ontology
+Lymphatic Diseases,"If it's not working properly, fluid builds in your tissues and causes swelling, called lymphedema",medlineplus
+Lymphedema,Lymphedema is the name of a type of swelling,medlineplus
 Lymphocytic choriomeningitis,Fever,wikidata
 Lymphocytic choriomeningitis,Headache,wikidata
 Lymphocytic choriomeningitis,Meningism signs,wikidata
@@ -4108,6 +4034,8 @@ MPI-CDG,Vomiting,wikidata
 Macular Degeneration,A common early symptom is that straight lines appear crooked,medlineplus
 Macular Degeneration,Blurred vision is a common early symptom,medlineplus
 Macular Degeneration,Vision loss,disease_ontology
+Malabsorption Syndromes,"If you have a malabsorption syndrome, your small intestine cannot absorb nutrients from foods",medlineplus
+Malabsorption Syndromes,"They often include chronic diarrhea, abnormal stools, weight loss, and gas",medlineplus
 Malaria,Anemia,wikidata
 Malaria,Chills,wikidata
 Malaria,Coma,wikidata
@@ -4134,11 +4062,6 @@ Malnutrition,Frequent infections or slow healing,medlineplus
 Malnutrition,Losing weight without trying,medlineplus
 Malnutrition,Low body weight,medlineplus
 Malnutrition,"Swelling in the legs, feet, or belly",medlineplus
-Mammography,Health care providers use mammograms to look for early signs of breast cancer that can't be felt during a breast exam,medlineplus
-Mammography,"The signs can include breast pain, thickening of the skin of the breast, nipple discharge, or a change in breast size or shape",medlineplus
-Mammography,This leads to further testing and can cause you anxiety,medlineplus
-Mammography,"When you have a mammogram, you stand in front of an x-ray machine",medlineplus
-Mammography,You may also be referred to a breast specialist or a surgeon,medlineplus
 Marasmus,Constipation,wikidata
 Marasmus,Emaciation,disease_ontology
 Marburg hemorrhagic fever,Abdominal pain,disease_ontology
@@ -4153,21 +4076,25 @@ Marburg hemorrhagic fever,Myalgia,disease_ontology
 Marburg hemorrhagic fever,Nausea,disease_ontology
 Marburg hemorrhagic fever,Sore throat,disease_ontology
 Marburg hemorrhagic fever,Vomiting,disease_ontology
-Marfan syndrome,Aortic aneurysm,wikidata
-Marfan syndrome,Aortic dissection,wikidata
-Marfan syndrome,Dolichostenomelia,wikidata
-Marfan syndrome,Ectopia lentis,wikidata
-Marfan syndrome,Flat feet,wikidata
-Marfan syndrome,Mitral valve prolapse,wikidata
-Marfan syndrome,Pectus carinatum,wikidata
-Marfan syndrome,Pectus excavatum,wikidata
-Marfan syndrome,Scoliosis,wikidata
+Marfan Syndrome,Aortic aneurysm,wikidata
+Marfan Syndrome,Aortic dissection,wikidata
+Marfan Syndrome,Dolichostenomelia,wikidata
+Marfan Syndrome,Ectopia lentis,wikidata
+Marfan Syndrome,Flat feet,wikidata
+Marfan Syndrome,Mitral valve prolapse,wikidata
+Marfan Syndrome,"Most people with Marfan syndrome have heart and blood vessel problems, such as a weakness in the aorta or heart valves that leak",medlineplus
+Marfan Syndrome,Pectus carinatum,wikidata
+Marfan Syndrome,Pectus excavatum,wikidata
+Marfan Syndrome,Scoliosis,wikidata
 Measles,Conjunctivitis,disease_ontology
 Measles,Coryza,disease_ontology
 Measles,Cough,disease_ontology
 Measles,Fever,disease_ontology
+Measles,It causes a blotchy red rash,medlineplus
 Measles,Maculopapular,disease_ontology
 Measles,Other symptoms include: Sometimes measles can lead to serious problems,medlineplus
+Measles,The rash often starts on the head and moves down the body,medlineplus
+Melanoma,"Often the first sign of melanoma is a change in the size, shape, color, or feel of a mole",medlineplus
 Melioidosis,Chest pain,disease_ontology
 Melioidosis,Diarrhea,wikidata
 Melioidosis,Fever,disease_ontology+wikidata
@@ -4178,20 +4105,13 @@ Melioidosis,Respiratory distress,disease_ontology
 Melioidosis,Stomach pain,disease_ontology
 Melioidosis,Terminal dehydration,wikidata
 Melioidosis,Vomiting,wikidata
-Memory,Alzheimer's disease,medlineplus
-Memory,Blood clots or tumors in the brain,medlineplus
-Memory,Depression,medlineplus
-Memory,"Every day, you have different experiences and you learn new things",medlineplus
-Memory,Head injuries,medlineplus
-Memory,"Kidney, liver, or thyroid problems",medlineplus
-Memory,Other types of dementia,medlineplus
-Memory,Stroke,medlineplus
 Meniere's Disease,"It can cause severe dizziness, a roaring sound in your ears called tinnitus, hearing loss that comes and goes and the feeling of ear pressure or pain",medlineplus
 Meniere's Disease,Others may have many attacks close together over several days,medlineplus
 Meniere's Disease,Sensorineural hearing loss,wikidata
 Meniere's Disease,Some people have single attacks of dizziness once in a while,medlineplus
 Meniere's Disease,Tinnitus,wikidata
 Meniere's Disease,Vertigo,wikidata
+Meningitis,"Anyone can get meningitis, but it is more common in people with weak immune systems",medlineplus
 Meningitis,Fever,wikidata
 Meningitis,Headache,wikidata
 Meningitis,"It can cause stroke, hearing loss, and brain damage",medlineplus
@@ -4257,14 +4177,6 @@ Menopause,"Trouble sleeping, such as trouble falling asleep or getting back to s
 Menopause,Try to maintain a healthy weight. Being overweight or having obesity can make hot flashes worse,medlineplus
 Menopause,"Vaginal dryness, which may cause pain or discomfort during sexual intercourse",medlineplus
 Menopause,You have reached menopause when you have not had a period for 12 months,medlineplus
-Menstruation,Bloating,medlineplus
-Menstruation,Cramping pain in the lower abdomen (belly) or pelvis,medlineplus
-Menstruation,Food cravings,medlineplus
-Menstruation,Headaches or fatigue,medlineplus
-Menstruation,"In addition to vaginal bleeding, you may have: Premenstrual syndrome (PMS) is a group of physical and emotional symptoms that can happen in the days before a period starts",medlineplus
-Menstruation,Lower back pain,medlineplus
-Menstruation,Mood swings or irritability,medlineplus
-Menstruation,Sore breasts,medlineplus
 Mesocestoidiasis,Abdominal discomfort,wikidata
 Mesocestoidiasis,Diarrhea,wikidata
 Mesocestoidiasis,Nausea,wikidata
@@ -4284,6 +4196,7 @@ Mesothelioma,Trouble breathing,medlineplus
 Mesothelioma,Weight loss,wikidata
 Mesothelioma,Weight loss for no known reason,medlineplus
 Mesothelioma,Wheeze,wikidata
+Metabolic Syndrome,"When you have at least three of them, it is called metabolic syndrome",medlineplus
 Metagonimiasis,Abdominal pain,wikidata
 Metagonimiasis,Anorexia,wikidata
 Metagonimiasis,Diarrhea,wikidata
@@ -4334,6 +4247,7 @@ Miscarriage,Cramping or pain in your abdomen (belly) or lower back,medlineplus
 Miscarriage,Dark-colored vaginal discharge,medlineplus
 Miscarriage,"Signs of a miscarriage can include: Sometimes, it's hard to know what's normal during pregnancy",medlineplus
 Miscarriage,The signs of a miscarriage may be different for everyone and can vary based on how far along you are in your pregnancy,medlineplus
+Mitochondrial Diseases,"If you have a metabolic disorder, something goes wrong with this process",medlineplus
 Mitral Valve Prolapse,A cough,medlineplus
 Mitral Valve Prolapse,"But if it does cause symptoms, they may include",medlineplus
 Mitral Valve Prolapse,"But if it does cause symptoms, they may include: What other problems can mitral valve prolapse (MVP) cause?",medlineplus
@@ -4344,9 +4258,9 @@ Mitral Valve Prolapse,"In rare cases, MVP can cause other problems",medlineplus
 Mitral Valve Prolapse,Migraines,medlineplus
 Mitral Valve Prolapse,Most people who have MVP don't have any symptoms,medlineplus
 Mitral Valve Prolapse,Shortness of breath (feeling like you can't get enough air),medlineplus
-Molds,"If you have damp or wet spots in your house, you will probably get mold",medlineplus
-Molds,Molds can cause fungal infections,medlineplus
-Molds,Molds can cause health problems,medlineplus
+Moles,Most people have between 10 and 40 moles,medlineplus
+Motion Sickness,It can then lead to dizziness and nausea and vomiting,medlineplus
+Motion Sickness,"Motion sickness can start suddenly, with a queasy feeling and cold sweats",medlineplus
 Mpox,Blister,wikidata
 Mpox,Chills,medlineplus
 Mpox,Exhaustion,medlineplus
@@ -4363,6 +4277,7 @@ Mpox,"Swollen lymph nodes (""swollen glands"")",medlineplus
 Mpox,"You may get a rash first, followed by other symptoms",medlineplus
 Mpox,You may have flu-like symptoms and then develop a rash 1-4 days later,medlineplus
 Mpox,You may only get a rash,medlineplus
+Multiple Myeloma,"If you have symptoms, you may have chemotherapy, stem cell transplantation, radiation, or targeted therapy",medlineplus
 Multiple Sclerosis,"Blurry or double vision, or eye pain (often due to optic neuritis)",medlineplus
 Multiple Sclerosis,Chronic neuropathic pain,wikidata
 Multiple Sclerosis,Dizziness or vertigo,medlineplus
@@ -4381,12 +4296,14 @@ Multiple Sclerosis,Trouble with bladder control,medlineplus
 Multiple Sclerosis,"Trouble with coordination, walking, or balance",medlineplus
 Mumps,Epididymitis,wikidata
 Mumps,Fever,wikidata
+Mumps,"It starts with: After that, the salivary glands under the ears or jaw become swollen and tender",medlineplus
 Mumps,Malaise,wikidata
 Mumps,Meningitis,wikidata
 Mumps,Orchitis,wikidata
 Mumps,Pancreatitis,wikidata
 Mumps,Swelling,wikidata
 Mumps,Symptoms last 7 to 10 days,medlineplus
+Mumps,The swelling can be on one or both sides of the face,medlineplus
 Mumps,Xerostomia,wikidata
 Murray Valley encephalitis,Coma,wikidata
 Murray Valley encephalitis,Confusion,disease_ontology
@@ -4408,6 +4325,12 @@ Murray Valley encephalitis,Sopor,wikidata
 Murray Valley encephalitis,Tremor,wikidata
 Murray Valley encephalitis,Vomiting,disease_ontology+wikidata
 Murray Valley encephalitis,Weakness,disease_ontology
+Muscle Cramps,"Muscle cramps are sudden, involuntary contractions or spasms in one or more of your muscles",medlineplus
+Muscle Cramps,"Muscle cramps are usually harmless, and they go away after a few minutes",medlineplus
+Muscle Cramps,"Some people get muscle cramps, especially leg cramps, at night",medlineplus
+Muscle Cramps,"They can be painful, and they may last a few seconds to several minutes",medlineplus
+Muscle Cramps,"You can have a cramp in any muscle, but they happen most often in the: What causes muscle cramps?",medlineplus
+Muscle Disorders,"Muscle disorders can cause weakness, pain or even paralysis",medlineplus
 Muscular Dystrophy,"Assistive devices, such as wheelchairs, splints and braces, and walkers",medlineplus
 Muscular Dystrophy,Occupational therapy to relearn lost motor skills and learn ways to work around weakened muscles,medlineplus
 Muscular Dystrophy,"Over time, the weakness gets worse and can cause trouble walking and doing daily activities",medlineplus
@@ -4449,6 +4372,8 @@ Myasthenia Gravis,"Weakness in the arms, hands, fingers, legs, and neck",medline
 Myasthenia Gravis,Weakness of the eye muscles,medlineplus
 Myelodysplastic Syndromes,"If you have a myelodysplastic syndrome, the stem cells do not mature into healthy blood cells",medlineplus
 Myelodysplastic Syndromes,"If you have symptoms, they may include: Myelodysplastic syndromes are rare",medlineplus
+Myelodysplastic Syndromes,"The stem cells can develop into the red blood cells that carry oxygen through your body, the white blood cells that fight infections, and the platelets that help with blood clotting",medlineplus
+Myelodysplastic Syndromes,"This means that you do not have enough healthy cells, which can lead to infection, anemia, or easy bleeding",medlineplus
 Myositis,"An injury, infection, or autoimmune disease can cause it",medlineplus
 Myositis,Fatigue after walking or standing,medlineplus
 Myositis,Tripping or falling,medlineplus
@@ -4588,6 +4513,7 @@ Neuroendocrine tumor,Back pain,wikidata
 Neuroendocrine tumor,Diarrhea,wikidata
 Neuroendocrine tumor,Flushing,wikidata
 Neuroendocrine tumor,Indigestion,wikidata
+Neuromuscular Disorders,"You may also have symptoms such as spasms, twitching, and pain",medlineplus
 Newcastle disease,Circling,disease_ontology
 Newcastle disease,Complete paralysis,disease_ontology
 Newcastle disease,Conjunctivitis,disease_ontology
@@ -4639,8 +4565,6 @@ Normal pressure hydrocephalus,Urinary incontinence,wikidata
 Norovirus Infections,Diarrhea,medlineplus
 Norovirus Infections,Nausea and vomiting,medlineplus
 Norovirus Infections,Stomach pain,medlineplus
-Nutrition for Older Adults,"If you have started losing your appetite, exercising may help you to feel hungrier",medlineplus
-Nutrition for Older Adults,You may find them in some store-bought baked goods and fried foods at some fast-food restaurants,medlineplus
 O'nyong'nyong fever,Arthralgia,wikidata
 O'nyong'nyong fever,Fever,wikidata
 O'nyong'nyong fever,Lymphadenitis,wikidata
@@ -4712,12 +4636,6 @@ Opioid Overdose,"They include strong prescription pain relievers such as oxycodo
 Opioid Overdose,Very small pupils of the eyes,medlineplus
 Opioid Overdose,Vomiting,medlineplus
 Opioid Overdose,You may get them if you have severe pain from health conditions like cancer,medlineplus
-Opioid Use Disorder (OUD) Treatment,"Counseling for OUD can help you: There are different types of counseling for OUD, including: Group counseling, which can help you feel that you are not alone with your issues",medlineplus
-Opioid Use Disorder (OUD) Treatment,"Instead of OUD, sometimes people use the terms ""opioid dependence"" and ""opioid addiction."" Dependence means feeling withdrawal symptoms when not taking the drug",medlineplus
-Opioid Use Disorder (OUD) Treatment,Opioid use disorder (OUD) means that you have a problematic pattern of using opioids,medlineplus
-Opioid Use Disorder (OUD) Treatment,Some health care providers prescribe them for chronic pain,medlineplus
-Opioid Use Disorder (OUD) Treatment,"They include strong prescription pain relievers, such as oxycodone, hydrocodone, fentanyl, and tramadol",medlineplus
-Opioid Use Disorder (OUD) Treatment,You may get them if you have severe pain from health conditions like cancer,medlineplus
 Opioids and Opioid Use Disorder (OUD),"Instead of OUD, sometimes people use the terms ""opioid dependence"" and ""opioid addiction."" Dependence means feeling withdrawal symptoms when not taking the drug",medlineplus
 Opioids and Opioid Use Disorder (OUD),NAS is a group of withdrawal symptoms that a baby has after being exposed to drugs during pregnancy,medlineplus
 Opioids and Opioid Use Disorder (OUD),Opioid use disorder (OUD) means that you have a problematic pattern of using opioids,medlineplus
@@ -4801,8 +4719,6 @@ Oropouche fever,Arthralgia,wikidata
 Oropouche fever,Chills,wikidata
 Oropouche fever,Fever,wikidata
 Oropouche fever,Vomiting,wikidata
-Orthodontia,"But if you have problems with your bite or the spacing of your teeth, you may need orthodontic care",medlineplus
-Orthodontia,Some people have naturally straight teeth that fit together,medlineplus
 Osmotic diarrhea,Constipation,wikidata
 Osmotic diarrhea,Diarrhea,wikidata
 Osteitis fibrosa cystica,Brown tumor,wikidata
@@ -4851,6 +4767,8 @@ Ovarian Cancer,Ovarian cancer may not cause early signs or symptoms,medlineplus
 Ovarian Cancer,"Pain, swelling, or a feeling of pressure in the abdomen (belly) or pelvis",medlineplus
 Ovarian Cancer,Sudden or frequent urge to urinate (pee),medlineplus
 Ovarian Cancer,Trouble eating or feeling full,medlineplus
+Ovarian Cysts,"If a cyst bursts or causes bleeding, you should get medical help right away",medlineplus
+Ovarian Cysts,Most ovarian cysts are small and don't cause symptoms,medlineplus
 Ovarian Disorders,Nausea or diarrhea,medlineplus
 Ovarian Disorders,Other disorders may cause more severe symptoms,medlineplus
 Ovarian Disorders,Painful menstrual cramps,medlineplus
@@ -4865,8 +4783,6 @@ Overactive Bladder,Urinary urgency,wikidata
 Overactive Bladder,"You have the sudden, strong need to urinate immediately",medlineplus
 Overactive Bladder,"You leak urine after a sudden, strong urge to urinate",medlineplus
 Overactive Bladder,You urinate eight or more times a day or two or more times at night,medlineplus
-Pacemakers and Implantable Defibrillators,"An ICD can help control life-threatening arrhythmias, especially those that can cause sudden cardiac arrest (SCA)",medlineplus
-Pacemakers and Implantable Defibrillators,"If your arrhythmia is serious, you may need a cardiac pacemaker or an implantable cardioverter defibrillator (ICD)",medlineplus
 Paget's Disease of Bone,"Damage to the cartilage of your joints, which may lead to arthritis",medlineplus
 Paget's Disease of Bone,"Headaches and hearing loss, which can happen when Paget's disease affects the skull",medlineplus
 Paget's Disease of Bone,"Hip pain, if Paget's disease affects the pelvis or thighbone",medlineplus
@@ -4885,10 +4801,6 @@ Pain,What causes pain?,medlineplus
 Pain,What is pain?,medlineplus
 Pain,You are the only one who knows how your pain feels,medlineplus
 Pain,"You may feel pain in one area of your body, such as your back, abdomen, chest, or pelvis, or you may feel it all over",medlineplus
-Pain Relievers,Each person may also have a slightly different response to a pain reliever,medlineplus
-Pain Relievers,"The most powerful pain relievers are opioids, sometimes called narcotics",medlineplus
-Pain Relievers,There are many things you can do to help ease pain,medlineplus
-Pain Relievers,"They include strong prescription pain relievers such as oxycodone, hydrocodone, or morphine",medlineplus
 Pancreatic Cancer,Abdominal pain,wikidata
 Pancreatic Cancer,Acute pancreatitis,wikidata
 Pancreatic Cancer,Anorexia,wikidata
@@ -4976,10 +4888,6 @@ Pasteurellosis,Meningeal irritation,disease_ontology
 Pasteurellosis,Pneumonia,disease_ontology+wikidata
 Pasteurellosis,Rigors,disease_ontology
 Pasteurellosis,Tachycardia,disease_ontology+wikidata
-Patient Rights,"As a patient, you have certain rights",medlineplus
-Patient Rights,There are different resources that can help you if you have a problem with your patient rights: The U.S,medlineplus
-Patient Rights,You can file a complaint with them if you feel you have been discriminated against in your medical care or if you think your health information privacy rights have been violated,medlineplus
-Patient Rights,You have the right to change your mind about consent at any time,medlineplus
 Pearson syndrome,Anemia,wikidata
 Pearson syndrome,Diarrhea,wikidata
 Pearson syndrome,Exocrine pancreatic insufficiency,wikidata
@@ -5031,6 +4939,7 @@ Penicilliosis,Lymphadenopathy,disease_ontology
 Penicilliosis,Respiratory signs,disease_ontology
 Penicilliosis,Skin lesions,disease_ontology
 Penicilliosis,Weight loss,disease_ontology
+Penis Disorders,Problems with the penis can cause pain and affect a man's sexual function and fertility,medlineplus
 Peptic Ulcer,A burning stomach pain is the most common symptom,medlineplus
 Peptic Ulcer,Briefly stops if you eat or take antacids,medlineplus
 Peptic Ulcer,Comes and goes for several days or weeks,medlineplus
@@ -5094,6 +5003,7 @@ Personality Disorders,The types in each cluster have some similar symptoms and c
 Personality Disorders,They may be looking for help because of other mental health symptoms or problems with relationships and work,medlineplus
 Pharyngoconjunctival fever,Enlargement of lymph nodes,wikidata
 Pharyngoconjunctival fever,Lymphadenopathy,wikidata
+Phenylketonuria,"If you have it, your body can't process phenylalanine (Phe)",medlineplus
 Phlebotomus fever,Arthralgia,wikidata
 Phlebotomus fever,Asthenia,wikidata
 Phlebotomus fever,Bradycardia,wikidata
@@ -5120,6 +5030,14 @@ Pinta disease,Itch,wikidata
 Pinta disease,Lymphadenopathy,wikidata
 Pinta disease,Primary affect,wikidata
 Pinta disease,Pruritic plaque,disease_ontology
+Pinworms,Abdominal pain,wikidata
+Pinworms,Asthenia,wikidata
+Pinworms,Constipation,wikidata
+Pinworms,Irritability,wikidata
+Pinworms,Itch,wikidata
+Pinworms,Some people feel itching around the anus or vagina,medlineplus
+Pinworms,"The itching may become intense, interfere with sleep, and make you irritable",medlineplus
+Pituitary Disorders,"Injuries can cause pituitary disorders, but the most common cause is a pituitary tumor",medlineplus
 Pituitary Tumors,Headaches,medlineplus
 Pituitary Tumors,Nausea and vomiting,medlineplus
 Pituitary Tumors,Vision problems,medlineplus
@@ -5140,6 +5058,9 @@ Plantar fascial fibromatosis,Decreased range of motion,disease_ontology
 Plantar fascial fibromatosis,Early painless nodules,disease_ontology
 Plantar fascial fibromatosis,Eventual contracture,disease_ontology
 Plantar fascial fibromatosis,Weakened grip,disease_ontology
+Platelet Disorders,"Normally, when one of your blood vessels is injured, you start to bleed",medlineplus
+Platelet Disorders,Your platelets will clot (clump together) to plug the hole in the blood vessel and stop the bleeding,medlineplus
+Pleural Disorders,Disorders of the pleura include: Many different conditions can cause pleural problems,medlineplus
 Pleural disease,Heart failure,wikidata
 Pleural disease,Inflammation,wikidata
 Pleural tuberculosis,Allergic response,wikidata
@@ -5185,8 +5106,11 @@ Pneumonic tularemia,Pain,disease_ontology
 Pneumothorax,Chest pain,wikidata
 Pneumothorax,Dry cough,wikidata
 Pneumothorax,Dyspnea,wikidata
+"Poison Ivy, Oak, and Sumac","If it gets on your skin, it causes a blistering skin rash",medlineplus
 "Poison Ivy, Oak, and Sumac","If you spend time outdoors, chances are you have been bothered by poison ivy, poison oak or poison sumac at some point",medlineplus
 "Poison Ivy, Oak, and Sumac",Pruritic erythematous rash with papules,disease_ontology
+"Poison Ivy, Oak, and Sumac",The best way to avoid the rash is to learn what the plants look like and stay away from them,medlineplus
+"Poison Ivy, Oak, and Sumac","The rash can range from mild to severe, depending on how much sap gets on your skin and how sensitive you are to it",medlineplus
 Polio and Post-Polio Syndrome,But one out of four people who get polio will have flu-like symptoms,medlineplus
 Polio and Post-Polio Syndrome,Curving of the spine (scoliosis),medlineplus
 Polio and Post-Polio Syndrome,Diarrhea,wikidata
@@ -5238,6 +5162,8 @@ Polymyalgia Rheumatica,The main symptom is stiffness after resting,medlineplus
 Polymyositis,Fever,wikidata
 Polymyositis,Muscle weakness,wikidata
 Polymyositis,Myocarditis,wikidata
+Porphyria,"People with the skin type develop blisters, itching, and swelling of their skin when it is exposed to sunlight",medlineplus
+Porphyria,"Symptoms include pain in the chest, abdomen, limbs, or back; muscle numbness, tingling, paralysis, or cramping; vomiting; constipation; and personality changes or mental disorders",medlineplus
 Portal hypertension,Ascites,wikidata
 Portal hypertension,Jaundice,wikidata
 Portal hypertension,Splenomegaly,wikidata
@@ -5302,8 +5228,6 @@ Postural orthostatic tachycardia syndrome,Obnubilation,wikidata
 Postural orthostatic tachycardia syndrome,Tachycardia,wikidata
 Postural orthostatic tachycardia syndrome,Tremor,wikidata
 Postural orthostatic tachycardia syndrome,Tunnel vision,wikidata
-Potassium,"If you have chronic kidney disease, your kidneys may not remove extra potassium from the blood",medlineplus
-Potassium,You may need a special diet to lower the amount of potassium that you eat,medlineplus
 Powassan encephalitis,Ataxia,wikidata
 Powassan encephalitis,Breathing distress,disease_ontology
 Powassan encephalitis,Chills,wikidata
@@ -5333,18 +5257,6 @@ Prader-Willi Syndrome,Underdeveloped sex organs,medlineplus
 Prader-Willi Syndrome,Weight gain,medlineplus
 Prediabetes,"If you have prediabetes, you are more likely to develop type 2 diabetes, heart disease, and stroke",medlineplus
 Prediabetes,Some people with prediabetes may have darkened skin in the armpit or on the back and sides of the neck,medlineplus
-Pregnancy,It can be hard to know whether a new symptom is normal or could be a sign of a problem,medlineplus
-Pregnancy,"You may have a lot of questions, including what you can do to give your baby a healthy start",medlineplus
-Pregnancy and Opioids,But you should not breastfeed if you have HIV or take illegal drugs,medlineplus
-Pregnancy and Opioids,Some providers prescribe them for chronic pain,medlineplus
-Pregnancy and Opioids,Taking opioids during pregnancy can cause problems for you and your baby,medlineplus
-Pregnancy and Opioids,"They include strong prescription pain relievers such as oxycodone, hydrocodone, fentanyl, and tramadol",medlineplus
-Pregnancy and Opioids,You may get them if you have severe pain from health conditions like cancer,medlineplus
-Pregnancy and Substance Use,"FASD is a life-long condition that can cause a mix of physical, behavioral, and learning problems",medlineplus
-Pregnancy and Substance Use,"Illegal drugs Using illegal drugs, such as cocaine, methamphetamines, and club drugs, during pregnancy can cause problems for both you and your baby",medlineplus
-Pregnancy and Substance Use,NAS causes withdrawal symptoms in newborn babies,medlineplus
-Pregnancy and Substance Use,"Opioids include strong prescription pain relievers such as oxycodone, hydrocodone, fentanyl, and tramadol",medlineplus
-Pregnancy and Substance Use,Taking opioids during pregnancy can cause problems for you and your baby,medlineplus
 Premature Babies,"Problems that a baby born too early may have include: Preemies need special medical care in a neonatal intensive care unit, or NICU",medlineplus
 Premature Babies,They may have health problems because their organs did not have enough time to develop,medlineplus
 Premenstrual Syndrome,Acne,medlineplus
@@ -5379,6 +5291,7 @@ Premenstrual Syndrome,Sleeping too much or too little,medlineplus
 Premenstrual Syndrome,Trouble with concentration and memory,medlineplus
 Premenstrual Syndrome,"With PMDD, the symptoms are severe enough to interfere with your life",medlineplus
 Premenstrual Syndrome,"You may get physical symptoms, emotional symptoms, or both",medlineplus
+Pressure Sores,"Pressure sores can cause serious infections, some of which are life-threatening",medlineplus
 Preterm Labor,Abdominal cramps with or without diarrhea,medlineplus
 Preterm Labor,Contractions every 10 minutes or more often,medlineplus
 Preterm Labor,Cramps that feel like menstrual cramps,medlineplus
@@ -5451,6 +5364,8 @@ Psoriasis,Infections,medlineplus
 Psoriasis,Inflammation,wikidata
 Psoriasis,Itch,wikidata
 Psoriasis,Stress,medlineplus
+Psoriatic Arthritis,"It causes pain, stiffness, and swelling of the joints",medlineplus
+Psoriatic Arthritis,"Psoriasis is a skin disease that causes itchy or sore patches of thick, red skin with silvery scales",medlineplus
 Psychotic Disorders,It might involve drugs to control symptoms and talk therapy,medlineplus
 Psychotic Disorders,"Other problems that can cause psychosis include alcohol and some drugs, brain tumors, brain infections, and stroke",medlineplus
 Psychotic Disorders,People with bipolar disorder may also have psychotic symptoms,medlineplus
@@ -5535,13 +5450,19 @@ Rabies,Phonophobia,wikidata
 Rabies,Photophobia,wikidata
 Rabies,Respiratory arrest,wikidata
 Rabies,Vomiting,wikidata
-Radiation Emergencies,"If the exposure is large enough, it can cause premature aging or even death",medlineplus
-Radiation Emergencies,You may need help in finding ways to cope,medlineplus
 Ramsay Hunt syndrome,Headache,disease_ontology
 Ramsay Hunt syndrome,Otalgia,disease_ontology
 Ramsay Hunt syndrome,Tinnitus,disease_ontology
 Ramsay Hunt syndrome,Vertigo,disease_ontology
 Ramsay Hunt syndrome,Vesicular rash of the ear or mouth,disease_ontology
+Rashes,A rash is an area of irritated or swollen skin,medlineplus
+Rashes,Certain genes can make people more likely to get rashes,medlineplus
+Rashes,Contact dermatitis is a common type of rash,medlineplus
+Rashes,"It causes redness, itching, and sometimes small bumps",medlineplus
+Rashes,"Many rashes are itchy, red, painful, and irritated",medlineplus
+Rashes,Some rashes can also lead to blisters or patches of raw skin,medlineplus
+Rashes,Some rashes develop right away,medlineplus
+Rashes,"You get the rash where you have touched an irritant, such as a chemical, or something you are allergic to, like poison ivy",medlineplus
 Raynaud Phenomenon,"But when you have Raynaud phenomenon, the blood vessels in your hands and feet react to cold or stress by narrowing quickly",medlineplus
 Raynaud Phenomenon,"For many people, especially those with the primary type, the symptoms are mild",medlineplus
 Raynaud Phenomenon,"If you have darker skin, you may not be able to easily see the skin color changes",medlineplus
@@ -5551,6 +5472,7 @@ Raynaud Phenomenon,Most people with Raynaud phenomenon can keep their symptoms u
 Raynaud Phenomenon,People with the secondary type often have more severe symptoms,medlineplus
 Raynaud Phenomenon,Placing your hands or feet in a warm place when you have an attack. This could mean putting them under warm (not hot) water or under a heating pad,medlineplus
 Raynaud Phenomenon,Quitting smoking (or not starting smoking),medlineplus
+Rectal Disorders,The rectum is the lower part of your large intestine where your body stores stool,medlineplus
 Reflux in Children,Bad breath,medlineplus
 Reflux in Children,"Cough, hoarseness, or breathing problems",medlineplus
 Reflux in Children,Eating smaller meals,medlineplus
@@ -5620,6 +5542,9 @@ Respiratory syncytial virus infectious disease,Respiratory distress,disease_onto
 Respiratory syncytial virus infectious disease,Runny nose,disease_ontology+wikidata
 Respiratory syncytial virus infectious disease,Sneeze,wikidata
 Respiratory syncytial virus infectious disease,Wheezing,disease_ontology
+Restless Legs,"Caffeine, tobacco, and alcohol may make symptoms worse",medlineplus
+Restless Legs,"Some people describe it as a creeping, crawling, tingling, or burning sensation",medlineplus
+Retinal Detachment,"If you have any symptoms, see an eye care professional immediately",medlineplus
 Retinal Disorders,Blurred or distorted vision,medlineplus
 Retinal Disorders,"Common symptoms include: Seek medical care right away if you notice flashes of light, sudden vision changes, or a sudden increase in eye floaters",medlineplus
 Retinal Disorders,Flashes of light,medlineplus
@@ -5643,6 +5568,8 @@ Reye Syndrome,Listlessness,medlineplus
 Reye Syndrome,Loss of consciousness,medlineplus
 Reye Syndrome,Nausea and vomiting,medlineplus
 Reye Syndrome,"Personality change - such as irritability, combativeness or confusion",medlineplus
+Rh Incompatibility,"During your next pregnancy, the antibodies can cross the placenta (the organ that grows in the uterus to provide oxygen and nutrients to the fetus) and attack the red blood cells of the fetus",medlineplus
+Rh Incompatibility,It will create antibodies (proteins) that can damage their red blood cells,medlineplus
 Rh Incompatibility,"Rh incompatibility can cause Rh disease, a serious condition that can cause a severe type of anemia",medlineplus
 Rh Incompatibility,Your blood type also has a positive or negative sign,medlineplus
 Rheumatic fever,Arthralgia,disease_ontology
@@ -5676,6 +5603,7 @@ Rhinitis,Nasal congestion,wikidata
 Rhinitis,Nasal irritation,wikidata
 Rhinitis,Runny nose,wikidata
 Rhinitis,Sneeze,wikidata
+Rickets,"Symptoms include bone pain or tenderness, impaired growth, and deformities of the bones and teeth",medlineplus
 Rickettsia parkeri spotted fever,Eschar,disease_ontology
 Rickettsia parkeri spotted fever,Fever,disease_ontology
 Rickettsia parkeri spotted fever,Headache,disease_ontology
@@ -5775,20 +5703,21 @@ Rotator Cuff Injuries,Loss of strength in the arm,medlineplus
 Rotator Cuff Injuries,Reach behind your back,medlineplus
 Rotator Cuff Injuries,Rotator cuff injuries don't always cause pain,medlineplus
 Rotator Cuff Injuries,You may feel more pain when you: Other symptoms from a torn rotator cuff may include,medlineplus
+Rotavirus Infections,"Symptoms include severe diarrhea, vomiting, fever, and dehydration",medlineplus
+Rotavirus Infections,Vomiting and diarrhea may last from three to eight days,medlineplus
 Rubella,About half of the people who get rubella do not have symptoms,medlineplus
 Rubella,Conjunctivitis,disease_ontology
 Rubella,Fatigue,wikidata
 Rubella,Fever,disease_ontology+wikidata
 Rubella,Headache,disease_ontology
 Rubella,It can cause miscarriage or birth defects,medlineplus
+Rubella,It is usually mild with fever and a rash,medlineplus
 Rubella,Joint pains,disease_ontology
 Rubella,Lymphadenopathy,disease_ontology
 Rubella,Rash,wikidata
 Rubella,Rash on the face which spreads to the trunk and limbs,disease_ontology
+Rubella,Rubella spreads when an infected person coughs or sneezes,medlineplus
 Rubella,Sore throat,wikidata
-Safe Opioid Use,Some providers prescribe them for chronic pain,medlineplus
-Safe Opioid Use,"They include strong prescription pain relievers such as oxycodone, hydrocodone, fentanyl, and tramadol",medlineplus
-Safe Opioid Use,You may get them if you have severe pain from health conditions like cancer,medlineplus
 Salivary Gland Disorders,Problems with salivary glands can cause them to become irritated and swollen,medlineplus
 Salivary Gland Disorders,You have three pairs of major salivary glands and hundreds of small (minor) glands,medlineplus
 Salmonella Infections,Abdominal cramps,medlineplus
@@ -5858,6 +5787,7 @@ Scarlet fever,Strawberry tongue,wikidata
 Scarlet fever,Tachycardia,wikidata
 Scarlet fever,Tonsillitis,wikidata
 Scarlet fever,Vomiting,wikidata
+Scars,"It forms when your body heals itself after a cut, scrape, burn, or sore",medlineplus
 Schistosomiasis,Chills,wikidata
 Schistosomiasis,Diarrhea,wikidata
 Schistosomiasis,Hematuria,wikidata
@@ -5883,6 +5813,7 @@ Schizotypal personality disorder,Magical thinking,wikidata
 Schizotypal personality disorder,Paranoia,wikidata
 Schizotypal personality disorder,Reduced affect display,wikidata
 Schizotypal personality disorder,Social anxiety,wikidata
+Sciatica,"When you have sciatica, you have pain, weakness, numbness, or tingling",medlineplus
 Scleroderma,"Avoiding hot baths and showers, harsh soaps, and household cleaners",medlineplus
 Scleroderma,"Damage to your internal organs, including your digestive system, kidneys, and heart",medlineplus
 Scleroderma,Dressing warm and avoiding cold or wet environments,medlineplus
@@ -5904,6 +5835,7 @@ Scleroperikeratitis,Inflammation,wikidata
 Scleroperikeratitis,Pain,disease_ontology
 Sclerosing keratitis,Inflammation,wikidata
 Sclerosing keratitis,Pain,disease_ontology
+Scoliosis,Symptoms include leaning to one side and having uneven shoulders and hips,medlineplus
 Scrofula,Enlargement of lymph nodes,wikidata
 Scrofula,Lymphadenopathy,wikidata
 Scrub typhus,Arthralgia,wikidata
@@ -5931,6 +5863,14 @@ Seasonal Affective Disorder,Low energy,medlineplus
 Seasonal Affective Disorder,"Researchers have found that people with SAD may have an imbalance of serotonin, a brain chemical that affects your mood",medlineplus
 Seasonal Affective Disorder,Sadness,medlineplus
 Seasonal Affective Disorder,Thoughts of death or suicide,medlineplus
+Seizures,"Focal seizures, also called partial seizures, happen in just one part of the brain",medlineplus
+Seizures,Generalized seizures are a result of abnormal activity on both sides of the brain,medlineplus
+Seizures,Most seizures last from 30 seconds to 2 minutes and do not cause lasting harm,medlineplus
+Seizures,Not all seizures cause convulsions,medlineplus
+Seizures,People who have recurring seizures due to a brain disorder have epilepsy,medlineplus
+Seizures,Seizures fall into two main groups,medlineplus
+Seizures,There are many types of seizures and some have mild symptoms,medlineplus
+Seizures,"When people think of seizures, they often think of convulsions in which a person's body shakes rapidly and uncontrollably",medlineplus
 Self-Harm,"Having frequent cuts, bruises, or scars",medlineplus
 Self-Harm,Having sharp objects around for no clear reason,medlineplus
 Self-Harm,Making excuses about injuries,medlineplus
@@ -6085,12 +6025,19 @@ Sjögren's Disease,"You may have dryness in other places that need moisture, suc
 Skin Infections,But sometimes the germs can cause a skin infection,medlineplus
 Skin Infections,"Some symptoms that are common to many skin infections include rashes, swelling, redness, pain, pus, and itching",medlineplus
 Skin Infections,The symptoms depend on the type of infection,medlineplus
+Skin Pigmentation Disorders,"A person with albinism may have no color, lighter than normal skin color, or patchy missing skin color",medlineplus
+Skin Pigmentation Disorders,"Infections, blisters and burns can also cause lighter skin",medlineplus
 Skin cancer,Burning sensation,wikidata
 Skin cancer,Itch,wikidata
 Skin cancer,Nevus,wikidata
 Skin cancer,Nodule,wikidata
 Skin cancer,Skin lesion,wikidata
 Skin cancer,Ulcer,wikidata
+Sleep Apnea,Breathing pauses can last from a few seconds to minutes,medlineplus
+Sleep Apnea,Normal breathing starts again with a snort or choking sound,medlineplus
+Sleep Apnea,People with sleep apnea often snore loudly,medlineplus
+Sleep Apnea,Sleep apnea is a common disorder that causes your breathing to stop or get very shallow,medlineplus
+Sleep Apnea,"When your sleep is interrupted throughout the night, you can be drowsy during the day",medlineplus
 Sleep Disorders,"If your sleep is often interrupted, you may not get enough time in certain stages of sleep",medlineplus
 Sleep Disorders,Poor-quality sleep does more than make you feel tired,medlineplus
 Sleep Disorders,Some signs that you may have a sleep disorder include that,medlineplus
@@ -6117,9 +6064,10 @@ Smallpox,Scar,wikidata
 Smallpox,Symptoms are flu-like,medlineplus
 Smallpox,Those who do recover may have severe scars,medlineplus
 Smallpox,Vomiting,wikidata
-Smoking,"Smokeless tobacco can cause certain cancers, including oral cancer",medlineplus
-Smoking,Smoking even just one cigarette per day over a lifetime can cause smoking-related cancers and premature death,medlineplus
 Snoring,Snoring can also be a sign of a serious sleep disorder called sleep apnea,medlineplus
+Snoring,"Snoring is common, especially among older people and people who are overweight",medlineplus
+Snoring,Snoring is the sound you make when your breathing is blocked while you are asleep,medlineplus
+Snoring,To reduce snoring: NIH: National Institute on Aging,medlineplus
 Snoring,"When severe, snoring can cause frequent awakenings at night and daytime sleepiness",medlineplus
 Sodoku,Arthralgia,wikidata
 Sodoku,Chills,wikidata
@@ -6133,6 +6081,11 @@ Sodoku disease,Chills,disease_ontology
 Sodoku disease,Joint pain,disease_ontology
 Sodoku disease,Rash,disease_ontology
 Sodoku disease,Relapsing fever,disease_ontology
+Soft Tissue Sarcoma,"Sometimes they spread and can press on nerves and organs, causing problems such as pain or trouble breathing",medlineplus
+Soft Tissue Sarcoma,They may cause a lump or swelling in the soft tissue,medlineplus
+Sore Throat,"Often, colds and flu cause sore throats",medlineplus
+Sore Throat,"Sucking on lozenges, drinking lots of liquids, and gargling may ease the pain",medlineplus
+Sore Throat,You can have a sore throat for many reasons,medlineplus
 Sparganosis,Abscess,wikidata
 Sparganosis,Cystitis,wikidata
 Sparganosis,Edema,wikidata
@@ -6147,6 +6100,8 @@ Spider Bites,"If you are bitten by a spider, you may see a reaction similar to t
 Spider Bites,"Occasionally, spider bites can cause allergic reactions",medlineplus
 Spina Bifida,Asymptomatic,wikidata
 Spina Bifida,"They may have learning difficulties, urinary and bowel problems, or hydrocephalus, a buildup of fluid in the brain",medlineplus
+Spinal Cord Diseases,"Other spinal cord problems include: Symptoms vary but might include pain, numbness, loss of sensation and muscle weakness",medlineplus
+Spinal Cord Injuries,"With an incomplete injury, you have some movement and sensation below the injury",medlineplus
 Spinal Muscular Atrophy,"Assistive devices such as supports or braces, orthotics, speech synthesizers, and wheelchairs to help people stay more independent",medlineplus
 Spinal Muscular Atrophy,Good nutrition and a balanced diet to help maintain weight and strength. Some people might need a feeding tube in order to get the nutrition they need,medlineplus
 Spinal Muscular Atrophy,"If only one copy has the change, there usually aren't any symptoms",medlineplus
@@ -6156,6 +6111,10 @@ Spinal Stenosis,Obdormition,wikidata
 Spinal Stenosis,Pain,wikidata
 Spinal Stenosis,Symptoms might appear gradually or not at all,medlineplus
 Spinal Stenosis,The narrowing puts pressure on your nerves and spinal cord and can cause pain,medlineplus
+Spine Injuries and Disorders,A number of problems can change the structure of the spine or damage the vertebrae and surrounding tissue,medlineplus
+Spine Injuries and Disorders,They include: Spinal diseases often cause pain when bone changes put pressure on the spinal cord or nerves,medlineplus
+Spleen Diseases,Certain diseases might cause your spleen to swell,medlineplus
+Spleen Diseases,"You can also damage or rupture your spleen in an injury, especially if it is already swollen",medlineplus
 Sports Injuries,"Accidents, poor training practices, or improper gear can cause them",medlineplus
 Sports Injuries,Continuing to play or exercise can cause more harm,medlineplus
 Sprains and Strains,"Symptoms include pain, muscle spasms, swelling, and trouble moving the muscle",medlineplus
@@ -6191,10 +6150,12 @@ Staphyloenterotoxemia,Muscle weakness,wikidata
 Staphyloenterotoxemia,Nausea,disease_ontology+wikidata
 Staphyloenterotoxemia,Vomiting,disease_ontology
 Staphyloenterotoxemia,Weakness,disease_ontology
-Statins,"But if you have too much of it in your blood, it can stick to the walls of your arteries and narrow or even block them",medlineplus
-Statins,"In rare cases, this muscle damage can lead to muscle pain and kidney damage",medlineplus
+Steatotic Liver Disease,"If cirrhosis leads to liver failure, you may need a liver transplant",medlineplus
 Stiff-person syndrome,Muscle rigidity,wikidata
 Stiff-person syndrome,Myoclonus,wikidata
+Stillbirth,"If one or more signs of life are not present, then life-saving measures are taken",medlineplus
+Stomach Cancer,"In advanced cases, there may be blood in your stool, vomiting, unexplained weight loss, jaundice, or trouble swallowing",medlineplus
+Stomach Disorders,Most people have a problem with their stomach at one time or another,medlineplus
 Streptococcal Infections,"Blood infections, pneumonia and meningitis in newborns",medlineplus
 Streptococcal Infections,"Cellulitis. A skin infection that causes redness, swelling, and pain, usually on the legs",medlineplus
 Streptococcal Infections,"Impetigo. A skin infection that causes sores or blisters, often around the mouth, nose, or on the arms and legs",medlineplus
@@ -6239,6 +6200,8 @@ Strongyloidiasis,Sepsis,wikidata
 Strongyloidiasis,Ulcer,wikidata
 Strongyloidiasis,Urticaria,wikidata
 Strongyloidiasis,Vertigo,wikidata
+Stuttering,"Stuttering can be frustrating, because you know exactly what you want to say, but you have trouble saying it",medlineplus
+Stuttering,"The stuttering may be worse when you are stressed, excited, or tired",medlineplus
 Sudden Cardiac Arrest,"And sometimes people have chest pain, shortness of breath, nausea, or vomiting in the hour before they have an SCA",medlineplus
 Sudden Cardiac Arrest,Certain diseases and conditions can cause the electrical problems that lead to SCA,medlineplus
 Sudden Cardiac Arrest,Heart failure,wikidata
@@ -6289,6 +6252,10 @@ Swine influenza,Nausea,disease_ontology+wikidata
 Swine influenza,Runny nose,disease_ontology
 Swine influenza,Sore throat,disease_ontology
 Swine influenza,Vomiting,disease_ontology+wikidata
+Syphilis,Many people do not notice symptoms for years,medlineplus
+Syphilis,Sometimes it causes swelling in nearby lymph nodes,medlineplus
+Syphilis,"The early stage of syphilis usually causes a single, small, painless sore",medlineplus
+Syringomyelia,Damage to the spinal cord from the syrinx can cause symptoms such as : Symptoms vary according to the size and location of the syrinx,medlineplus
 TAR syndrome,Radial aplasia,wikidata
 TAR syndrome,Thrombocytopenia,wikidata
 TARP syndrome,Atrial heart septal defect,wikidata
@@ -6299,9 +6266,9 @@ TARP syndrome,Persistent left superior vena cava,wikidata
 Tabes dorsalis,Erectile dysfunction,wikidata
 Tabes dorsalis,Hyperesthesia,wikidata
 Tabes dorsalis,Paresthesia,wikidata
-Tanning,"But one kind, ultraviolet (UV) rays, can cause problems",medlineplus
-Tanning,This means that your tan is a sign of skin damage,medlineplus
-Tanning,UVB rays can cause sunburn,medlineplus
+Tailbone Disorders,"Instead, most injuries cause bruises or pulled ligaments",medlineplus
+Tailbone Disorders,"Tailbone disorders include tailbone injuries, pain, infections, cysts and tumors",medlineplus
+Taste and Smell Disorders,"Many illnesses and injuries can cause taste and smell disorders, including colds and head injuries",medlineplus
 Teen Depression,"Being angry, irritable, or frustrated, even at minor things",medlineplus
 Teen Depression,"Changes in sleep, such as having trouble falling asleep or staying asleep, or sleeping much more than usual",medlineplus
 Teen Depression,"Changes in weight, such as losing weight when you are not dieting or gaining weight from eating too much",medlineplus
@@ -6316,8 +6283,6 @@ Teen Depression,No longer caring about things you used to enjoy,medlineplus
 Teen Depression,Sadness,medlineplus
 Teen Depression,Thinking about dying or suicide,medlineplus
 Teen Depression,You may also have trouble focusing and have no motivation or energy,medlineplus
-Teen Development,"As your body changes, you may have questions about sexual health",medlineplus
-Teen Development,"But feeling very sad, hopeless, or worthless could be warning signs of a mental health problem",medlineplus
 Temporomandibular Disorders,A change in the way the upper and lower teeth fit together,medlineplus
 Temporomandibular Disorders,Apply heat or cold to the face and do some exercises to gently stretch and strengthen your jaw muscles,medlineplus
 Temporomandibular Disorders,Eat soft foods,medlineplus
@@ -6332,11 +6297,14 @@ Temporomandibular Disorders,"Take over-the-counter pain relievers, such as nonst
 Temporomandibular Disorders,There is limited evidence showing that they help with TMD symptoms,medlineplus
 Temporomandibular Disorders,"Tinnitus (ringing in the ears), hearing loss, or dizziness",medlineplus
 Temporomandibular Disorders,You have two TMJs; one on each side of your jaw,medlineplus
+Tendinitis,It causes pain and soreness around a joint,medlineplus
+Tendinitis,Tendinitis is the severe swelling of a tendon,medlineplus
 Testicular Cancer,A change in how the testicle feels,medlineplus
 Testicular Cancer,A dull ache in the lower abdomen (belly) or the groin (the area where the thigh meets the abdomen),medlineplus
 Testicular Cancer,A painless lump or swelling in either testicle,medlineplus
 Testicular Cancer,A sudden build-up of fluid in the scrotum,medlineplus
 Testicular Cancer,Pain or discomfort in a testicle or in the scrotum,medlineplus
+Testicular Disorders,"You should examine your testicles monthly and seek medical attention for lumps, redness, pain or other changes",medlineplus
 Tetanus,Dysphagia,wikidata
 Tetanus,Fever,wikidata
 Tetanus,Headache,wikidata
@@ -6349,6 +6317,7 @@ Tetanus,Saliva secretion,wikidata
 Tetanus,Spasm,wikidata
 Tetanus,Tachycardia,wikidata
 Tetanus,Tetanus triad,wikidata
+Tetanus,"The infection causes painful tightening of the muscles, usually all over the body",medlineplus
 Tetanus,Trismus,wikidata
 Thalassemia,"If you have one, your body makes fewer healthy red blood cells and less hemoglobin",medlineplus
 Thalassemia,"In some severe cases, you may need a bone marrow transplant",medlineplus
@@ -6364,6 +6333,8 @@ Throat Cancer,A sore throat that does not go away,medlineplus
 Throat Cancer,Ear pain,medlineplus
 Throat Cancer,Pain or ringing in the ears,medlineplus
 Throat Cancer,Trouble swallowing,medlineplus
+Throat Disorders,You've probably had a sore throat,medlineplus
+Thymus Cancer,"You are more likely to get it if you have other diseases such as myasthenia gravis, lupus or rheumatoid arthritis",medlineplus
 Thyroid Cancer,A lump (nodule) in the neck,medlineplus
 Thyroid Cancer,Dysphagia,wikidata
 Thyroid Cancer,Enlargement of lymph nodes,wikidata
@@ -6425,6 +6396,8 @@ Tinea manuum,Burning,disease_ontology
 Tinea manuum,Cracking,disease_ontology
 Tinea manuum,Itching,disease_ontology
 Tinea manuum,Scaling,disease_ontology
+Tinnitus,"People with severe tinnitus may have trouble hearing, working or even sleeping",medlineplus
+Tinnitus,Tinnitus is often described as a ringing in the ears,medlineplus
 Toe Injuries and Disorders,"Certain diseases, such as severe arthritis, can cause toe problems and pain",medlineplus
 Toe Injuries and Disorders,Gout often causes pain in the big toe,medlineplus
 Tonsillitis,"A sore throat, which may be severe",medlineplus
@@ -6486,6 +6459,8 @@ Toxoplasmosis,Hepatosplenomegaly,wikidata
 Toxoplasmosis,Low-grade fever,wikidata
 Toxoplasmosis,Lymphadenopathy,wikidata
 Toxoplasmosis,Splenomegaly,wikidata
+Tracheal Disorders,"You may need a procedure called a tracheostomy to help you breathe if you have swallowing problems, or have conditions that affect coughing or block your airways",medlineplus
+Tracheal Disorders,You might also need a tracheostomy if you are in critical care and need to be on a breathing machine,medlineplus
 Transient Ischemic Attack,Confusion or trouble speaking or understanding speech,medlineplus
 Transient Ischemic Attack,Difficulty walking,medlineplus
 Transient Ischemic Attack,Dizziness,medlineplus
@@ -6685,6 +6660,7 @@ Ulnar-mammary syndrome,Shawl scrotum,wikidata
 Ulnar-mammary syndrome,Subglottic stenosis,wikidata
 Ulnar-mammary syndrome,Tooth agenesis,wikidata
 Ulnar-mammary syndrome,Ventricular septal defect,wikidata
+Ureteral Disorders,"If urine stands still or backs up the ureter, you may get a urinary tract infection",medlineplus
 Urethral Disorders,They include: Urethral problems may cause pain or difficulty passing urine,medlineplus
 Urethral Disorders,You may also have bleeding or discharge from the urethra,medlineplus
 Urethral stricture,Dysuria,wikidata
@@ -6693,6 +6669,8 @@ Urethral stricture,Prostatitis,wikidata
 Urethral stricture,Urinary retention,wikidata
 Urethral stricture,Urinary tract infection,wikidata
 Urethral stricture,Urinary urgency,wikidata
+Urinary Incontinence,Strong pelvic floor muscles hold in urine better than weak muscles,medlineplus
+Urinary Incontinence,This helps close your bladder opening so you have less leaking,medlineplus
 Urinary tract infection,Abdominal pain,wikidata
 Urinary tract infection,Dysuria,wikidata
 Urinary tract infection,Fever,wikidata
@@ -6722,6 +6700,11 @@ Uveoparotid fever,Uveitis,wikidata
 Vaccinia,Body aches,disease_ontology
 Vaccinia,Fever,disease_ontology+wikidata
 Vaccinia,Rash,disease_ontology+wikidata
+Vaginal Bleeding,Abnormal vaginal bleeding is different from normal menstrual periods,medlineplus
+Vaginal Bleeding,Causes can include: Bleeding during pregnancy can have several different causes,medlineplus
+Vaginal Bleeding,It also includes bleeding that happens before puberty or after menopause,medlineplus
+Vaginal Bleeding,"It could be bleeding that is between periods, is very heavy, or lasts much longer than usual",medlineplus
+Vaginal Bleeding,"Menstruation, or a period, is a woman's monthly bleeding",medlineplus
 Vaginal Cancer,A vaginal lump,medlineplus
 Vaginal Cancer,Constipation or blood in your stool (poop) or urine (pee),medlineplus
 Vaginal Cancer,Pain during sex,medlineplus
@@ -6743,14 +6726,17 @@ Vaginitis,"You may get pills to swallow, or cream or gel that you put in your va
 Vaginitis,You may have burning during urination,medlineplus
 Vaginitis,You may have too much growing in the vagina because of: Trichomoniasis can also cause vaginitis,medlineplus
 Vaginitis,You may not have symptoms when you have trichomoniasis,medlineplus
+Valley Fever,A small number of people may develop a chronic lung or widespread infection,medlineplus
+Valley Fever,Anyone can get Valley Fever,medlineplus
 Valley Fever,Arthritis,disease_ontology+wikidata
 Valley Fever,Chest pain and results_in_formation_of skin nodules,disease_ontology
 Valley Fever,Conjunctivitis,disease_ontology+wikidata
 Valley Fever,"If you have symptoms, they may include a flu-like illness, with fever, cough, headache, rash, and muscle aches",medlineplus
 Van der Woude syndrome,Cleft palate,wikidata
 Van der Woude syndrome,Congenital lip pit,wikidata
-Vasectomy,"Using a condom every time you have anal, vaginal, or oral sex is the only way to protect against STIs",medlineplus
-Vasectomy,"You may have some discomfort, bruising, and swelling for a few days",medlineplus
+Varicose Veins,"If the valves are weak or damaged, blood can back up and pool in your veins",medlineplus
+Varicose Veins,"This causes the veins to swell, which can lead to varicose veins",medlineplus
+Varicose Veins,"Varicose veins are swollen, twisted veins that you can see just under the skin",medlineplus
 Venezuelan equine encephalitis,Chills,disease_ontology
 Venezuelan equine encephalitis,Coma,wikidata
 Venezuelan equine encephalitis,Diarrhea,wikidata
@@ -6798,8 +6784,6 @@ Vestibular neuronitis,Nausea,wikidata
 Vestibular neuronitis,Nystagmus,wikidata
 Vestibular neuronitis,Vertigo,wikidata
 Vestibular neuronitis,Vomiting,wikidata
-Viral Infections,"Other times, your immune system may be able to fight it off and you may not have any symptoms",medlineplus
-Viral Infections,"Some of the diseases that viruses can cause include the common cold, the flu, COVID-19, and HIV",medlineplus
 Viral labyrinthitis,Nausea,wikidata
 Viral labyrinthitis,Vomiting,wikidata
 Virulent Newcastle disease,Conjunctivitis,wikidata
@@ -6826,8 +6810,6 @@ Vision Impairment and Blindness,See the television or computer screen clearly,me
 Vision Impairment and Blindness,Tell the difference between colors,medlineplus
 Vision Impairment and Blindness,Which type you have depends on the condition that caused your low vision,medlineplus
 Vision Impairment and Blindness,"You may have trouble reading, shopping, cooking, writing, and watching TV",medlineplus
-Vital Signs,"Temperature, which measures how hot your body is. A body temperature that is higher than normal (over 98.6 °F, or 37 °C) is called a fever",medlineplus
-Vital Signs,Your vital signs show how well your body is functioning,medlineplus
 Vitamin B12 deficiency,Anemia,wikidata
 Vitamin B12 deficiency,Cardiomyopathy,wikidata
 Vitamin B12 deficiency,Cognitive dysfunction,wikidata
@@ -6840,9 +6822,6 @@ Vitamin D Deficiency,"High levels of blood calcium (hypercalcemia) can cause con
 Vitamin D Deficiency,"Signs of toxicity include nausea and vomiting, poor appetite, constipation, weakness, and weight loss",medlineplus
 Vitamin K deficiency,Bleeding,wikidata
 Vitamin K deficiency,Diarrhea,wikidata
-Vitamins,High doses of some vitamins can cause problems,medlineplus
-Vitamins,"If you have low levels of certain vitamins, you may get health problems",medlineplus
-Vitamins,"In some cases, you may need to take vitamin supplements",medlineplus
 Vitiligo,Depigmentation,wikidata
 Vitiligo,"If you have dark skin, you may lose color inside your mouth",medlineplus
 Vitiligo,Vitiligo can cause your hair to gray early,medlineplus
@@ -6867,6 +6846,7 @@ Von Willebrand's disease,Hemorrhagic disease,wikidata
 Von Willebrand's disease,Internal bleeding,wikidata
 Von Willebrand's disease,Nosebleed,wikidata
 Von Willebrand's disease,Subarachnoid hemorrhage,wikidata
+Vulvar Cancer,"Often, vulvar cancer doesn't cause symptoms at first",medlineplus
 Vulvar Disorders,"Changes in skin color, such as lighter, darker, or white patches",medlineplus
 Vulvar Disorders,"Cracks, sores, or thickened patches of skin",medlineplus
 Vulvar Disorders,Itching or burning,medlineplus
@@ -6881,8 +6861,6 @@ Vulvovaginal candidiasis,Rash,wikidata
 Vulvovaginal candidiasis,Swelling,wikidata
 Waterhouse-Friderichsen syndrome,Bleeding,wikidata
 Waterhouse-Friderichsen syndrome,Meningitis,wikidata
-Weight Control,"And if you have a setback, don't be discouraged, simply refocus on your healthy habits and keep going",medlineplus
-Weight Control,Some may help you feel less hungry or full sooner,medlineplus
 West Nile Virus,Body aches,medlineplus
 West Nile Virus,But WNV can sometimes cause serious symptoms if the virus enters your brain,medlineplus
 West Nile Virus,Coma,medlineplus
@@ -6952,6 +6930,7 @@ Whooping Cough,Whooping cough usually starts with cold-like symptoms,medlineplus
 Whooping Cough,"Whooping cough, or pertussis, is a respiratory infection that can cause coughing fits",medlineplus
 Whooping Cough,You may cough so hard that you vomit,medlineplus
 Whooping Cough,You may have them for up to 10 weeks or more,medlineplus
+Wilms Tumor,"Symptoms include a lump in the abdomen, blood in the urine, and a fever for no reason",medlineplus
 Wilson Disease,Blue nails,wikidata
 Wilson Disease,Edema,wikidata
 Wilson Disease,Face of the giant panda sign,wikidata
@@ -6961,9 +6940,6 @@ Wilson Disease,Personality change,wikidata
 Wilson Disease,The most characteristic sign is a rusty brown ring around the cornea of the eye,medlineplus
 Wrist Injuries and Disorders,A common symptom is wrist pain,medlineplus
 Wrist Injuries and Disorders,"Some other possible symptoms include swelling, a decrease in wrist strength, and sudden numbness or tingling",medlineplus
-X-Rays,"Depending on the part of your body being examined, you may be asked to stand, sit, or lie down",medlineplus
-X-Rays,You may also be asked to remove jewelry or other items that could affect the image,medlineplus
-X-Rays,You may be asked to wear a lead apron to protect certain parts of your body,medlineplus
 Yaws,Arthralgia,wikidata
 Yaws,Fever,wikidata
 Yaws,Lymphadenopathy,wikidata

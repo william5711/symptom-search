@@ -21,7 +21,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Set, Tuple
+from typing import Dict, List, Sequence, Set, Tuple
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 SPARQL_URL = "https://query.wikidata.org/sparql"
@@ -29,6 +29,7 @@ DOID_URL = "https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntolo
 MEDLINEPLUS_INDEX_URL = "https://medlineplus.gov/xml.html"
 USER_AGENT = "symptom-search-dataset-builder/1.0"
 MIN_SYMPTOMS = 2
+MIN_BEFORE_FALLBACK = 3
 SPARQL_ATTEMPTS = 4
 
 # Direct rdfs:label lookups, because the label service makes these queries time out.
@@ -55,6 +56,27 @@ _EXCLUDED_NAME = re.compile(
     r"tests?|screening|therapy|health|care|complications|iron|pollution|canine|feline|aleutian)\b",
     re.I,
 )
+# Topics the name and group checks miss: substances, habits, services, life events, and
+# overviews so broad that a more specific entry is always the better answer.
+_NOT_CONDITIONS = {
+    "Alcohol", "Alcohol Use Disorder (AUD) Treatment", "Alzheimer's Caregivers", "Arsenic", "Asbestos", "Autoimmune Diseases",
+    "Bacterial Infections", "Bereavement", "Birth Control", "Birth Weight", "Blood", "Blood Disorders", "Blood Glucose",
+    "Body Weight", "Bone Density", "Botox", "Bowel Movement", "Brain Diseases", "CPR", "Calcium", "Cancer",
+    "Cancer Immunotherapy", "Cancer--Living with Cancer", "Cancer in Children", "Cannabis", "Cesarean Delivery",
+    "Child Sexual Abuse", "Childbirth", "Cholesterol Levels: What You Need to Know", "Cocaine",
+    "Coping with Chronic Illness", "Cosmetics", "Dentures", "Diabetic Diet", "Digestive Diseases", "Elder Abuse",
+    "Eye Diseases", "Eyewear", "Genetic Counseling", "Guide to Good Posture", "Healthy Sleep", "Hearing Aids",
+    "Heart Disease in Women", "Heart Diseases", "Heroin", "How to Lower Cholesterol", "How to Lower Cholesterol with Diet",
+    "How to Prevent Diabetes", "How to Prevent Heart Disease", "How to Prevent High Blood Pressure",
+    "Immune System and Disorders", "Infectious Diseases", "Inhalants", "Intimate Partner Violence", "Kidney Diseases",
+    'LDL: The "Bad" Cholesterol', "Living with HIV", "Lung Diseases", "Memory", "Menstruation", "Mental Disorders",
+    "Methamphetamine", "Molds", "Neurologic Diseases", "Opioid Use Disorder (OUD) Treatment", "Orthodontia", "Ozone",
+    "Pacemakers and Implantable Defibrillators", "Piercing and Tattoos", "Pregnancy", "Pregnancy and Opioids",
+    "Pregnancy and Substance Use", "Quitting Smoking", "Radon", "Reproductive Hazards", "Safe Opioid Use",
+    "Secondhand Smoke", "Sexual Assault", "Skin Aging", "Skin Conditions", "Smoking", "Smoking and Youth", "Sweat",
+    "Tanning", "Tears", "Teen Development", "Urine and Urination", "VLDL Cholesterol", "Vascular Diseases", "Vasectomy",
+    "Viral Infections", "Wounds and Injuries",
+}
 
 
 def run_sparql(query: str) -> List[dict]:
@@ -125,11 +147,25 @@ def parse_summary(summary: str) -> List[str]:
     prose = re.sub(r"<ul>.*?</ul>", " ", summary, flags=re.S)
     items += [s for s in sentences(strip_tags(prose)) if _PROSE_SYMPTOM.search(s)]
 
-    unique = dict.fromkeys(item.rstrip(".:; ") for item in items)
-    return [item for item in unique if len(item) >= 3 and len(item) <= 200 and not _NOT_A_SYMPTOM.search(item)]
+    def clean(candidates: List[str]) -> List[str]:
+        unique = dict.fromkeys(item.rstrip(".:; ") for item in candidates)
+        return [item for item in unique if 3 <= len(item) <= 200 and not _NOT_A_SYMPTOM.search(item)]
+
+    found = clean(items)
+    if len(found) < MIN_BEFORE_FALLBACK:
+        # Layout 4: no symptom wording at all ("Hives are red and sometimes itchy bumps").
+        found = clean(found + [s for s in sentences(strip_tags(prose)) if _SYMPTOM_WORD.search(s)])
+    return found
 
 
-_PROSE_SYMPTOM = re.compile(r"\b(?:symptoms?|signs?|may have|may feel|you have|you may|you feel|people have|can cause|pain)\b", re.I)
+_SYMPTOM_WORD = re.compile(
+    r"\b(?:ach\w*|pain\w*|sore\w*|swell\w*|swollen|itch\w*|rash\w*|bumps?|blisters?|lumps?|redness|red|bleed\w*|"
+    r"bruis\w*|numb\w*|tingl\w*|weak\w*|tired\w*|fatigue\w*|drows\w*|dizz\w*|lightheaded|nause\w*|vomit\w*|fevers?|"
+    r"chills?|cough\w*|wheez\w*|sneez\w*|snor\w*|breathing|ringing|stools?|constipat\w*|diarrhea|cramp\w*|stiff\w*|"
+    r"hoarse\w*|blurr\w*|faint\w*|confus\w*|seizures?|tremors?|sweat\w*|thirst\w*)\b",
+    re.I,
+)
+_PROSE_SYMPTOM =re.compile(r"\b(?:symptoms?|signs?|may have|may feel|you have|you may|you feel|people have|can cause|pain)\b", re.I)
 _NOT_A_SYMPTOM = re.compile(
     r"\b(?:doctor|provider|treat\w*|diagnos\w*|tests?|surgery|medicines?|prevent\w*|risk|causes? of|caused by|"
     r"call|911|emergency|what are|not everyone|learn more|women|men|age|trigger\w*|vaccin\w*|no symptoms|"
@@ -139,11 +175,37 @@ _NOT_A_SYMPTOM = re.compile(
 )
 
 
+# A topic in one of these groups is about a service or treatment.
+_SERVICE_GROUPS = {
+    "Diagnostic Tests", "Drug Therapy", "Surgery and Rehabilitation", "Health System", "Disasters",
+    "Transplantation and Donation", "Complementary and Alternative Therapies",
+}
+# These groups mix conditions with general advice, so they only rule out a topic with no other group.
+_ADVICE_GROUPS = {
+    "Wellness and Lifestyle", "Fitness and Exercise", "Food and Nutrition", "Safety Issues", "Population Groups",
+    "Social/Family Issues", "Personal Health Issues", "Older Adults", "Children and Teenagers", "Women", "Men",
+}
+
+
+# Conditions filed only under an advice group.
+_CONDITIONS_IN_ADVICE_GROUPS = {"Malnutrition", "Vitamin D Deficiency"}
+
+
+def is_condition_topic(title: str, groups: Sequence[str]) -> bool:
+    if title in _NOT_CONDITIONS:
+        return False
+    if title in _CONDITIONS_IN_ADVICE_GROUPS:
+        return True
+    return not _SERVICE_GROUPS.intersection(groups) and not set(groups) <= _ADVICE_GROUPS
+
+
 def parse_medlineplus(xml_text: bytes) -> Dict[str, Tuple[str, List[str], List[str]]]:
-    """Map each English topic title to its also-called names and symptoms."""
+    """Map each English condition topic's title to its also-called names and symptoms."""
     topics = {}
     for topic in ET.fromstring(xml_text).findall("health-topic"):
         if topic.get("language") != "English":
+            continue
+        if not is_condition_topic(topic.get("title"), [group.text for group in topic.findall("group")]):
             continue
         symptoms = parse_summary(topic.findtext("full-summary") or "")
         if symptoms:
@@ -180,16 +242,19 @@ def main() -> None:
         key = normalize_name(name)
         return synonyms.get(key, key)
 
+    # Wikidata and the Disease Ontology use some of the same overview names.
+    excluded_keys = {normalize_name(title) for title in _NOT_CONDITIONS}
+
     for row in run_sparql(LINKS_QUERY):
         disease, symptom = row["diseaseLabel"]["value"], row["symptomLabel"]["value"]
-        if _EXCLUDED_NAME.search(disease):
+        if _EXCLUDED_NAME.search(disease) or normalize_name(disease) in excluded_keys:
             continue
         key = resolve(disease)
         names.setdefault(key, disease[0].upper() + disease[1:])
         links[key][symptom.lower()].add("wikidata")
 
     for name, symptoms in doid_names.values():
-        if _EXCLUDED_NAME.search(name):
+        if _EXCLUDED_NAME.search(name) or normalize_name(name) in excluded_keys:
             continue
         key = resolve(name)
         names.setdefault(key, name[0].upper() + name[1:])
@@ -203,7 +268,9 @@ def main() -> None:
         for symptom, sources in symptoms.items():
             display, seen = merged.get(symptom.lower(), (symptom[0].upper() + symptom[1:], set()))
             merged[symptom.lower()] = (display, seen | sources)
-        if len(merged) >= MIN_SYMPTOMS:
+        # One MedlinePlus sentence can cover several symptoms, unlike one Wikidata link.
+        from_medlineplus = any("medlineplus" in seen for _, seen in merged.values())
+        if len(merged) >= MIN_SYMPTOMS or from_medlineplus:
             rows += [(names[key], display, "+".join(sorted(seen))) for display, seen in merged.values()]
     rows.sort()
 

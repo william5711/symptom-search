@@ -1,0 +1,60 @@
+{"split": "dev", "query": "The weather is lovely today."}
+{"split": "dev", "query": "What time does the grocery store close on Sunday?"}
+{"split": "dev", "query": "My car makes a strange noise when I turn left."}
+{"split": "dev", "query": "I just finished reading a great book about the Roman Empire."}
+{"split": "dev", "query": "Can you recommend a good pizza place near the station?"}
+{"split": "dev", "query": "We're planning a trip to Portugal next summer."}
+{"split": "dev", "query": "My laptop won't connect to the wifi anymore."}
+{"split": "dev", "query": "The meeting got moved to Thursday at three."}
+{"split": "dev", "query": "I need to buy a birthday present for my sister."}
+{"split": "dev", "query": "Our team won the championship last night."}
+{"split": "dev", "query": "How do I change the oil filter on a lawn mower?"}
+{"split": "dev", "query": "The dog chewed through my favorite pair of shoes."}
+{"split": "dev", "query": "I'm thinking about painting the kitchen a light green."}
+{"split": "dev", "query": "My rent is going up again next month."}
+{"split": "dev", "query": "The new movie was much longer than I expected."}
+{"split": "dev", "query": "Please send me the invoice by Friday."}
+{"split": "dev", "query": "I love listening to jazz on the train."}
+{"split": "dev", "query": "The river flooded the old bridge last spring."}
+{"split": "dev", "query": "What's the capital of Australia?"}
+{"split": "dev", "query": "I started learning to play the guitar and bake bread."}
+{"split": "dev", "query": "asdf qwerty hello test"}
+{"split": "dev", "query": "My phone screen is cracked and the battery dies fast."}
+{"split": "dev", "query": "The tomato plants in my garden are turning yellow."}
+{"split": "dev", "query": "I feel great today and had a nice long run."}
+{"split": "dev", "query": "My boss keeps changing the project deadline."}
+{"split": "dev", "query": "The stock market went down a little this week."}
+{"split": "dev", "query": "We adopted a kitten from the shelter on Saturday."}
+{"split": "dev", "query": "The bus was twenty minutes late this morning."}
+{"split": "dev", "query": "I can't decide between the blue sofa and the gray one."}
+{"split": "dev", "query": "Our flight lands in Denver just after midnight."}
+{"split": "test", "query": "It looks like it might snow this weekend."}
+{"split": "test", "query": "Where can I renew my library card?"}
+{"split": "test", "query": "The dishwasher is leaking onto the kitchen floor."}
+{"split": "test", "query": "I watched a documentary about deep sea fish."}
+{"split": "test", "query": "Do you know a cheap place to get a haircut?"}
+{"split": "test", "query": "We're moving to a new apartment across town in June."}
+{"split": "test", "query": "The printer in the office is out of ink again."}
+{"split": "test", "query": "Lunch got pushed back to one o'clock."}
+{"split": "test", "query": "I have to pick up my nephew from soccer practice."}
+{"split": "test", "query": "The home team lost in overtime on Tuesday."}
+{"split": "test", "query": "How do I replace a flat bicycle tire?"}
+{"split": "test", "query": "The cat knocked a glass off the counter."}
+{"split": "test", "query": "I want to put new tile in the bathroom."}
+{"split": "test", "query": "My electric bill was higher than usual this month."}
+{"split": "test", "query": "That concert was the best one I've been to all year."}
+{"split": "test", "query": "Can you forward me the slides from the talk?"}
+{"split": "test", "query": "I enjoy doing crossword puzzles with my coffee."}
+{"split": "test", "query": "A new bakery opened on the corner of our street."}
+{"split": "test", "query": "How many countries are in South America?"}
+{"split": "test", "query": "I signed up for a pottery class and a chess club."}
+{"split": "test", "query": "lorem ipsum dolor sit amet"}
+{"split": "test", "query": "My headphones stopped working in the left ear piece."}
+{"split": "test", "query": "The roses by the fence need more water."}
+{"split": "test", "query": "I slept really well and I'm in a good mood."}
+{"split": "test", "query": "My manager approved my vacation for August."}
+{"split": "test", "query": "Interest rates on savings accounts rose slightly."}
+{"split": "test", "query": "Our neighbors got a puppy and named it Biscuit."}
+{"split": "test", "query": "The subway was packed on my way home."}
+{"split": "test", "query": "I'm choosing between two colors for the new curtains."}
+{"split": "test", "query": "The train to Boston leaves from platform nine."}

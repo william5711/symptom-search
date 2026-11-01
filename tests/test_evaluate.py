@@ -70,7 +70,7 @@ def test_describe_leaves_out_antecedents_and_empty_pain():
     assert describe(["E_1", "E_55_@_V_2"], catalog) == "I have pain in my left flank. I have a cough."
 
 
-@pytest.mark.parametrize("query_set", sorted(QUERY_SETS))
+@pytest.mark.parametrize("query_set", ["written", "ddxplus"])
 def test_query_files_only_label_entries_in_the_dataset(query_set):
     from symptom_search import load_diseases
 

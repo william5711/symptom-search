@@ -51,6 +51,12 @@ def test_unrecognised_text_returns_nothing():
     assert SymptomMatcher(DISEASES, FakeEncoder()).search("the weather is lovely") == []
 
 
+def test_a_query_with_no_close_symptom_returns_nothing():
+    matcher = SymptomMatcher(DISEASES, FakeEncoder(), min_query_similarity=0.8)
+    assert matcher.search("cough fever") == []  # similarity 0.71 to each symptom
+    assert matcher.search("a cough")[0].disease == "Respiratory"
+
+
 def test_negated_symptoms_are_ignored():
     assert SymptomMatcher(DISEASES, FakeEncoder()).search("no fever") == []
     top = SymptomMatcher(DISEASES, FakeEncoder()).search("no cough, a rash")[0]

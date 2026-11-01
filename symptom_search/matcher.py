@@ -63,6 +63,7 @@ class SymptomMatcher:
         mode: str = "hybrid",
         min_similarity: float = 0.35,
         idf_power: float = 0.25,
+        min_query_similarity: float = 0.55,
     ):
         if mode not in MODES:
             raise ValueError(f"mode must be one of {MODES}, got {mode!r}")
@@ -71,6 +72,7 @@ class SymptomMatcher:
         self.encoder = encoder
         self.mode = mode
         self.min_similarity = min_similarity
+        self.min_query_similarity = min_query_similarity
         self.symptoms = sorted({symptom for d in self.diseases for symptom in d.symptoms})
 
         self._symptom_vectors = encoder.encode_cached(self.symptoms)
@@ -91,6 +93,10 @@ class SymptomMatcher:
             return []
 
         similarity = cosine_matrix(self.encoder.encode(clauses), self._symptom_vectors)
+        # Text with no close symptom anywhere isn't a description of symptoms.
+        if similarity.max() < self.min_query_similarity:
+            return []
+
         relevant = similarity.max(axis=1) >= self.min_similarity
         clauses = [clause for clause, keep in zip(clauses, relevant) if keep]
         similarity = similarity[relevant]

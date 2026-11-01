@@ -20,21 +20,21 @@
 {"split": "dev", "labels": ["Rheumatoid Arthritis"], "query": "Both of my hands and wrists are swollen and painful, and my joints are especially stiff for hours every morning."}
 {"split": "dev", "labels": ["Gout"], "query": "My big toe suddenly became red, hot, swollen, and so painful that I can't even stand a bedsheet touching it."}
 {"split": "dev", "labels": ["Carpal Tunnel Syndrome"], "query": "My thumb and fingers go numb and tingle at night, and my wrist aches, and my grip has become weak."}
-{"split": "dev", "labels": [], "query": "Sharp pain shoots from my lower back down the back of my leg to my foot, and my leg feels numb."}
-{"split": "dev", "labels": [], "query": "I get a stabbing pain in the bottom of my heel when I take my first steps in the morning."}
+{"split": "dev", "labels": ["Sciatica"], "query": "Sharp pain shoots from my lower back down the back of my leg to my foot, and my leg feels numb."}
+{"split": "dev", "labels": ["Heel Injuries and Disorders"], "query": "I get a stabbing pain in the bottom of my heel when I take my first steps in the morning."}
 {"split": "dev", "labels": ["Irritable Bowel Syndrome"], "query": "I get cramping belly pain and bloating, and I go back and forth between diarrhea and constipation, which gets better after using the toilet."}
 {"split": "dev", "labels": ["Ulcerative Colitis", "Crohn's Disease"], "query": "I've had bloody diarrhea for weeks with cramps in my belly, weight loss and tiredness."}
-{"split": "dev", "labels": [], "query": "After fatty meals I get severe pain in my upper right abdomen that goes through to my back, along with nausea."}
+{"split": "dev", "labels": ["Gallstones"], "query": "After fatty meals I get severe pain in my upper right abdomen that goes through to my back, along with nausea."}
 {"split": "dev", "labels": ["Anemia"], "query": "I look pale, I'm exhausted and short of breath on stairs, I feel dizzy and my hands and feet are always cold."}
 {"split": "dev", "labels": ["Pink Eye"], "query": "My eye is red and itchy, with sticky discharge that glues my eyelids together in the morning."}
 {"split": "dev", "labels": ["Cataract"], "query": "My vision has gradually become cloudy, with glare and halos around headlights at night."}
 {"split": "dev", "labels": ["Otitis media"], "query": "My child has a bad earache with a fever, is pulling on the ear and can't hear well."}
-{"split": "dev", "labels": ["Viral labyrinthitis", "Meniere's Disease"], "query": "The room spins when I roll over in bed or look up, and it makes me feel nauseous and unsteady."}
-{"split": "dev", "labels": ["Atopic dermatitis"], "query": "I have itchy, dry, red, cracked patches of skin on the inside of my elbows that flare up and sometimes ooze."}
+{"split": "dev", "labels": ["Viral labyrinthitis", "Meniere's Disease", "Dizziness and Vertigo"], "query": "The room spins when I roll over in bed or look up, and it makes me feel nauseous and unsteady."}
+{"split": "dev", "labels": ["Atopic dermatitis", "Eczema"], "query": "I have itchy, dry, red, cracked patches of skin on the inside of my elbows that flare up and sometimes ooze."}
 {"split": "dev", "labels": ["Psoriasis"], "query": "I have thick red patches with silvery scales on my elbows and scalp, and my skin is itchy and flaking."}
 {"split": "dev", "labels": ["Shingles"], "query": "A band of painful blisters appeared on one side of my torso, and the skin there burned for a few days before the rash came."}
 {"split": "dev", "labels": ["Chickenpox"], "query": "My kid has itchy fluid-filled spots all over the body, with a mild fever and feeling unwell."}
-{"split": "dev", "labels": [], "query": "I snore loudly and my partner says I stop breathing in my sleep. I wake up with headaches and I'm sleepy all day."}
+{"split": "dev", "labels": ["Sleep Apnea"], "query": "I snore loudly and my partner says I stop breathing in my sleep. I wake up with headaches and I'm sleepy all day."}
 {"split": "dev", "labels": ["Insomnia"], "query": "I lie awake for hours, can't fall asleep or stay asleep, and I feel tired and irritable during the day."}
 {"split": "dev", "labels": ["Deep Vein Thrombosis"], "query": "One of my calves became swollen, warm and painful after a long flight, and the skin looks red."}
 {"split": "dev", "labels": ["Pulmonary Embolism"], "query": "I suddenly got sharp chest pain and shortness of breath, my heart is racing and I coughed up some blood."}
@@ -43,7 +43,7 @@
 {"split": "dev", "labels": [], "query": "I have intense itching down there and thick white vaginal discharge, and it burns during sex."}
 {"split": "dev", "labels": ["Enlarged Prostate (BPH)"], "query": "I'm an older man with a weak urine stream, I struggle to start peeing, and I wake up several times at night to go."}
 {"split": "dev", "labels": ["Headache"], "query": "It feels like a tight band squeezing around my head, with sore neck and shoulder muscles when I'm stressed."}
-{"split": "dev", "labels": [], "query": "I hear a constant ringing in my ears, even in a quiet room, and it's keeping me from concentrating."}
+{"split": "dev", "labels": ["Tinnitus"], "query": "I hear a constant ringing in my ears, even in a quiet room, and it's keeping me from concentrating."}
 {"split": "dev", "labels": ["Tooth Disorders", "Tooth Decay"], "query": "I have a throbbing toothache that is worse when I bite, and my gum and cheek are swollen."}
 {"split": "dev", "labels": ["Hemorrhoids"], "query": "I see bright red blood on the toilet paper and I have itching and a painful lump around my anus."}
 {"split": "dev", "condition": "Ectopic pregnancy", "labels": ["Ectopic Pregnancy"], "query": "I missed my period and now I've got sharp one-sided pelvic pain, spotting and feel faint."}
@@ -53,21 +53,21 @@
 {"split": "dev", "condition": "PTSD", "labels": ["Post-Traumatic Stress Disorder"], "query": "Since the accident I have nightmares and flashbacks, I jump at loud noises, and I avoid driving."}
 {"split": "dev", "condition": "Swimmer's ear", "labels": ["Otitis externa"], "query": "My ear hurts when I tug on it and it's itchy with some drainage after a week of swimming."}
 {"split": "dev", "condition": "Lung cancer", "labels": ["Lung Cancer", "Lung carcinoma", "Non-small-cell lung carcinoma"], "query": "I'm a smoker with a cough that won't go away, I'm coughing blood, and I've lost weight."}
-{"split": "dev", "condition": "Cold sores", "labels": ["Herpes Simplex"], "query": "I get a tingling and then little blisters on my lip that crust over, usually when I'm stressed."}
+{"split": "dev", "condition": "Cold sores", "labels": ["Cold Sores", "Herpes Simplex"], "query": "I get a tingling and then little blisters on my lip that crust over, usually when I'm stressed."}
 {"split": "dev", "condition": "Pancreatitis", "labels": ["Pancreatitis"], "query": "I have severe upper belly pain that goes through to my back, it's worse after eating, and I keep vomiting."}
 {"split": "dev", "condition": "Croup", "labels": ["Croup"], "query": "My toddler has a cough that sounds like a seal barking, and a harsh noise when breathing in at night."}
-{"split": "dev", "condition": "Retinal detachment", "labels": ["Retinal Disorders"], "query": "I suddenly saw a lot of floaters and flashes, and a dark curtain is coming over part of my vision."}
+{"split": "dev", "condition": "Retinal detachment", "labels": ["Retinal Detachment", "Retinal Disorders"], "query": "I suddenly saw a lot of floaters and flashes, and a dark curtain is coming over part of my vision."}
 {"split": "dev", "condition": "Endometriosis", "labels": ["Endometriosis"], "query": "My periods are incredibly painful, sex hurts deep inside, and we've had trouble getting pregnant."}
 {"split": "dev", "condition": "Goiter", "labels": [], "query": "There's a swelling at the front of my neck that makes it feel tight when I swallow."}
 {"split": "dev", "condition": "Preeclampsia", "labels": ["High Blood Pressure in Pregnancy"], "query": "I'm 34 weeks pregnant with a bad headache, swollen face and hands, and I see flashing lights."}
-{"split": "dev", "condition": "Bone cancer", "labels": [], "query": "I've had a deep pain in my thigh bone that's worse at night and there's a swelling above my knee."}
+{"split": "dev", "condition": "Bone cancer", "labels": ["Bone Cancer"], "query": "I've had a deep pain in my thigh bone that's worse at night and there's a swelling above my knee."}
 {"split": "dev", "condition": "Addison's disease", "labels": ["Addison Disease"], "query": "I'm tired and weak, I've lost weight, my skin has darkened and I crave salt and get dizzy when I stand."}
 {"split": "dev", "condition": "Osteoporosis", "labels": ["Osteoporosis"], "query": "I'm an older woman who's gotten shorter and hunched, and I broke my wrist from a small fall."}
-{"split": "dev", "condition": "Kidney failure", "labels": ["Chronic Kidney Disease"], "query": "I'm barely peeing, my legs are swollen, I feel sick to my stomach and my skin itches."}
+{"split": "dev", "condition": "Kidney failure", "labels": ["Kidney Failure", "Chronic Kidney Disease"], "query": "I'm barely peeing, my legs are swollen, I feel sick to my stomach and my skin itches."}
 {"split": "dev", "condition": "Narcolepsy", "labels": ["Sleep Disorders"], "query": "I fall asleep suddenly in the middle of the day, even while talking, and my knees buckle when I laugh."}
-{"split": "dev", "condition": "Bronchitis", "labels": ["Bronchitis"], "query": "I've had a chesty cough with mucus for a week since my cold, and my chest is sore."}
+{"split": "dev", "condition": "Bronchitis", "labels": ["Acute Bronchitis", "Bronchitis"], "query": "I've had a chesty cough with mucus for a week since my cold, and my chest is sore."}
 {"split": "dev", "condition": "Cystic fibrosis", "labels": ["Cystic Fibrosis"], "query": "My child keeps getting lung infections, has greasy stools, isn't growing well, and tastes salty when kissed."}
-{"split": "dev", "condition": "Heat stroke", "labels": [], "query": "I was working outside in the heat and now I'm confused with hot dry skin, a pounding headache, and I stopped sweating."}
+{"split": "dev", "condition": "Heat stroke", "labels": ["Heat Illness"], "query": "I was working outside in the heat and now I'm confused with hot dry skin, a pounding headache, and I stopped sweating."}
 {"split": "dev", "condition": "Genital herpes", "labels": ["Genital Herpes", "Herpes Simplex"], "query": "I've got painful blisters and sores on my genitals that come back every few months."}
 {"split": "dev", "condition": "Food allergy", "labels": ["Food Allergy"], "query": "Right after eating peanuts my lips swelled up, I broke out in hives, and my throat felt tight."}
 {"split": "dev", "condition": "Atrial fibrillation", "labels": ["Atrial Fibrillation"], "query": "My heart flutters and beats irregularly, and I feel lightheaded and tired."}
@@ -77,12 +77,12 @@
 {"split": "dev", "condition": "Uterine fibroids", "labels": ["Uterine Fibroids"], "query": "My periods are very heavy and long, I feel pressure in my pelvis, and I pee a lot."}
 {"split": "dev", "condition": "Stomach flu", "labels": ["Gastroenteritis", "Norovirus Infections"], "query": "The whole family has had vomiting and watery diarrhea for a day with cramps and a low fever."}
 {"split": "dev", "condition": "Myasthenia gravis", "labels": ["Myasthenia Gravis"], "query": "My eyelids droop and I see double by evening, and my arms get weak the more I use them."}
-{"split": "dev", "condition": "Muscle cramps", "labels": [], "query": "I get sudden painful tightening in my calf at night that makes me jump out of bed."}
-{"split": "dev", "condition": "Fainting", "labels": [], "query": "I felt lightheaded in a hot room, everything went dark, and I passed out for a few seconds."}
+{"split": "dev", "condition": "Muscle cramps", "labels": ["Muscle Cramps"], "query": "I get sudden painful tightening in my calf at night that makes me jump out of bed."}
+{"split": "dev", "condition": "Fainting", "labels": ["Fainting"], "query": "I felt lightheaded in a hot room, everything went dark, and I passed out for a few seconds."}
 {"split": "dev", "condition": "Sepsis", "labels": ["Sepsis"], "query": "I've got a high fever, a racing heart and fast breathing, I'm confused, and I had an infection days ago."}
 {"split": "dev", "condition": "Lower back pain", "labels": ["Back Pain"], "query": "My lower back hurts after lifting boxes, it's stiff in the morning and it's hard to bend."}
 {"split": "dev", "condition": "Peripheral artery disease", "labels": ["Peripheral Arterial Disease"], "query": "My calves cramp when I walk a couple of blocks and it goes away when I rest. My feet are cold."}
-{"split": "dev", "condition": "Restless legs syndrome", "labels": [], "query": "At night I get a crawling feeling in my legs and I have to get up and move them to make it stop."}
+{"split": "dev", "condition": "Restless legs syndrome", "labels": ["Restless Legs"], "query": "At night I get a crawling feeling in my legs and I have to get up and move them to make it stop."}
 {"split": "dev", "condition": "Nosebleed", "labels": [], "query": "Blood keeps dripping from one nostril and it's hard to stop even when I pinch it."}
 {"split": "dev", "condition": "Scabies", "labels": ["Scabies"], "query": "I itch terribly at night, especially between my fingers, and there are tiny lines on my skin. My roommate has it too."}
 {"split": "dev", "condition": "Dengue", "labels": ["Dengue", "Dengue hemorrhagic fever"], "query": "After a trip to Southeast Asia I've got a high fever, severe pain behind my eyes, and bones that ache terribly."}
@@ -92,12 +92,12 @@
 {"split": "dev", "condition": "Lupus", "labels": ["Lupus", "Lupus erythematosus"], "query": "A rash came up across my cheeks and nose, my joints hurt, I'm exhausted, and sunlight makes it all worse."}
 {"split": "dev", "condition": "Huntington's disease", "labels": ["Huntington's Disease"], "query": "I've got jerky movements I can't control, my mood swings badly, and my father had the same thing."}
 {"split": "dev", "condition": "Erectile dysfunction", "labels": ["Erectile Dysfunction"], "query": "I can't get or keep an erection firm enough for sex, and it's been happening for months."}
-{"split": "dev", "condition": "Hives", "labels": [], "query": "Itchy raised welts keep popping up on my skin and moving around, and each lasts a few hours."}
-{"split": "dev", "condition": "Obesity", "labels": ["Weight Control"], "query": "I weigh far too much for my height, my joints ache, and I get winded easily."}
+{"split": "dev", "condition": "Hives", "labels": ["Hives"], "query": "Itchy raised welts keep popping up on my skin and moving around, and each lasts a few hours."}
+{"split": "dev", "condition": "Obesity", "labels": [], "query": "I weigh far too much for my height, my joints ache, and I get winded easily."}
 {"split": "dev", "condition": "Hand, foot and mouth disease", "labels": ["Hand, foot and mouth disease"], "query": "My toddler has a fever, sores in her mouth and small blisters on her hands and feet."}
 {"split": "dev", "condition": "Food poisoning", "labels": ["Gastroenteritis", "Salmonella Infections", "Salmonellosis", "Staphyloenterotoxemia"], "query": "A few hours after eating at a buffet I started vomiting, having watery diarrhea and stomach cramps."}
 {"split": "test", "condition": "Kidney infection", "labels": ["Urinary tract infection"], "query": "I have a high fever, shaking chills, and pain in my side and back, plus burning when I pee."}
-{"split": "test", "condition": "Impetigo", "labels": ["Skin Infections", "Staphylococcal Infections", "Streptococcal Infections"], "query": "My son has honey-colored crusty sores around his mouth that are spreading."}
+{"split": "test", "condition": "Impetigo", "labels": ["Impetigo", "Skin Infections", "Staphylococcal Infections", "Streptococcal Infections"], "query": "My son has honey-colored crusty sores around his mouth that are spreading."}
 {"split": "test", "condition": "Hypoglycemia", "labels": ["Hypoglycemia"], "query": "I get shaky, sweaty and confused when I haven't eaten, and I feel better after juice."}
 {"split": "test", "condition": "HIV", "labels": ["HIV", "HIV/AIDS"], "query": "Weeks after unprotected sex I had fever, swollen glands, a rash and a sore throat, and now I keep getting infections."}
 {"split": "test", "condition": "Macular degeneration", "labels": ["Macular Degeneration"], "query": "The center of my vision is blurry and straight lines look wavy, but I'm fine at the edges."}
@@ -109,18 +109,18 @@
 {"split": "test", "condition": "Dry eye", "labels": [], "query": "My eyes feel gritty, burn and get tired when I read or use my computer."}
 {"split": "test", "condition": "Lactose intolerance", "labels": ["Lactose Intolerance"], "query": "After milk or ice cream I get gassy and bloated and have to run to the bathroom."}
 {"split": "test", "condition": "Laryngitis", "labels": ["Voice Disorders"], "query": "My voice has gone hoarse and I can barely talk, and my throat is scratchy."}
-{"split": "test", "condition": "Cirrhosis", "labels": [], "query": "I've been a heavy drinker, my belly is swollen with fluid, my skin looks yellow and I bruise easily."}
+{"split": "test", "condition": "Cirrhosis", "labels": ["Cirrhosis"], "query": "I've been a heavy drinker, my belly is swollen with fluid, my skin looks yellow and I bruise easily."}
 {"split": "test", "condition": "Diverticulitis", "labels": ["Diverticulitis", "Diverticulosis and Diverticulitis"], "query": "I have pain in the lower left side of my belly with fever and a change in my bowel habits."}
 {"split": "test", "condition": "Rabies", "labels": ["Rabies"], "query": "A bat bit me weeks ago, and now I have fever, confusion and I panic when I try to drink water."}
 {"split": "test", "condition": "Anorexia nervosa", "labels": ["Eating Disorders"], "query": "I'm terrified of gaining weight, I barely eat, my periods stopped, and people tell me I'm too thin."}
-{"split": "test", "condition": "ALS", "labels": [], "query": "My hand has grown weak and the muscles are shrinking and twitching, and lately my speech has started to slur."}
+{"split": "test", "condition": "ALS", "labels": ["Amyotrophic Lateral Sclerosis"], "query": "My hand has grown weak and the muscles are shrinking and twitching, and lately my speech has started to slur."}
 {"split": "test", "condition": "Bladder cancer", "labels": ["Bladder Cancer"], "query": "I see blood in my pee but it doesn't hurt, and I have to go more often."}
 {"split": "test", "condition": "Aortic aneurysm", "labels": ["Aortic Aneurysm"], "query": "I have a deep pulsing feeling in my belly near my navel and a steady ache in my back."}
 {"split": "test", "condition": "Bulimia nervosa", "labels": ["Eating Disorders"], "query": "I eat huge amounts in secret and then make myself throw up, and my throat and teeth are starting to suffer."}
-{"split": "test", "condition": "Esophageal cancer", "labels": ["Esophagus Disorders"], "query": "Food gets stuck when I swallow, first solids and now liquids too, and I'm losing weight."}
-{"split": "test", "condition": "Constipation", "labels": [], "query": "I only go to the bathroom a couple of times a week, it's hard and painful to pass and I have to strain."}
+{"split": "test", "condition": "Esophageal cancer", "labels": ["Esophageal Cancer"], "query": "Food gets stuck when I swallow, first solids and now liquids too, and I'm losing weight."}
+{"split": "test", "condition": "Constipation", "labels": ["Constipation"], "query": "I only go to the bathroom a couple of times a week, it's hard and painful to pass and I have to strain."}
 {"split": "test", "condition": "Canker sores", "labels": ["Canker Sores"], "query": "I have small painful white ulcers inside my lip that sting when I eat."}
-{"split": "test", "condition": "Hernia", "labels": [], "query": "I have a bulge in my groin that gets bigger when I cough or lift and aches by the end of the day."}
+{"split": "test", "condition": "Hernia", "labels": ["Hernia"], "query": "I have a bulge in my groin that gets bigger when I cough or lift and aches by the end of the day."}
 {"split": "test", "condition": "Premenstrual syndrome", "labels": ["Premenstrual Syndrome"], "query": "The week before my period I get irritable, bloated, and my breasts are sore."}
 {"split": "test", "condition": "Breast cancer", "labels": ["Breast Cancer"], "query": "I found a hard lump in my breast, the skin looks dimpled and my nipple has turned inward."}
 {"split": "test", "condition": "Prostate cancer", "labels": ["Prostate Cancer"], "query": "I'm 70, my urine stream is slow, and I've had blood in my semen and pain in my hips."}
@@ -133,20 +133,20 @@
 {"split": "test", "condition": "Leukemia", "labels": ["Leukemia", "Acute Lymphocytic Leukemia", "Acute Myeloid Leukemia", "Chronic Lymphocytic Leukemia", "Chronic Myeloid Leukemia"], "query": "I keep getting infections, I bruise and bleed easily, and I'm pale and tired all the time."}
 {"split": "test", "condition": "OCD", "labels": ["Obsessive-Compulsive Disorder"], "query": "I keep checking the locks and washing my hands over and over because I can't get rid of the thoughts unless I do."}
 {"split": "test", "condition": "Celiac disease", "labels": ["Celiac Disease"], "query": "Whenever I eat bread or pasta I get bloated with diarrhea, and I'm losing weight and low on iron."}
-{"split": "test", "condition": "Glaucoma", "labels": [], "query": "I've slowly been losing my side vision, and I sometimes see halos and get eye pain."}
-{"split": "test", "condition": "Bursitis", "labels": ["Hip Injuries and Disorders"], "query": "The point of my hip is sore and tender, and it hurts to lie on that side at night."}
+{"split": "test", "condition": "Glaucoma", "labels": ["Glaucoma"], "query": "I've slowly been losing my side vision, and I sometimes see halos and get eye pain."}
+{"split": "test", "condition": "Bursitis", "labels": ["Bursitis", "Hip Injuries and Disorders"], "query": "The point of my hip is sore and tender, and it hurts to lie on that side at night."}
 {"split": "test", "condition": "Liver cancer", "labels": ["Liver Cancer", "Adult hepatocellular carcinoma"], "query": "I have a hard lump under my right ribs, my stomach is swollen, and I've lost a lot of weight."}
 {"split": "test", "condition": "Tetanus", "labels": ["Tetanus"], "query": "I stepped on a rusty nail last week and now my jaw is locked and my neck and back muscles spasm."}
 {"split": "test", "condition": "Anal fissure", "labels": ["Anal Disorders"], "query": "It's a sharp, tearing pain when I poop and I see a streak of blood on the paper."}
-{"split": "test", "condition": "Syphilis", "labels": ["Sexually Transmitted Infections"], "query": "I had a painless sore on my genitals that went away, and now I've got a rash on my palms and soles."}
+{"split": "test", "condition": "Syphilis", "labels": ["Syphilis"], "query": "I had a painless sore on my genitals that went away, and now I've got a rash on my palms and soles."}
 {"split": "test", "condition": "Gingivitis", "labels": ["Gum Disease"], "query": "My gums are puffy and red, they bleed when I brush, and I've got bad breath."}
 {"split": "test", "condition": "Sunburn", "labels": [], "query": "After a day at the beach my shoulders are red, hot and painful, and now they're blistering."}
 {"split": "test", "condition": "Lymphoma", "labels": ["Lymphoma", "Hodgkin Lymphoma"], "query": "I have painless lumps in my neck and armpits, with night sweats, fever and weight loss."}
-{"split": "test", "condition": "Stomach cancer", "labels": [], "query": "I feel full after a few bites, my upper stomach hurts, and I've been losing weight and feeling weak."}
-{"split": "test", "condition": "Bell's palsy", "labels": ["Facial paralysis"], "query": "I woke up and one side of my face wouldn't move. I can't close that eye or smile evenly."}
-{"split": "test", "condition": "Ovarian cyst", "labels": ["Ovarian Disorders"], "query": "I have a dull ache and fullness on one side of my lower belly and pain during sex."}
+{"split": "test", "condition": "Stomach cancer", "labels": ["Stomach Cancer"], "query": "I feel full after a few bites, my upper stomach hurts, and I've been losing weight and feeling weak."}
+{"split": "test", "condition": "Bell's palsy", "labels": ["Bell's Palsy", "Facial paralysis"], "query": "I woke up and one side of my face wouldn't move. I can't close that eye or smile evenly."}
+{"split": "test", "condition": "Ovarian cyst", "labels": ["Ovarian Cysts", "Ovarian Disorders"], "query": "I have a dull ache and fullness on one side of my lower belly and pain during sex."}
 {"split": "test", "condition": "Mono", "labels": ["Infectious Mononucleosis"], "query": "I'm a college student, wiped out for weeks with a sore throat, fever and swollen neck glands."}
-{"split": "test", "condition": "Urinary incontinence", "labels": ["Overactive Bladder", "Pelvic Floor Disorders"], "query": "I leak urine when I cough, laugh or jump, and I can't always reach the toilet on time."}
+{"split": "test", "condition": "Urinary incontinence", "labels": ["Urinary Incontinence", "Overactive Bladder", "Pelvic Floor Disorders"], "query": "I leak urine when I cough, laugh or jump, and I can't always reach the toilet on time."}
 {"split": "test", "condition": "Acne", "labels": ["Acne"], "query": "I've got pimples and blackheads all over my face and back, and some leave scars."}
 {"split": "test", "condition": "Pancreatic cancer", "labels": ["Pancreatic Cancer"], "query": "I've turned yellow, I have pain in my upper belly going to my back, and my appetite is gone."}
 {"split": "test", "condition": "Warts", "labels": [], "query": "I have small rough bumps on my fingers that have slowly grown and don't hurt."}
@@ -154,19 +154,19 @@
 {"split": "test", "condition": "Collapsed lung", "labels": ["Collapsed Lung", "Pneumothorax"], "query": "I got a sudden sharp pain on one side of my chest and I can't get a full breath."}
 {"split": "test", "condition": "Hepatitis", "labels": ["Hepatitis", "Hepatitis A", "Hepatitis B", "Hepatitis C", "Hepatitis D", "Hepatitis E"], "query": "My skin and the whites of my eyes turned yellow, my urine is dark, and I feel tired and sick."}
 {"split": "test", "condition": "Myocarditis", "labels": [], "query": "After a virus I developed chest pain, a racing heart, and I get winded easily."}
-{"split": "test", "condition": "Scoliosis", "labels": [], "query": "My daughter's shoulders look uneven and her spine seems to curve to one side."}
+{"split": "test", "condition": "Scoliosis", "labels": ["Scoliosis"], "query": "My daughter's shoulders look uneven and her spine seems to curve to one side."}
 {"split": "test", "condition": "Autism", "labels": ["Autism", "Autism Spectrum Disorder"], "query": "My son doesn't make eye contact, doesn't talk much, and gets upset if his routine changes."}
 {"split": "test", "condition": "Multiple sclerosis", "labels": ["Multiple Sclerosis"], "query": "My vision went blurry in one eye and it hurt to move it. Weeks later my legs went numb and tingly, and heat makes me weaker."}
-{"split": "test", "condition": "Tennis elbow", "labels": [], "query": "The outside of my elbow hurts when I grip things or turn a door handle."}
+{"split": "test", "condition": "Tennis elbow", "labels": ["Elbow Injuries and Disorders", "Tendinitis"], "query": "The outside of my elbow hurts when I grip things or turn a door handle."}
 {"split": "test", "condition": "Sinusitis", "labels": ["Sinusitis"], "query": "My face hurts around my nose and eyes, it's worse when I bend over, and I've got thick green snot."}
 {"split": "test", "condition": "Whooping cough", "labels": ["Whooping Cough", "Bordetella parapertussis whooping cough"], "query": "I have coughing fits so hard I can't breathe in and I make a high sound, and sometimes I vomit afterward."}
 {"split": "test", "condition": "TMJ disorder", "labels": ["Temporomandibular Disorders"], "query": "My jaw clicks and hurts when I chew and sometimes it locks when I open my mouth."}
 {"split": "test", "condition": "Pericarditis", "labels": ["Pericarditis"], "query": "I have sharp chest pain that gets worse when I lie flat or breathe in and gets better when I lean forward."}
-{"split": "test", "condition": "Melanoma", "labels": ["Skin cancer"], "query": "A mole on my back has grown, has uneven edges and several colors, and sometimes bleeds."}
-{"split": "test", "condition": "Hair loss", "labels": [], "query": "My hair is coming out in round bald patches and my scalp looks smooth there."}
+{"split": "test", "condition": "Melanoma", "labels": ["Melanoma", "Skin cancer"], "query": "A mole on my back has grown, has uneven edges and several colors, and sometimes bleeds."}
+{"split": "test", "condition": "Hair loss", "labels": ["Hair Loss"], "query": "My hair is coming out in round bald patches and my scalp looks smooth there."}
 {"split": "test", "condition": "Hay fever", "labels": ["Hay Fever", "Allergic rhinitis", "Rhinitis"], "query": "Every spring my nose runs, I sneeze, and my eyes itch and water."}
 {"split": "test", "condition": "Chlamydia", "labels": ["Chlamydia Infections"], "query": "There's unusual discharge and burning when I pee a couple of weeks after a new partner."}
-{"split": "test", "condition": "Brain tumor", "labels": ["Brain cancer"], "query": "My headaches keep getting worse and are worst in the morning. I've been vomiting and my personality has changed."}
+{"split": "test", "condition": "Brain tumor", "labels": ["Brain Tumors", "Brain cancer"], "query": "My headaches keep getting worse and are worst in the morning. I've been vomiting and my personality has changed."}
 {"split": "test", "condition": "Athlete's foot", "labels": ["Athlete's Foot", "Tinea Infections"], "query": "The skin between my toes is itchy, peeling and cracked, and my feet smell."}
 {"split": "test", "condition": "Cellulitis", "labels": ["Cellulitis"], "query": "My lower leg is red, hot, swollen and tender, the redness is spreading, and I have a fever."}
 {"split": "test", "condition": "Anaphylaxis", "labels": [], "query": "After a bee sting my throat closed up, my tongue swelled, I couldn't breathe and I nearly passed out."}
@@ -175,10 +175,10 @@
 {"split": "test", "condition": "Boils", "labels": ["Skin Infections", "Staphylococcal Infections"], "query": "I have a painful red lump full of pus on my thigh that keeps getting bigger."}
 {"split": "test", "condition": "Fibromyalgia", "labels": ["Fibromyalgia"], "query": "I hurt all over my body for months, I wake up unrefreshed, and my thinking feels foggy."}
 {"split": "test", "condition": "Earwax blockage", "labels": [], "query": "My ear feels plugged and muffled and it got worse after using cotton swabs."}
-{"split": "test", "condition": "High blood pressure", "labels": [], "query": "I feel fine mostly, but I get headaches and the machine at the pharmacy keeps showing high readings."}
+{"split": "test", "condition": "High blood pressure", "labels": ["High Blood Pressure"], "query": "I feel fine mostly, but I get headaches and the machine at the pharmacy keeps showing high readings."}
 {"split": "test", "condition": "Frozen shoulder", "labels": ["Frozen shoulder"], "query": "My shoulder has gotten stiffer and more painful for months, and I can't lift my arm over my head."}
 {"split": "test", "condition": "Mumps", "labels": ["Mumps"], "query": "My cheeks are swollen on both sides near my jaw, I've got a fever and it hurts to chew."}
-{"split": "test", "condition": "Guillain-Barre syndrome", "labels": ["Peripheral Nerve Disorders"], "query": "A week after a stomach bug my feet began tingling, and now the weakness is climbing up both legs."}
+{"split": "test", "condition": "Guillain-Barre syndrome", "labels": ["Guillain-Barre Syndrome"], "query": "A week after a stomach bug my feet began tingling, and now the weakness is climbing up both legs."}
 {"split": "test", "condition": "High cholesterol", "labels": ["Cholesterol"], "query": "My doctor's blood test showed high fats and I've got yellow bumps around my eyelids."}
 {"split": "test", "condition": "Osteoarthritis", "labels": ["Osteoarthritis"], "query": "My knees ache and creak, especially after I've been on my feet, and they feel stiff for a few minutes when I get up."}
 {"split": "test", "condition": "COPD", "labels": ["COPD", "Chronic obstructive pulmonary disease", "Chronic Bronchitis", "Emphysema"], "query": "I've smoked for thirty years. I cough up mucus every morning and I get out of breath doing small chores."}
@@ -187,12 +187,12 @@
 {"split": "test", "condition": "Head lice", "labels": ["Head Lice"], "query": "My daughter keeps scratching her head and I can see tiny white specks stuck to her hair."}
 {"split": "test", "condition": "Tuberculosis", "labels": ["Tuberculosis", "Pulmonary tuberculosis"], "query": "I've been coughing for over a month, sometimes with blood, and I have night sweats and weight loss."}
 {"split": "test", "condition": "Raynaud's disease", "labels": ["Raynaud Phenomenon"], "query": "My fingers turn white and then blue when I'm cold, and they throb when they warm up."}
-{"split": "test", "condition": "Morning sickness", "labels": ["Nausea and Vomiting", "Pregnancy"], "query": "I'm ten weeks pregnant and I feel queasy and throw up most mornings."}
+{"split": "test", "condition": "Morning sickness", "labels": ["Nausea and Vomiting"], "query": "I'm ten weeks pregnant and I feel queasy and throw up most mornings."}
 {"split": "test", "condition": "Testicular cancer", "labels": ["Testicular Cancer"], "query": "I found a hard painless lump on one of my testicles and that side feels heavy."}
 {"split": "test", "condition": "Colon cancer", "labels": ["Colorectal Cancer"], "query": "I've noticed blood in my stool, my bowel habits have changed, and I've been losing weight without trying."}
 {"split": "test", "condition": "Concussion", "labels": ["Concussion", "Head Injuries", "Traumatic Brain Injury"], "query": "I hit my head playing soccer and now I have a headache, feel foggy, and can't remember the game."}
 {"split": "test", "condition": "Trigeminal neuralgia", "labels": ["Trigeminal Neuralgia"], "query": "I get electric shock pains in my cheek and jaw when I chew or touch my face."}
 {"split": "test", "condition": "Bipolar disorder", "labels": ["Bipolar Disorder"], "query": "I go for weeks barely sleeping, spending too much money and full of big plans, and then I crash and can't get out of bed."}
 {"split": "test", "condition": "Torn ACL", "labels": ["Knee Injuries and Disorders", "Sports Injuries"], "query": "My knee popped when I landed from a jump, then it swelled up and feels like it gives way."}
-{"split": "test", "condition": "Varicose veins", "labels": [], "query": "The veins in my legs are big, twisted and blue, and my legs ache and feel heavy after standing."}
+{"split": "test", "condition": "Varicose veins", "labels": ["Varicose Veins"], "query": "The veins in my legs are big, twisted and blue, and my legs ache and feel heavy after standing."}
 {"split": "test", "condition": "Alcohol use disorder", "labels": ["Alcohol Use Disorder (AUD)"], "query": "I can't stop drinking once I start, I get shaky in the morning without a drink, and it's hurting my job."}

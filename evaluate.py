@@ -22,7 +22,11 @@ from symptom_search import SymptomMatcher, load_diseases
 from symptom_search.embeddings import DEFAULT_MODEL, Encoder, cosine_matrix
 
 EVAL_DIR = Path(__file__).resolve().parent / "eval"
-QUERY_SETS = {"written": EVAL_DIR / "queries.jsonl", "ddxplus": EVAL_DIR / "ddxplus_queries.jsonl"}
+QUERY_SETS = {
+    "written": EVAL_DIR / "queries.jsonl",
+    "ddxplus": EVAL_DIR / "ddxplus_queries.jsonl",
+    "unrelated": EVAL_DIR / "unrelated.jsonl",
+}
 Ranker = Callable[[str], List[str]]
 Interval = Tuple[float, float]
 
@@ -144,7 +148,7 @@ def print_errors(rank: Ranker, queries: Sequence[dict]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--split", default="dev", choices=["dev", "test", "all"])
-    parser.add_argument("--queries", default="written", choices=sorted(QUERY_SETS))
+    parser.add_argument("--queries", default="written", choices=["written", "ddxplus"])
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--errors", action="store_true", help="list misses by the hybrid (dev split only)")
     args = parser.parse_args()
@@ -173,6 +177,9 @@ def main() -> None:
         {name: [answer_position(rank(q["query"]), q["labels"]) for q in queries] for name, rank in rankers.items()},
         baseline,
     )
+    unrelated = load_queries(args.split, "unrelated")
+    answered = sum(bool(rankers["Hybrid"](q["query"])) for q in unrelated)
+    print(f"\nUnrelated text the hybrid still answered: {answered} of {len(unrelated)}")
     if args.errors:
         print_errors(rankers["Hybrid"], queries)
 
