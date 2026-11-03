@@ -1,0 +1,28 @@
+name: Docker
+
+# Builds the API image and checks that it answers a real search.
+on:
+  push:
+    paths: [Dockerfile, .dockerignore, requirements-api.txt, "symptom_search/**", data/diseases.csv, .github/workflows/docker.yml]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t symptom-search .
+      - run: docker run -d --name api -p 8000:8000 symptom-search
+      - name: Wait for the API to start
+        run: |
+          for _ in $(seq 60); do
+            curl -sf localhost:8000/health && exit 0
+            sleep 2
+          done
+          docker logs api
+          exit 1
+      - name: Search
+        run: |
+          curl -sf localhost:8000/search -H 'Content-Type: application/json' \
+            -d '{"text": "I am thirsty all the time and my vision is blurry", "top_k": 3}' | tee result.json
+          python3 -c "import json; assert json.load(open('result.json'))['results'], 'no results'"
