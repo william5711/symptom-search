@@ -2,6 +2,8 @@
 
 [![Tests](https://github.com/william5711/symptom-search/actions/workflows/tests.yml/badge.svg)](https://github.com/william5711/symptom-search/actions/workflows/tests.yml)
 
+**Try it:** [huggingface.co/spaces/william5711/symptom-search](https://huggingface.co/spaces/william5711/symptom-search). It runs on Hugging Face's free tier, so after a quiet stretch the first visit can take a minute to wake up.
+
 A semantic search engine that ranks 975 documents against a free-text query. Each document is a medical condition with its listed symptoms, and each query is a plain-English description of how someone feels. Results show which phrase in the query matched which symptom.
 
 On two held-out test sets totaling 286 queries, it beats a TF-IDF keyword baseline on mean reciprocal rank (MRR): 0.40 vs 0.31 on written queries and 0.21 vs 0.13 on synthetic patients from an outside dataset. Nine embedding models were compared, with a correction for testing many at once, and a fine-tuning experiment was tried and dropped because it made results worse. The search corpus is built from three open sources by a pipeline that checks its own output.
