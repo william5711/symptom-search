@@ -1,5 +1,11 @@
 """Gradio version of the demo, used for the Hugging Face Space. Run with: python gradio_app.py"""
 
+# On ZeroGPU, `spaces` has to be imported before torch. It only exists on Hugging Face.
+try:
+    import spaces
+except ImportError:
+    spaces = None
+
 import gradio as gr
 
 from symptom_search import SymptomMatcher, load_diseases
@@ -10,14 +16,11 @@ matcher = SymptomMatcher(load_diseases(), Encoder())
 
 # The Space runs on ZeroGPU hardware, which refuses to start an app without a GPU
 # function. Searches are fast enough on CPU, so this is never called.
-try:
-    import spaces
+if spaces is not None:
 
     @spaces.GPU
     def _unused_gpu_function() -> None:
         pass
-except ImportError:
-    pass
 
 
 def _cell(text: str) -> str:
