@@ -8,6 +8,17 @@ from symptom_search.embeddings import Encoder
 
 matcher = SymptomMatcher(load_diseases(), Encoder())
 
+# The Space runs on ZeroGPU hardware, which refuses to start an app without a GPU
+# function. Searches are fast enough on CPU, so this is never called.
+try:
+    import spaces
+
+    @spaces.GPU
+    def _unused_gpu_function() -> None:
+        pass
+except ImportError:
+    pass
+
 
 def _cell(text: str) -> str:
     return text.replace("|", "\\|")
