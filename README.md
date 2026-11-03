@@ -2,7 +2,8 @@
 
 [![Tests](https://github.com/william5711/symptom-search/actions/workflows/tests.yml/badge.svg)](https://github.com/william5711/symptom-search/actions/workflows/tests.yml)
 
-**Try it:** [huggingface.co/spaces/william5711/symptom-search](https://huggingface.co/spaces/william5711/symptom-search). It runs on Hugging Face's free tier, so after a quiet stretch the first visit can take a minute to wake up.
+**Try it:** [huggingface.co/spaces/william5711/symptom-search](https://huggingface.co/spaces/william5711/symptom-search). 
+Note: It runs on Hugging Face's free tier, so after a quiet stretch the first visit can take a minute to wake up.
 
 A semantic search engine that ranks 975 documents against a free-text query. Each document is a medical condition with its listed symptoms, and each query is a plain-English description of how someone feels. Results show which phrase in the query matched which symptom.
 
