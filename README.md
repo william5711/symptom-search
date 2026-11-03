@@ -122,6 +122,28 @@ python scripts/compare_models.py --split test
 pytest
 ```
 
+## HTTP API
+
+`symptom_search/api.py` serves the search over HTTP with FastAPI. The model and the symptom vectors load once at startup, so each request only encodes the query.
+
+```bash
+uvicorn symptom_search.api:app --port 8000
+```
+
+Or in Docker, which downloads the model and embeds the symptoms at build time so the container starts without network access:
+
+```bash
+docker build -t symptom-search .
+docker run -p 8000:8000 symptom-search
+```
+
+```bash
+curl localhost:8000/search -H 'Content-Type: application/json' \
+  -d '{"text": "I am thirsty all the time and my vision is blurry", "top_k": 3}'
+```
+
+`POST /search` returns each condition with its score and the clause-to-symptom matches. Blank text, text over 2,000 characters, and `top_k` outside 1 to 50 get a 422. `GET /health` reports readiness and the number of conditions loaded. GitHub Actions builds the image and runs a real search against it on every pull request.
+
 ## Files
 
 | Path | What it does |
@@ -130,11 +152,12 @@ pytest
 | `symptom_search/text.py` | Splits clauses and detects negation |
 | `symptom_search/embeddings.py` | Encodes text and caches vectors |
 | `symptom_search/matcher.py` | Scores and ranks conditions |
+| `symptom_search/api.py`, `Dockerfile` | The HTTP API and its container image |
 | `scripts/fetch_sources.py` | Downloads the sources into `data/sources/` |
 | `scripts/build_dataset.py` | Builds and validates the dataset from the saved sources |
 | `scripts/compare_models.py`, `eval/model_settings.json` | Compares embedding models and stores their tuned thresholds |
 | `scripts/finetune.py` | The fine-tuning experiment |
-| `.github/workflows/` | Tests on every push, the monthly source check, and the demo deployment |
+| `.github/workflows/` | Tests on every push, the Docker build check, the monthly source check, and the demo deployment |
 | `gradio_app.py`, `space/` | The online demo on Hugging Face Spaces and its settings |
 | `evaluate.py`, `eval/` | Benchmark and labeled queries |
 | `docs/evaluation.md` | Labeling, model comparison, fine-tuning, and error analysis |

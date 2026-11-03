@@ -1,0 +1,5 @@
+*
+!requirements-api.txt
+!symptom_search/
+!data/diseases.csv
+**/__pycache__
