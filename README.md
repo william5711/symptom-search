@@ -131,7 +131,8 @@ pytest
 | `scripts/build_dataset.py` | Builds and validates the dataset from the saved sources |
 | `scripts/compare_models.py`, `eval/model_settings.json` | Compares embedding models and stores their tuned thresholds |
 | `scripts/finetune.py` | The fine-tuning experiment |
-| `.github/workflows/` | Tests on every push and the monthly source check |
+| `.github/workflows/` | Tests on every push, the monthly source check, and the demo deployment |
+| `Dockerfile`, `space/` | The container and Hugging Face Space settings for the online demo |
 | `evaluate.py`, `eval/` | Benchmark and labeled queries |
 | `docs/evaluation.md` | Labeling, model comparison, fine-tuning, and error analysis |
 | `scripts/build_ddxplus_queries.py` | Samples DDXPlus patients into benchmark queries |

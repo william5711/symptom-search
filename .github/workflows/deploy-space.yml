@@ -1,0 +1,39 @@
+name: Deploy demo
+
+# Pushes the demo to a Hugging Face Space after the tests pass on main.
+# Needs an HF_TOKEN secret (a Hugging Face token with write access) and an
+# HF_SPACE variable such as "username/symptom-search". Without them it skips.
+on:
+  workflow_run:
+    workflows: [Tests]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_SPACE: ${{ vars.HF_SPACE }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - name: Deploy to the Space
+        run: |
+          if [ -z "$HF_TOKEN" ] || [ -z "$HF_SPACE" ]; then
+            echo "HF_TOKEN or HF_SPACE isn't set, so there is nothing to deploy to."
+            exit 0
+          fi
+          mkdir -p build/data
+          cp -r Dockerfile requirements.txt app.py symptom_search build/
+          cp data/diseases.csv build/data/
+          cp space/README.md build/README.md
+          cd build
+          git init -q -b main
+          git add .
+          git -c user.name="GitHub Actions" -c user.email="actions@github.com" \
+            commit -q -m "Deploy ${GITHUB_SHA::7} from github.com/${GITHUB_REPOSITORY}"
+          git push -q --force "https://user:${HF_TOKEN}@huggingface.co/spaces/${HF_SPACE}" main
