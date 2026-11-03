@@ -1,5 +1,10 @@
 # Symptom Search
 
+<p align="center">
+  <img src="docs/demo.png" alt="Symptom Search ranking Diabetes Type 1, Diabetes and Hyperglycemia for a description of thirst, frequent urination and blurry vision, with the matched symptom for each phrase" width="560">
+  <br><em>The Streamlit demo (<code>streamlit run app.py</code>) with the example query below.</em>
+</p>
+
 You describe your symptoms in plain English, and this ranks 975 health conditions by how well their listed symptoms match. Each result shows which part of your description matched which symptom.
 
 This is a learning project. It compares text and can't diagnose anything, so please don't use it for medical decisions.
