@@ -12,10 +12,11 @@ from symptom_search import SymptomMatcher, load_diseases
 from symptom_search.__main__ import DISCLAIMER
 from symptom_search.embeddings import Encoder
 
-matcher = SymptomMatcher(load_diseases(), Encoder())
+# CPU on purpose: on ZeroGPU, a model placed on the GPU only works inside a GPU function.
+matcher = SymptomMatcher(load_diseases(), Encoder(device="cpu"))
 
-# The Space runs on ZeroGPU hardware, which refuses to start an app without a GPU
-# function. Searches are fast enough on CPU, so this is never called.
+# ZeroGPU also refuses to start an app without a GPU function. Searches are fast
+# enough on CPU, so this is never called.
 if spaces is not None:
 
     @spaces.GPU
