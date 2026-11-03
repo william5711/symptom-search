@@ -28,9 +28,9 @@ jobs:
             exit 0
           fi
           mkdir -p build/data
-          cp -r Dockerfile requirements.txt app.py symptom_search build/
+          cp -r gradio_app.py symptom_search build/
           cp data/diseases.csv build/data/
-          cp space/README.md build/README.md
+          cp space/README.md space/requirements.txt build/
           cd build
           git init -q -b main
           git add .

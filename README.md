@@ -132,11 +132,11 @@ pytest
 | `scripts/compare_models.py`, `eval/model_settings.json` | Compares embedding models and stores their tuned thresholds |
 | `scripts/finetune.py` | The fine-tuning experiment |
 | `.github/workflows/` | Tests on every push, the monthly source check, and the demo deployment |
-| `Dockerfile`, `space/` | The container and Hugging Face Space settings for the online demo |
+| `gradio_app.py`, `space/` | The online demo on Hugging Face Spaces and its settings |
 | `evaluate.py`, `eval/` | Benchmark and labeled queries |
 | `docs/evaluation.md` | Labeling, model comparison, fine-tuning, and error analysis |
 | `scripts/build_ddxplus_queries.py` | Samples DDXPlus patients into benchmark queries |
-| `app.py` | Streamlit demo |
+| `app.py` | Streamlit demo for running locally |
 | `tests/` | Unit tests, which run without the model |
 | `legacy/` | The original 2023 scripts, which need a dataset that is no longer in this repo |
 

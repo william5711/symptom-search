@@ -3,8 +3,10 @@ title: Symptom Search
 emoji: 🔎
 colorFrom: blue
 colorTo: gray
-sdk: docker
-app_port: 8501
+sdk: gradio
+sdk_version: 6.30.0
+python_version: "3.12"
+app_file: gradio_app.py
 pinned: false
 license: mit
 short_description: Semantic search over 975 conditions by symptom

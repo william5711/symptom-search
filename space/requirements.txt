@@ -1,0 +1,7 @@
+# Installed by the Space, which supplies Gradio itself (see sdk_version in README.md).
+# The CPU build of torch is much smaller than the default CUDA build.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.5.4
+sentence-transformers==5.7.0
+torch==2.15.0
+transformers==5.22.1
