@@ -7,7 +7,7 @@ Note: It runs on Hugging Face's free tier, so after a quiet stretch the first vi
 
 A semantic search engine that ranks 975 documents against a free-text query. Each document is a medical condition with its listed symptoms, and each query is a plain-English description of how someone feels. Results show which phrase in the query matched which symptom.
 
-On two held-out test sets totaling 286 queries, it beats a TF-IDF keyword baseline on mean reciprocal rank (MRR): 0.40 vs 0.31 on written queries and 0.21 vs 0.13 on synthetic patients from an outside dataset. Nine embedding models were compared, with a correction for testing many at once, and a fine-tuning experiment was tried and dropped because it made results worse. The search corpus is built from three open sources by a pipeline that checks its own output.
+On two held-out test sets totaling 286 queries, it beats a TF-IDF keyword baseline on mean reciprocal rank (MRR): 0.40 vs 0.31 on written queries and 0.21 vs 0.13 on synthetic patients from an outside dataset. Nine embedding models were compared, with a correction for testing many at once, and a fine-tuning experiment was tried and dropped because it made results worse. The search corpus is built from three open sources by a pipeline that refuses to write the file if rows are empty or duplicated.
 
 <p align="center">
   <img src="docs/demo.png" alt="Symptom Search ranking Diabetes Type 1, Diabetes and Hyperglycemia for a description of thirst, frequent urination and blurry vision, with the matched symptom for each phrase" width="560">
@@ -74,7 +74,7 @@ The hybrid gets the right condition into the top 3 for about 4 of 10 written que
 
 The hybrid's MRR beats TF-IDF on both sets: by 0.091 [0.007, 0.175] on the written queries and by 0.084 [0.037, 0.129] on DDXPlus. Whole-text matching scored higher on the written queries (MRR 0.420 vs 0.398) and at Hit@10 on both sets, while the hybrid was ahead on DDXPlus MRR.
 
-Of 30 unrelated sentences held out for testing, such as "The train to Boston leaves from platform nine", the search answered 1 and returned nothing for the other 29. All 30 used for tuning returned nothing. The cutoff has a cost: it refused 3 of the 100 written test queries, and without it the hybrid's written MRR would be 0.418.
+Of 30 unrelated sentences held out for testing, such as "The train to Boston leaves from platform nine", the search answered 1 and returned nothing for the other 29. All 30 used for tuning returned nothing. The cutoff also refused 3 of the 100 written test queries, and without it the hybrid's written MRR would be 0.418.
 
 All settings were picked on tuning queries. The test sets have been run three times as the project changed, and only combined scores were looked at.
 
