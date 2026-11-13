@@ -76,7 +76,7 @@ The hybrid's MRR beats TF-IDF on both sets: by 0.091 [0.007, 0.175] on the writt
 
 Of 30 unrelated sentences held out for testing, such as "The train to Boston leaves from platform nine", the search answered 1 and returned nothing for the other 29. All 30 used for tuning returned nothing. The cutoff also refused 3 of the 100 written test queries, and without it the hybrid's written MRR would be 0.418.
 
-All settings were picked on tuning queries. The test sets have been run three times as the project changed, and only combined scores were looked at.
+All settings were picked on tuning queries. The test sets have been run four times: three as the project changed, and once to recheck the published numbers. Only combined scores were looked at.
 
 [docs/evaluation.md](docs/evaluation.md) has the rest: how the queries were labeled, what the data cleanup changed, the comparison of nine embedding models, the fine-tuning experiment, and the most common misses.
 

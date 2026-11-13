@@ -6,7 +6,7 @@ The main results are in the [README](../README.md#results). This page covers how
 
 Labels were assigned from condition names before scores for that version of the data were seen. A label can be the condition itself, a synonym or subtype, or a narrow category when no specific entry exists (cluster headache counts as "Headache"). Queries with no entry count as misses. All settings were picked on tuning queries.
 
-The test sets have been run three times as the project changed: before the data cleanup, after it, and for the current numbers. Only combined scores were looked at, but each extra run makes the numbers a little less independent.
+The test sets have been run four times: before the data cleanup, after it, for the current numbers, and once more to recheck those numbers with no changes. Only combined scores were looked at, but each extra run makes the numbers a little less independent.
 
 An earlier version of this benchmark had 24 test queries and gave a Hit@3 of 0.583. That set was too small to compare methods, and its queries are now part of the tuning set.
 
